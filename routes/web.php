@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('layouts.home');
+    return view('home.index');
 });
 
 //Route::get( '/',[HomeController::class,'index'])->name('home');
@@ -23,3 +23,5 @@ Route::get('/', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Route::get( '/admin',[\App\Http\Controllers\Admin\HomeController::class,'index'])->name('adminhome');

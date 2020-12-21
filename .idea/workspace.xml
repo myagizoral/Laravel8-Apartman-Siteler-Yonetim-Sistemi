@@ -1,7 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="def88b31-4391-4cc4-bd54-969b22aac868" name="Default Changelist" comment="" />
+    <list default="true" id="def88b31-4391-4cc4-bd54-969b22aac868" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/css/cs-skin-elastic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/css/lib/chosen/chosen-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/css/lib/chosen/chosen-sprite@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/css/lib/chosen/chosen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/css/lib/chosen/chosen.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/css/lib/datatable/buttons.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/css/lib/datatable/buttons.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/css/lib/datatable/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/css/lib/vector-map/jqvmap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/fonts/icomoon/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/admin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/avatar/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/avatar/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/avatar/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/avatar/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/avatar/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/avatar/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/avatar/64-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/avatar/64-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/logo.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/init/chartjs-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/init/datatables-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/init/flot-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/init/fullcalendar-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/init/gmap-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/init/peitychart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/init/vector-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/init/weather-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/chosen/chosen.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/chosen/chosen.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/chosen/chosen.proto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/chosen/chosen.proto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/data-table/buttons.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/data-table/buttons.colVis.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/data-table/buttons.flash.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/data-table/buttons.html5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/data-table/buttons.print.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/data-table/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/data-table/dataTables.buttons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/data-table/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/data-table/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/data-table/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/data-table/jszip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/data-table/pdfmake.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/data-table/vfs_fonts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/gmap/gmapApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/gmap/gmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/lib/gmap/gmaps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/vmap.sampledata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/widgets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/scss/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/scss/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/_content.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_maincontent.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +114,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -139,11 +239,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kPol8sN8deCVHk2j3RBktiGXAW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/home" />
@@ -177,16 +281,41 @@
       <workItem from="1606159148282" duration="2890000" />
       <workItem from="1606911604031" duration="855000" />
       <workItem from="1607164062705" duration="6113000" />
+      <workItem from="1607175290939" duration="852000" />
+      <workItem from="1607176223421" duration="4000" />
+      <workItem from="1607176339210" duration="69000" />
+      <workItem from="1607786479521" duration="70000" />
+      <workItem from="1607786752184" duration="222000" />
+      <workItem from="1608567188192" duration="5372000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1607167082592">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1608569891808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1607167082592" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1608569891808" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608568169725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1608568169725" />
   </component>
 </project>

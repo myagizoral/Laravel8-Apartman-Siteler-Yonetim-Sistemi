@@ -142,7 +142,7 @@
                 </div>
 
             </div>
-            @include('home._index')
+            @include('home._maincontent')
         </div>
     </div>
 </section>
