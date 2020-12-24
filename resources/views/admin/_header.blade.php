@@ -91,13 +91,17 @@
                     </a>
 
                     <div class="user-menu dropdown-menu">
-                        <a class="nav-link" href="#"><i class="fa fa- user"></i>My Profile</a>
+                        @auth
+                            <a href="#" ><font color="FF00CC">{{Auth::user()->name}}</font></a>
+                        <br>
+                            <a href="{{route('admin_logout')}}"><font color="FF00CC">LOGOUT</font></a>
+                        @endauth
 
                         <a class="nav-link" href="#"><i class="fa fa- user"></i>Notifications <span class="count">13</span></a>
 
                         <a class="nav-link" href="#"><i class="fa fa -cog"></i>Settings</a>
 
-                        <a class="nav-link" href="#"><i class="fa fa-power -off"></i>Logout</a>
+
                     </div>
                 </div>
 
