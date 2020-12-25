@@ -94,7 +94,7 @@
                         @auth
                             <a href="#" ><font color="FF00CC">{{Auth::user()->name}}</font></a>
                         <br>
-                            <a href="{{route('admin_logout')}}"><font color="FF00CC">LOGOUT</font></a>
+                            <a href="{{route('admin_logout')}}"><font color="007618">LOGOUT</font></a>
                         @endauth
 
                         <a class="nav-link" href="#"><i class="fa fa- user"></i>Notifications <span class="count">13</span></a>
