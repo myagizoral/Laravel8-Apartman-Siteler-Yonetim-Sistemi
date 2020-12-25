@@ -28,6 +28,8 @@
     <link href="https://cdn.jsdelivr.net/npm/weathericons@2.1.0/css/weather-icons.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/fullcalendar@3.9.0/dist/fullcalendar.min.css" rel="stylesheet" />
 
+    @yield('css')
+    @yield('javascript')
     <style>
         #weatherWidget .currentDesc {
             color: #ffffff!important;
@@ -78,9 +80,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <strong class="card-title"></strong><br>
-
-                        <button type="button" class="btn btn-primary"><a href="{{route('admin_menu_add')}}"><h3><font color="00ff33">Menü Ekle</font></h3></a></button>
+                        <strong class="card-title">Data Table</strong>
                     </div>
                     <div class="card-body">
                         <table id="bootstrap-data-table" class="table table-striped table-bordered">
@@ -111,7 +111,7 @@
                                 <td>{{$rs->created_at}}</td>
                                 <td>{{$rs->updated_at}}</td>
                                 <td>edit</td>
-                                <td><a href="{{route('admin_menu_delete',['id'=>$rs->id])}}"onclick="return confirm('Are you sure you want to delete this item?')">DELETE</a> </td>
+                                <td>delete</td>
                             </tr>
                             @endforeach
                             </tbody>
@@ -122,7 +122,7 @@
 
 
         </div>
-    </div><!-- .animated onclick="return confirm('Are you sure you want to delete this item?')"-->
+    </div><!-- .animated -->
 </div><!-- .content -->
 <!-- Scripts -->
 

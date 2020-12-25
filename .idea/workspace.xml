@@ -25,12 +25,9 @@
       <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_25_150250_create_menus_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/admin/_blank.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/menu_add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9c828b3-2e66-4a46-bdc0-f20fcc9a9f3b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9c828b3-2e66-4a46-bdc0-f20fcc9a9f3b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9c828b3-2e66-4a46-bdc0-f20fcc9a9f3b/storage_v2/_src_/schema/mysql.osA4Bg.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9c828b3-2e66-4a46-bdc0-f20fcc9a9f3b/storage_v2/_src_/schema/mysql.osA4Bg.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -228,7 +225,6 @@
       <workItem from="1608747526433" duration="622000" />
       <workItem from="1608818437023" duration="7995000" />
       <workItem from="1608908540359" duration="8131000" />
-      <workItem from="1608919903558" duration="7630000" />
     </task>
     <servers />
   </component>
