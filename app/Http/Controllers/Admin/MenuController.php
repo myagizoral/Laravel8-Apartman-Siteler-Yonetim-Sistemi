@@ -28,9 +28,30 @@ class MenuController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
         //
+        DB::table('menus')->insert([
+            'title' => $request->input('title'),
+            'keywords' => $request->input('keywords'),
+            'description' => $request->input('description'),
+            'status' => $request->input('status'),
+            'slug' => $request->input('slug')
+        ]);
+
+        return redirect()->route('admin_menu');
+
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function add()
+    {
+        //
+        return view('admin.menu_add');
     }
 
     /**
@@ -84,8 +105,10 @@ class MenuController extends Controller
      * @param  \App\Models\Menu  $menu
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Menu $menu)
+    public function destroy(Menu $menu,$id)
     {
         //
+        DB::table('menus')->where('id','=',$id)->delete();
+        return redirect()->route('admin_menu');
     }
 }

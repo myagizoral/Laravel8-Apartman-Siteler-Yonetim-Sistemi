@@ -44,7 +44,8 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 
     Route::get( '/menu',[\App\Http\Controllers\Admin\MenuController::class,'index'])->name('admin_menu');
     Route::get( '/menu/add',[\App\Http\Controllers\Admin\MenuController::class,'add'])->name('admin_menu_add');
-    Route::get( '/menu/update',[\App\Http\Controllers\Admin\MenuController::class,'update'])->name('admin_menu_update');
-    Route::get( '/menu/delete',[\App\Http\Controllers\Admin\MenuController::class,'destroy'])->name('admin_menu_delete');
+    Route::post( '/menu/create',[\App\Http\Controllers\Admin\MenuController::class,'create'])->name('admin_menu_create');
+    Route::post( '/menu/update',[\App\Http\Controllers\Admin\MenuController::class,'update'])->name('admin_menu_update');
+    Route::get( '/menu/delete/{id}',[\App\Http\Controllers\Admin\MenuController::class,'destroy'])->name('admin_menu_delete');
     Route::get( '/menu/show',[\App\Http\Controllers\Admin\MenuController::class,'show'])->name('admin_menu_show');
 });
