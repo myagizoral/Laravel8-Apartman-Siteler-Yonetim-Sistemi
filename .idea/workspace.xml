@@ -19,21 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def88b31-4391-4cc4-bd54-969b22aac868" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MenuController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_25_150250_create_menus_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/_blank.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/menu_add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9c828b3-2e66-4a46-bdc0-f20fcc9a9f3b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9c828b3-2e66-4a46-bdc0-f20fcc9a9f3b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9c828b3-2e66-4a46-bdc0-f20fcc9a9f3b/storage_v2/_src_/schema/mysql.osA4Bg.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9c828b3-2e66-4a46-bdc0-f20fcc9a9f3b/storage_v2/_src_/schema/mysql.osA4Bg.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="def88b31-4391-4cc4-bd54-969b22aac868" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +160,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kPol8sN8deCVHk2j3RBktiGXAW" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -186,8 +172,9 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -229,6 +216,7 @@
       <workItem from="1608818437023" duration="7995000" />
       <workItem from="1608908540359" duration="8131000" />
       <workItem from="1608919903558" duration="7630000" />
+      <workItem from="1608940656298" duration="809000" />
     </task>
     <servers />
   </component>
@@ -263,6 +251,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1608818827743" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1608940754213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1608940754213" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608568169725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
