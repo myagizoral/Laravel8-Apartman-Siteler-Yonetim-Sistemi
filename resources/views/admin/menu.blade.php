@@ -87,6 +87,7 @@
                             <thead>
                             <tr>
                                 <th>id</th>
+                                <th>parent_id</th>
                                 <th>title</th>
                                 <th>keywords</th>
                                 <th>description</th>
@@ -103,6 +104,7 @@
                             @foreach($datalist as $rs)
                             <tr>
                                 <td>{{$rs->id}}</td>
+                                <td>{{$rs->parent_id}}</td>
                                 <td>{{$rs->title}}</td>
                                 <td>{{$rs->keywords}}</td>
                                 <td>{{$rs->description}}</td>
@@ -110,7 +112,7 @@
                                 <td>{{$rs->slug}}</td>
                                 <td>{{$rs->created_at}}</td>
                                 <td>{{$rs->updated_at}}</td>
-                                <td>edit</td>
+                                <td><a href="{{route('admin_menu_edit',['id'=>$rs->id])}}">EDİT</a> </td>
                                 <td><a href="{{route('admin_menu_delete',['id'=>$rs->id])}}"onclick="return confirm('Are you sure you want to delete this item?')">DELETE</a> </td>
                             </tr>
                             @endforeach
