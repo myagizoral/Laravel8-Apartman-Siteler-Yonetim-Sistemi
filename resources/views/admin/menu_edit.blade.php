@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>menu ekleme sayfası</title>
+    <title>menu edit sayfası</title>
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -76,33 +76,33 @@
     <div class="card">
         <div class="card-header"></div>
         <div class="card-body card-block">
-            <form action="{{route('admin_menu_create')}}" method="post" class="">
+            <form action="{{route('admin_menu_update',['id'=>$data->id])}}" method="post" class="">
             @csrf
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-addon">Title</div>
-                        <input type="text"  id="title" name="title" class="form-control">
+                        <input type="text"  id="title" name="title" class="form-control" value="{{$data->title}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-addon">Keywords</div>
-                        <input type="text" id="keywords" name="keywords" class="form-control">
+                        <input type="text" id="keywords" name="keywords" class="form-control" value="{{$data->keywords}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-addon">Description</div>
-                        <input type="text" id="description" name="description" class="form-control">
+                        <input type="text" id="description" name="description" class="form-control" value="{{$data->description}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-addon">slug</div>
-                        <input type="text" id="slug" name="slug" class="form-control">
+                        <input type="text" id="slug" name="slug" class="form-control" value="{{$data->slug}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
@@ -110,7 +110,8 @@
                     <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Status</label></div>
                     <div class="col-12 col-md-9">
                         <select name="status" id="status" class="form-control-sm form-control">
-                            <option value="0">False</option>
+                           <!-- <option selected="selected">{{$data->status}}</option> -->
+                            <option selected="selected" value="0">False</option>
                             <option value="1">True</option>
 
                         </select>
@@ -122,14 +123,14 @@
                         <select name="parent_id" id="parant_id" class="form-control-sm form-control">
                             <option value="0">ana kategori</option>
                            @foreach($datalist as $rs)
-                            <option value="{{$rs->id}}">{{$rs->title}}</option>
+                            <option value="{{$rs->id}}" @if($rs->id == $data->parent_id) selected="selected" @endif>{{$rs->title}}</option>
                            @endforeach
                         </select>
                     </div>
                 </div>
 
                 <div class="form-actions form-group">
-                    <button type="submit" class="btn btn-primary btn-sm">menü ekle</button>
+                    <button type="submit" class="btn btn-primary btn-sm">editle </button>
                 </div>
             </form>
         </div>
