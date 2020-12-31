@@ -6,12 +6,21 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>menu ekleme sayfası</title>
+    <title>içerik ekleme sayfası</title>
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="{{asset('assets')}}/admin/assets/images/logo.png">
     <link rel="shortcut icon" href="{{asset('assets')}}/admin/assets/images/logo2.png">
+
+    <!--sumnmernote -->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+    <!-- -->
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
@@ -71,12 +80,12 @@
 <!--BURASI!!!!!!!!!!! -->
 @include('admin._sidebar')
 @include('admin._header')
-<h3>Menü Ekleme</h3>
+<h3>içerik Ekleme</h3>
 <div class="col-lg-6">
     <div class="card">
         <div class="card-header"></div>
         <div class="card-body card-block">
-            <form action="{{route('admin_menu_create')}}" method="post" class="">
+            <form action="{{route('admin_content_store')}}" method="post" class="">
             @csrf
                 <div class="form-group">
                     <div class="input-group">
@@ -99,6 +108,34 @@
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
+                <!--
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon">image</div>
+                        <input type="text" id="image" name="image" class="form-control">
+                        <div class="input-group-addon"></div>
+                    </div>
+                </div>-->
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon">price</div>
+                        <input type="number" id="price" name="price" value="0" class="form-control">
+                        <div class="input-group-addon"></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon">detail</div>
+                        <!--<input type="text" id="detail" name="detail" class="form-control">-->
+                        <textarea id="summernote" name="detail"></textarea>
+                        <script>
+                            $(document).ready(function() {
+                                $('#summernote').summernote();
+                            });
+                        </script>
+                        <div class="input-group-addon"></div>
+                    </div>
+                </div>
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-addon">slug</div>
@@ -110,17 +147,16 @@
                     <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Status</label></div>
                     <div class="col-12 col-md-9">
                         <select name="status" id="status" class="form-control-sm form-control">
-                            <option value="0">False</option>
-                            <option value="1">True</option>
+                            <option value="False">False</option>
+                            <option value="True">True</option>
 
                         </select>
                     </div>
                 </div>
                 <div class="row form-group">
-                    <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Status</label></div>
+                    <div class="col col-md-3"><label for="selectSm" class=" form-control-label">menu</label></div>
                     <div class="col-12 col-md-9">
-                        <select name="parent_id" id="parant_id" class="form-control-sm form-control">
-                            <option value="0">ana kategori</option>
+                        <select name="menu_id" id="menu_id" class="form-control-sm form-control">
                            @foreach($datalist as $rs)
                             <option value="{{$rs->id}}">{{$rs->title}}</option>
                            @endforeach
@@ -129,7 +165,7 @@
                 </div>
 
                 <div class="form-actions form-group">
-                    <button type="submit" class="btn btn-primary btn-sm">menü ekle</button>
+                    <button type="submit" class="btn btn-primary btn-sm">içerik ekle</button>
                 </div>
             </form>
         </div>

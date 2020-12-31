@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MENÜLER</title>
+    <title>İÇERİKLER</title>
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -70,7 +70,7 @@
 @include('admin._sidebar')
 @include('admin._header')
 
-<h3>Menü listesi</h3>
+<h3>İÇERİK listesi</h3>
 <div class="content">
     <div class="animated fadeIn">
         <div class="row">
@@ -80,21 +80,22 @@
                     <div class="card-header">
                         <strong class="card-title"></strong><br>
 
-                        <button type="button" class="btn btn-primary"><a href="{{route('admin_menu_add')}}"><h3><font color="00ff33">Menü Ekle</font></h3></a></button>
+                        <button type="button" class="btn btn-primary"><a href="{{route('admin_content_add')}}"><h3><font color="00ff33">içerik Ekle</font></h3></a></button>
                     </div>
                     <div class="card-body">
                         <table id="bootstrap-data-table" class="table table-striped table-bordered">
                             <thead>
                             <tr>
                                 <th>id</th>
-                                <th>parent_id</th>
                                 <th>title</th>
                                 <th>keywords</th>
                                 <th>description</th>
-                                <th>status</th>
+                               <!-- <th>image</th>-->
+                                <th>menu_id</th>
+                                <th>price</th>
+                                <!--<th>detail</th>-->
                                 <th>slug</th>
-                                <th>created_at</th>
-                                <th>updated_at</th>
+                                <th>status</th>
                                 <th>edit</th>
                                 <th>delete</th>
                             </tr>
@@ -104,16 +105,17 @@
                             @foreach($datalist as $rs)
                             <tr>
                                 <td>{{$rs->id}}</td>
-                                <td>{{$rs->parent_id}}</td>
                                 <td>{{$rs->title}}</td>
                                 <td>{{$rs->keywords}}</td>
                                 <td>{{$rs->description}}</td>
-                                <td>{{$rs->status}}</td>
+                                <!--<td>{{$rs->image}}</td>-->
+                                <td>{{$rs->menu_id}}</td>
+                                <td>{{$rs->price}}</td>
+                                <!--<td>{{$rs->detail}}</td>-->
                                 <td>{{$rs->slug}}</td>
-                                <td>{{$rs->created_at}}</td>
-                                <td>{{$rs->updated_at}}</td>
-                                <td><a href="{{route('admin_menu_edit',['id'=>$rs->id])}}">EDİT</a> </td>
-                                <td><a href="{{route('admin_menu_delete',['id'=>$rs->id])}}"onclick="return confirm('Are you sure you want to delete this item?')">DELETE</a> </td>
+                                <td>{{$rs->status}}</td>
+                                <td><a href="{{route('admin_content_edit',['id'=>$rs->id])}}">EDİT</a> </td>
+                                <td><a href="{{route('admin_content_delete',['id'=>$rs->id])}}"onclick="return confirm('Are you sure you want to delete this item?')">DELETE</a> </td>
                             </tr>
                             @endforeach
                             </tbody>
