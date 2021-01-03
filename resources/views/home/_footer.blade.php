@@ -162,3 +162,7 @@
 <script src="{{asset('assets')}}/js/price-range.js"></script>
 <script src="{{asset('assets')}}/js/jquery.prettyPhoto.js"></script>
 <script src="{{asset('assets')}}/js/main.js"></script>
+
+<!--/summernotes-->
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
