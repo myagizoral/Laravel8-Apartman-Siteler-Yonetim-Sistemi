@@ -10,9 +10,9 @@
                 <li class="menu-title">ANA MENU/ÖZELLİKLER</li><!-- /.menu-title -->
 
                 <li><a href="{{route('admin_menu')}}"><font color="007618">Menüler</font></a></li>
-                <li><a href=""><font color="007618">boş</font></a></a></li>
-                <li><a href=""><font color="007618">boş</font></a></a></li>
-                <li><a href=""><font color="007618">boş</font></a></a></li>
+                <li><a href="{{route('admin_contents')}}"><font color="007618">İçerikler</font></a></li>
+                <li><a href="{{route('admin_setting')}}"><font color="007618">Settings</font></a></li>
+
             </ul>
         </div><!-- /.navbar-collapse -->
     </nav>

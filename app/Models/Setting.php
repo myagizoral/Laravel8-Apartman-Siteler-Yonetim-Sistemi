@@ -5,13 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Menu extends Model
+class Setting extends Model
 {
     use HasFactory;
-
-    #one to many
-    public function contents()
-    {
-        return $this->hasMany(Content::class);
-    }
 }
