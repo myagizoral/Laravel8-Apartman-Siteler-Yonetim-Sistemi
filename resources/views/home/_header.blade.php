@@ -6,7 +6,7 @@
                 <div class="col-sm-6">
                     <div class="contactinfo">
                         <ul class="nav nav-pills">
-                            <li><a href="#"><i class="fa fa-phone"></i> +2 95 01 88 821</a></li>
+                            <li><a href="#"><i class="fa fa-phone"></i> +2 95 01 88 8215555</a></li>
                             <li><a href="#"><i class="fa fa-envelope"></i> @yield('mail')</a></li>
                         </ul>
                     </div>

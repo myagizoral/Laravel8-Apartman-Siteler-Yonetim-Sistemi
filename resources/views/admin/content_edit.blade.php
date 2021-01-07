@@ -146,7 +146,11 @@
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-addon">image</div>
+<<<<<<< Updated upstream
                         <input type="file"  id="image" name="image" class="form-control" value="{{$data->image}}">
+=======
+                        <input type="file"  id="image" name="image" class="form-control" >
+>>>>>>> Stashed changes
                         @if($data->image)
                             <img src="{{ Storage::url($data->image)}}" height="100" alt="">
                         @endif
@@ -170,7 +174,11 @@
                     <div class="col-12 col-md-9">
                         <select name="menu_id" id="menu_id" class="form-control-sm form-control">
                            @foreach($datalist as $rs)
+<<<<<<< Updated upstream
                                 <option value="{{$rs->id}}" @if($rs->id == $data->menu_id) selected="selected" @endif>{{$rs->title}}</option>
+=======
+                                <option value="{{$rs->id}}" @if($rs->id == $data->menu_id) selected="selected" @endif>{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
+>>>>>>> Stashed changes
                            @endforeach
                         </select>
                     </div>

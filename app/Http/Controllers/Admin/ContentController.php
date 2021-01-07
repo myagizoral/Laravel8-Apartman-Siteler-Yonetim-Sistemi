@@ -31,7 +31,12 @@ class ContentController extends Controller
     public function create()
     {
         //
+<<<<<<< Updated upstream
         $datalist = Menu::all();
+=======
+       // $datalist = Menu::all();
+        $datalist = Menu::with('children')->get();
+>>>>>>> Stashed changes
         return view('admin.content_add',['datalist'=>$datalist]);
     }
 
@@ -79,7 +84,12 @@ class ContentController extends Controller
     public function edit(Content $content,$id)
     {
         //
+<<<<<<< Updated upstream
         $datalist = Menu::all();
+=======
+       // $datalist = Menu::all();
+        $datalist = Menu::with('children')->get();
+>>>>>>> Stashed changes
         $data = Content::find($id);
         return view('admin.content_edit', ['data' => $data, 'datalist' => $datalist]);
     }
@@ -108,7 +118,11 @@ class ContentController extends Controller
         {
             $data->image = Storage::putFile('images',$request->file('image'));
         }
+<<<<<<< Updated upstream
         
+=======
+
+>>>>>>> Stashed changes
         $data->save();
         return redirect()->route('admin_contents');
     }

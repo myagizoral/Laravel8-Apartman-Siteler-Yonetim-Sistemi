@@ -16,18 +16,40 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="def88b31-4391-4cc4-bd54-969b22aac868" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContentController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ImageController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Models/Content.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Models/Image.php" afterDir="false" />
+=======
+    <list default="true" id="def88b31-4391-4cc4-bd54-969b22aac868" name="Default Changelist" comment="Tasarım iyileştirmeleri yapıldı">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ImageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SettingController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Setting.php" afterDir="false" />
+>>>>>>> Stashed changes
       <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_31_105432_create_contents_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_31_112550_content.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_141049_create_images_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_141404_image.php" afterDir="false" />
+<<<<<<< Updated upstream
+=======
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_175727_create_settings_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_180736_setting.php" afterDir="false" />
+>>>>>>> Stashed changes
       <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/delete.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/edit.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/images/gallery.png" afterDir="false" />
@@ -36,6 +58,11 @@
       <change afterPath="$PROJECT_DIR$/resources/views/admin/content_edit.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/admin/image_add.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/admin/menu_edit.blade.php" afterDir="false" />
+<<<<<<< Updated upstream
+=======
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/menutree.blade.php" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
@@ -564,6 +591,14 @@
       <workItem from="1609598284399" duration="4231000" />
       <workItem from="1609697329800" duration="3021000" />
       <workItem from="1609700745660" duration="172000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1609702908395" duration="310000" />
+      <workItem from="1609955471078" duration="4874000" />
+      <workItem from="1609960756972" duration="860000" />
+      <workItem from="1610014344138" duration="6747000" />
+      <workItem from="1610021217166" duration="5106000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -578,7 +613,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -587,9 +634,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Tasarım iyileştirmeleri yapıldı" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tasarım iyileştirmeleri yapıldı" />
   </component>
   <component name="WindowStateProjectService">
     <state x="982" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608991396990">
+<<<<<<< Updated upstream
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="982" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1608991396990" />
@@ -605,6 +655,23 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1608818827743" />
+=======
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="982" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1608991396990" />
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609959463195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1609959463195" />
+    <state x="540" y="262" key="IDE.errors.dialog" timestamp="1609090871094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="262" key="IDE.errors.dialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1609090871094" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1610018314701">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1610018314701" />
+>>>>>>> Stashed changes
     <state x="461" y="164" key="SettingsEditor" timestamp="1608940754213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -613,5 +680,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1608568169725" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609702923700">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1609702923700" />
   </component>
 </project>

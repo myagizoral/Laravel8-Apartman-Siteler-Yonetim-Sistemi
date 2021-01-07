@@ -1,4 +1,4 @@
-@extends('home._header')
+
 
 @extends('layouts.home')
 

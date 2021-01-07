@@ -87,7 +87,11 @@
                             <thead>
                             <tr>
                                 <th>id</th>
+<<<<<<< Updated upstream
                                 <th>parent_id</th>
+=======
+                                <th>parent</th>
+>>>>>>> Stashed changes
                                 <th>title</th>
                                 <th>keywords</th>
                                 <th>description</th>
@@ -104,7 +108,13 @@
                             @foreach($datalist as $rs)
                             <tr>
                                 <td>{{$rs->id}}</td>
+<<<<<<< Updated upstream
                                 <td>{{$rs->parent_id}}</td>
+=======
+                                <td>
+                                    {{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}
+                                </td>
+>>>>>>> Stashed changes
                                 <td>{{$rs->title}}</td>
                                 <td>{{$rs->keywords}}</td>
                                 <td>{{$rs->description}}</td>
