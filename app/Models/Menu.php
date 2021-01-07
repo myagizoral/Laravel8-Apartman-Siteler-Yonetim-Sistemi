@@ -10,11 +10,17 @@ class Menu extends Model
     use HasFactory;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     protected $appends =[
         'parent',
     ];
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     #one to many
     public function contents()
@@ -22,7 +28,10 @@ class Menu extends Model
         return $this->hasMany(Content::class);
     }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 
     #one to many ıverse - tersi
     public function parent(){
@@ -32,5 +41,8 @@ class Menu extends Model
     public function children(){
         return $this->hasMany(Menu::class,'parent_id');
     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }

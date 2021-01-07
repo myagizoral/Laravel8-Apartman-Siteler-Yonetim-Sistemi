@@ -159,7 +159,11 @@
                         <select name="menu_id" id="menu_id" class="form-control-sm form-control">
                            @foreach($datalist as $rs)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             <option value="{{$rs->id}}">{{$rs->title}}</option>
+=======
+                            <option value="{{$rs->id}}">{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
+>>>>>>> Stashed changes
 =======
                             <option value="{{$rs->id}}">{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
 >>>>>>> Stashed changes

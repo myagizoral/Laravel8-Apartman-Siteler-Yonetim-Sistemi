@@ -118,7 +118,11 @@
                 </div>
                 <div class="row form-group">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Status</label></div>
+=======
+                    <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Parent menu</label></div>
+>>>>>>> Stashed changes
 =======
                     <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Parent menu</label></div>
 >>>>>>> Stashed changes
@@ -127,7 +131,11 @@
                             <option value="0">ana kategori</option>
                            @foreach($datalist as $rs)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             <option value="{{$rs->id}}">{{$rs->title}}</option>
+=======
+                            <option value="{{$rs->id}}">{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
+>>>>>>> Stashed changes
 =======
                             <option value="{{$rs->id}}">{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
 >>>>>>> Stashed changes

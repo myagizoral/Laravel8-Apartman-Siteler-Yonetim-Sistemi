@@ -9,12 +9,18 @@ class Content extends Model
 {
     use HasFactory;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 
     #one to many(inverse)
     public function menu()
     {
         return $this->belongsTo(Menu::class);
     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }

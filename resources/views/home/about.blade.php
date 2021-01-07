@@ -62,9 +62,7 @@
 
 
 @include('home._header')
-@include('home._slider')
-@include('home._category')
-
+dsfsadfsadfsafsafsafsafsafsafsafsadfsaf
 
 @include('home._footer')
 

@@ -147,7 +147,11 @@
                     <div class="input-group">
                         <div class="input-group-addon">image</div>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         <input type="file"  id="image" name="image" class="form-control" value="{{$data->image}}">
+=======
+                        <input type="file"  id="image" name="image" class="form-control" >
+>>>>>>> Stashed changes
 =======
                         <input type="file"  id="image" name="image" class="form-control" >
 >>>>>>> Stashed changes
@@ -175,7 +179,11 @@
                         <select name="menu_id" id="menu_id" class="form-control-sm form-control">
                            @foreach($datalist as $rs)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                 <option value="{{$rs->id}}" @if($rs->id == $data->menu_id) selected="selected" @endif>{{$rs->title}}</option>
+=======
+                                <option value="{{$rs->id}}" @if($rs->id == $data->menu_id) selected="selected" @endif>{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
+>>>>>>> Stashed changes
 =======
                                 <option value="{{$rs->id}}" @if($rs->id == $data->menu_id) selected="selected" @endif>{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
 >>>>>>> Stashed changes

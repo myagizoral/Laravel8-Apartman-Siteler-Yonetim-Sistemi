@@ -14,9 +14,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home.index');
-});
+Route::get( '/home',[HomeController::class,'index'])->name('homepage');
+Route::get( '/',[HomeController::class,'index'])->name('home');
+Route::get( '/aboutus',[HomeController::class,'aboutus'])->name('aboutus');
+Route::get( '/references',[HomeController::class,'references'])->name('references');
+Route::get( '/faq',[HomeController::class,'faq'])->name('faq');
+Route::get( '/contact',[HomeController::class,'contact'])->name('contact');
+
+
+//Route::get('/', function () {
+  //  return view('home.index');
+//});
 
 //Route::get( '/',[HomeController::class,'index'])->name('home');
 
@@ -25,13 +33,9 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::get( '/admin/login',[HomeController::class,'login'])->name('admin_login');
-
 Route::post( '/admin/logincheck',[HomeController::class,'logincheck'])->name('admin_logincheck');
-
-Route::get( '/admin/logout',[HomeController::class,'logout'])->name('admin_logout');
-
+Route::get( '/logout',[HomeController::class,'logout'])->name('logout');
 Route::get( '/admin',[\App\Http\Controllers\Admin\HomeController::class,'index'])->name('admin_home')->middleware(['auth']);
-
 
 Route::get('/welcome', function () {
     return view('welcome');
@@ -70,11 +74,17 @@ Route::middleware('auth')->prefix('admin')->group(function (){
         Route::get( 'show',[\App\Http\Controllers\Admin\ImageController::class,'show'])->name('admin_image_show');
     });
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 
 //Setting
     Route::get( 'setting',[\App\Http\Controllers\Admin\SettingController::class,'index'])->name('admin_setting');
     Route::post( 'setting/update',[\App\Http\Controllers\Admin\SettingController::class,'update'])->name('admin_setting_update');
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 });
 
