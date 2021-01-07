@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Models\Menu;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+use App\Models\Setting;
+>>>>>>> Stashed changes
 =======
 use App\Models\Setting;
 >>>>>>> Stashed changes
@@ -14,13 +18,19 @@ class HomeController extends Controller
 {
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     public function index()
     {
         $setting = Setting::first();
         return view('home.index',['setting'=>$setting]);
     }
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     public static function categorylist()
     {
@@ -28,7 +38,10 @@ class HomeController extends Controller
     }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     public static function getsetting()
     {
         return Setting::first();
@@ -53,6 +66,9 @@ class HomeController extends Controller
         return view('home.about');
     }
     //sayfalar bitiş
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     public function login()

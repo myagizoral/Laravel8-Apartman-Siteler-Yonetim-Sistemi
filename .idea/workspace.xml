@@ -28,6 +28,7 @@
   <component name="ChangeListManager">
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <list default="true" id="def88b31-4391-4cc4-bd54-969b22aac868" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContentController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ImageController.php" afterDir="false" />
@@ -36,10 +37,13 @@
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     <list default="true" id="def88b31-4391-4cc4-bd54-969b22aac868" name="Default Changelist" comment="Tasarım iyileştirmeleri yapıldı">
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContentController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ImageController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SettingController.php" afterDir="false" />
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/app/Models/Content.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Models/Image.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Models/Setting.php" afterDir="false" />
@@ -47,12 +51,23 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Setting.php" afterDir="false" />
+>>>>>>> Stashed changes
       <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_31_105432_create_contents_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_31_112550_content.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_141049_create_images_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_141404_image.php" afterDir="false" />
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_175727_create_settings_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_180736_setting.php" afterDir="false" />
+>>>>>>> Stashed changes
 =======
       <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_175727_create_settings_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_180736_setting.php" afterDir="false" />
@@ -71,6 +86,7 @@
       <change afterPath="$PROJECT_DIR$/resources/views/admin/menu_edit.blade.php" afterDir="false" />
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
       <change afterPath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/home/menutree.blade.php" afterDir="false" />
@@ -79,6 +95,13 @@
       <change afterPath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/home/about.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/home/menutree.blade.php" afterDir="false" />
+>>>>>>> Stashed changes
+=======
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/about.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/menutree.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/user_profile.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/usermenu.blade.php" afterDir="false" />
 >>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
@@ -611,7 +634,10 @@
       <workItem from="1609700745660" duration="172000" />
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       <workItem from="1609702908395" duration="310000" />
@@ -620,12 +646,19 @@
       <workItem from="1610014344138" duration="6747000" />
       <workItem from="1610021217166" duration="5106000" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
       <workItem from="1610027065964" duration="1589000" />
       <workItem from="1610028670598" duration="2876000" />
       <workItem from="1610031628351" duration="30000" />
       <workItem from="1610048428294" duration="3864000" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+      <workItem from="1610052700357" duration="2908000" />
 >>>>>>> Stashed changes
     </task>
     <servers />
@@ -667,6 +700,7 @@
   </component>
   <component name="WindowStateProjectService">
     <state x="982" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608991396990">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
       <screen x="0" y="0" width="1920" height="1040" />
@@ -715,6 +749,23 @@
 <<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
+>>>>>>> Stashed changes
+=======
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="982" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1608991396990" />
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609959463195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1609959463195" />
+    <state x="540" y="262" key="IDE.errors.dialog" timestamp="1609090871094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="262" key="IDE.errors.dialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1609090871094" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1610054312151">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1610054312151" />
 >>>>>>> Stashed changes
     <state x="461" y="164" key="SettingsEditor" timestamp="1608940754213">
       <screen x="0" y="0" width="1920" height="1040" />

@@ -94,9 +94,15 @@
                                 <th>image gallery</th>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                 <th>menu_id</th>
                                 <th>price</th>
                                 <!--<th>detail</th>-->
+=======
+                                <th>menu</th>
+                                <th>price</th>
+                                <th>detail</th>
+>>>>>>> Stashed changes
 =======
                                 <th>menu</th>
                                 <th>price</th>
@@ -129,10 +135,13 @@
                                 <td><a href="{{route('admin_image_add',['content_id'=>$rs->id])}}" onclick="return !window.open(this.href,'','top=50 left=100 width=1100,height=700')"><img src="{{asset('assets/admin/assets/images')}}/gallery.png" height="35"></a> </td>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                 <td>{{$rs->menu_id}}</td>
                                 <td>{{$rs->price}}</td>
                                 <!--<td>{{$rs->detail}}</td>-->
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
                                 <td>
@@ -141,6 +150,9 @@
                                 <td>{{$rs->price}}</td>
                                 <td>{{$rs->detail}}</td>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
