@@ -6,6 +6,10 @@ use App\Models\Menu;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+use App\Models\Setting;
+>>>>>>> Stashed changes
 =======
 use App\Models\Setting;
 >>>>>>> Stashed changes
@@ -24,7 +28,10 @@ class HomeController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -37,6 +44,9 @@ class HomeController extends Controller
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -50,7 +60,10 @@ class HomeController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -64,6 +77,7 @@ class HomeController extends Controller
     //sayfalar başlangıç
     public function aboutus()
     {
+<<<<<<< Updated upstream
         return view('home.about');
     }
     public function contact()
@@ -85,6 +99,26 @@ class HomeController extends Controller
 =======
 >>>>>>> Stashed changes
 =======
+>>>>>>> Stashed changes
+=======
+        $setting = Setting::first();
+        return view('home.about',['setting'=>$setting]);
+    }
+    public function contact()
+    {
+        $setting = Setting::first();
+        return view('home.contact',['setting'=>$setting]);
+    }
+    public function references()
+    {
+        $setting = Setting::first();
+        return view('home.references',['setting'=>$setting]);
+    }
+    public function faq()
+    {
+        //return view('home.about');
+    }
+    //sayfalar bitiş
 >>>>>>> Stashed changes
 
     public function login()

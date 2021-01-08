@@ -78,7 +78,10 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -92,11 +95,27 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
 =======
+=======
+});
+
+
+
+Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(function (){
+
+    Route::get( '/',[UserController::class,'index'])->name('myprofile');
+});
+
+
+Route::middleware('auth')->prefix('user')->namespace('user')->group(function (){
+
+    Route::get( '/profile',[UserController::class,'index'])->name('userprofile');
+>>>>>>> Stashed changes
 });
 
 

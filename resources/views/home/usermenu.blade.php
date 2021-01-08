@@ -1,11 +1,17 @@
 
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 
 <!-- *************************************************-->
 <!-- BURAYI KULLANMIYORUZ USER_PROFİLE TAŞIDIK BURAYI-->
 <!-- *************************************************-->
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <div class="container">
         <div class="row">

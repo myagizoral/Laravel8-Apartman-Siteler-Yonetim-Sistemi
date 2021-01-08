@@ -1,5 +1,8 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 <!DOCTYPE html>
@@ -48,7 +51,11 @@
     <link href="{{asset('assets')}}/css/main.css" rel="stylesheet">
     <link href="{{asset('assets')}}/css/responsive.css" rel="stylesheet">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <!--[if lt IE 9]>
+=======
+<!--[if lt IE 9]>
+>>>>>>> Stashed changes
 =======
 <!--[if lt IE 9]>
 >>>>>>> Stashed changes
@@ -57,16 +64,22 @@
     <![endif]-->
     <link rel="shortcut icon" href="{{asset('assets')}}/images/ico/favicon.ico">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset('assets')}}/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset('assets')}}/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset('assets')}}/images/ico/apple-touch-icon-72-precomposed.png">
 =======
+=======
+>>>>>>> Stashed changes
     <link rel="apple-touch-icon-precomposed" sizes="144x144"
           href="{{asset('assets')}}/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114"
           href="{{asset('assets')}}/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72"
           href="{{asset('assets')}}/images/ico/apple-touch-icon-72-precomposed.png">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <link rel="apple-touch-icon-precomposed" href="{{asset('assets')}}/images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
@@ -76,12 +89,15 @@
 
 @include('home._header')
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 @include('home.usermenu')
 @include('profile.show')
 
 @include('home._footer')
 
 =======
+=======
+>>>>>>> Stashed changes
 <!--usermenu.blade i buraya aldım onu kullanmıyoruz şuan ama silmeyeceğim orda dursun template uymuyor öyle-->
 <div class="container">
     <div class="row">
@@ -120,6 +136,9 @@
     </div>
 </div>
 @include('home._footer')
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 </body>
 </html>

@@ -31,15 +31,9 @@
     <meta name="viewport" content="">
     <meta name="description" content="">
     <meta name="author" content="">
-<<<<<<< Updated upstream
--->
-
-=======
-    -->
-    @section('title','About Us-'.$setting->title)
+    @section('title','Contact-'.$setting->title)
     @section('description') {{$setting->description}} @endsection
-    @section('keywords',$setting->keywords)
->>>>>>> Stashed changes
+    @section('keywords',$setting->keywords)-->
 
     <title> @yield('title') </title>
     <meta name="description" content="@yield('description')">
@@ -47,10 +41,7 @@
 
 
 
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
     <link href="{{asset('assets')}}/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{asset('assets')}}/css/font-awesome.min.css" rel="stylesheet">
     <link href="{{asset('assets')}}/css/prettyPhoto.css" rel="stylesheet">
@@ -73,9 +64,7 @@
 
 
 @include('home._header')
-<<<<<<< Updated upstream
-dsfsadfsadfsafsafsafsafsafsafsafsadfsaf
-=======
+
 
 <div class="container">
     <div class="row">
@@ -84,13 +73,13 @@ dsfsadfsadfsafsafsafsafsafsafsafsadfsaf
 
             </div>
         </div>
-        <div class="col-sm-12">{!! $setting->aboutus !!}</div>
+        <div class="col-sm-6">{!! $setting->contact !!}</div>
         <!-- İÇERİK BUARAYA GELECCEK-->
+        <div class="col-sm-6">iletişim formu</div>
 
     </div>
 </div>
 
->>>>>>> Stashed changes
 
 @include('home._footer')
 
