@@ -5,6 +5,10 @@ namespace App\Http\Controllers;
 use App\Models\Menu;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+use App\Models\Setting;
+>>>>>>> Stashed changes
 =======
 use App\Models\Setting;
 >>>>>>> Stashed changes
@@ -19,7 +23,10 @@ class HomeController extends Controller
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     public function index()
@@ -29,6 +36,9 @@ class HomeController extends Controller
     }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -39,7 +49,10 @@ class HomeController extends Controller
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     public static function getsetting()
@@ -67,6 +80,9 @@ class HomeController extends Controller
     }
     //sayfalar bitiş
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

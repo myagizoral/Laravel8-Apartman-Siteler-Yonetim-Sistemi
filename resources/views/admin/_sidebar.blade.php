@@ -14,8 +14,13 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 <li><a href=""><font color="007618">---</font></a></li>
                 <li><a href=""><font color="007618">boş</font></a></li>
+=======
+                <li><a href="{{route('admin_setting')}}"><font color="007618">Settings</font></a></li>
+
+>>>>>>> Stashed changes
 =======
                 <li><a href="{{route('admin_setting')}}"><font color="007618">Settings</font></a></li>
 

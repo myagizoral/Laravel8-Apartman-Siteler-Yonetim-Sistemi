@@ -1,5 +1,12 @@
 
 
+<<<<<<< Updated upstream
+=======
+
+<!-- *************************************************-->
+<!-- BURAYI KULLANMIYORUZ USER_PROFİLE TAŞIDIK BURAYI-->
+<!-- *************************************************-->
+>>>>>>> Stashed changes
     <div class="container">
         <div class="row">
             <div class="col-sm-12">

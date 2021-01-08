@@ -75,6 +75,10 @@
                             @auth
                                 <li><a href=""><i class="fa fa-user"></i> {{Auth::user()->name}}</a></li>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+                                <li><a href="{{route('myprofile')}}"><i class="fa fa-user"></i> Hesabım</a></li>
+>>>>>>> Stashed changes
 =======
                                 <li><a href="{{route('myprofile')}}"><i class="fa fa-user"></i> Hesabım</a></li>
 >>>>>>> Stashed changes
