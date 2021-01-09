@@ -7,6 +7,7 @@ use App\Models\Menu;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 use App\Models\Setting;
 >>>>>>> Stashed changes
@@ -17,6 +18,10 @@ use App\Models\Setting;
 use App\Models\Setting;
 >>>>>>> Stashed changes
 =======
+use App\Models\Setting;
+>>>>>>> Stashed changes
+=======
+use App\Models\Message;
 use App\Models\Setting;
 >>>>>>> Stashed changes
 use Illuminate\Http\Request;
@@ -25,6 +30,7 @@ use Illuminate\Support\Facades\Auth;
 class HomeController extends Controller
 {
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -68,6 +74,19 @@ class HomeController extends Controller
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+    public function index()
+    {
+        $setting = Setting::first();
+        return view('home.index', ['setting' => $setting]);
+    }
+
+    public static function categorylist()
+    {
+        return Menu::where('parent_id', '=', 0)->with('children')->get();
+    }
+
+>>>>>>> Stashed changes
     public static function getsetting()
     {
         return Setting::first();
@@ -77,6 +96,7 @@ class HomeController extends Controller
     //sayfalar başlangıç
     public function aboutus()
     {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         return view('home.about');
     }
@@ -114,11 +134,47 @@ class HomeController extends Controller
         $setting = Setting::first();
         return view('home.references',['setting'=>$setting]);
     }
+=======
+        $setting = Setting::first();
+        return view('home.about', ['setting' => $setting]);
+    }
+
+    public function contact()
+    {
+        $setting = Setting::first();
+        return view('home.contact', ['setting' => $setting]);
+    }
+
+    public function references()
+    {
+        $setting = Setting::first();
+        return view('home.references', ['setting' => $setting]);
+    }
+
+>>>>>>> Stashed changes
     public function faq()
     {
         //return view('home.about');
     }
+<<<<<<< Updated upstream
     //sayfalar bitiş
+>>>>>>> Stashed changes
+=======
+
+    //sayfalar bitiş
+
+    public function sendmessage(Request $request)
+    {
+        $data = new Message();
+        $data->name = $request->input('name');
+        $data->phone = $request->input('phone');
+        $data->email = $request->input('email');
+        $data->subject = $request->input('subject');
+        $data->messages = $request->input('messages');
+        $data->save();
+
+        return redirect()->route('contact')->with('success','Mesajınız iletilmiştir Teşekkür ederiz:)');
+    }
 >>>>>>> Stashed changes
 
     public function login()
@@ -128,9 +184,8 @@ class HomeController extends Controller
 
     public function logincheck(Request $request)
     {
-        if($request->isMethod('post'))
-        {
-            $credentials = $request->only('email','password');
+        if ($request->isMethod('post')) {
+            $credentials = $request->only('email', 'password');
             if (Auth::attempt($credentials)) {
                 $request->session()->regenerate();
 
@@ -139,12 +194,11 @@ class HomeController extends Controller
             return back()->withErrors([
                 'email' => 'The provided credentials do not match our records.',
             ]);
-        }
-        else
-        {
+        } else {
             return view('admin.login');
         }
     }
+
     public function logout(Request $request)
     {
         Auth::logout();

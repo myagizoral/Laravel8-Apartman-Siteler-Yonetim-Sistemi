@@ -36,7 +36,12 @@ class ContentController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $datalist = Menu::all();
+=======
+       // $datalist = Menu::all();
+        $datalist = Menu::with('children')->get();
+>>>>>>> Stashed changes
 =======
        // $datalist = Menu::all();
         $datalist = Menu::with('children')->get();
@@ -109,7 +114,12 @@ class ContentController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $datalist = Menu::all();
+=======
+       // $datalist = Menu::all();
+        $datalist = Menu::with('children')->get();
+>>>>>>> Stashed changes
 =======
        // $datalist = Menu::all();
         $datalist = Menu::with('children')->get();
@@ -163,7 +173,11 @@ class ContentController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes

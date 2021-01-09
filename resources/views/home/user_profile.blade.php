@@ -1,6 +1,9 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -52,7 +55,11 @@
     <link href="{{asset('assets')}}/css/responsive.css" rel="stylesheet">
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <!--[if lt IE 9]>
+=======
+<!--[if lt IE 9]>
+>>>>>>> Stashed changes
 =======
 <!--[if lt IE 9]>
 >>>>>>> Stashed changes
@@ -65,10 +72,13 @@
     <link rel="shortcut icon" href="{{asset('assets')}}/images/ico/favicon.ico">
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset('assets')}}/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset('assets')}}/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset('assets')}}/images/ico/apple-touch-icon-72-precomposed.png">
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     <link rel="apple-touch-icon-precomposed" sizes="144x144"
@@ -78,6 +88,9 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72"
           href="{{asset('assets')}}/images/ico/apple-touch-icon-72-precomposed.png">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -90,12 +103,15 @@
 @include('home._header')
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 @include('home.usermenu')
 @include('profile.show')
 
 @include('home._footer')
 
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 <!--usermenu.blade i buraya aldım onu kullanmıyoruz şuan ama silmeyeceğim orda dursun template uymuyor öyle-->
@@ -137,6 +153,9 @@
 </div>
 @include('home._footer')
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

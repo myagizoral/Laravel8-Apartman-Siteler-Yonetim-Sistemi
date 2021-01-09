@@ -97,9 +97,15 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                 <th>menu_id</th>
                                 <th>price</th>
                                 <!--<th>detail</th>-->
+=======
+                                <th>menu</th>
+                                <th>price</th>
+                                <th>detail</th>
+>>>>>>> Stashed changes
 =======
                                 <th>menu</th>
                                 <th>price</th>
@@ -150,10 +156,13 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                 <td>{{$rs->menu_id}}</td>
                                 <td>{{$rs->price}}</td>
                                 <!--<td>{{$rs->detail}}</td>-->
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -171,6 +180,9 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

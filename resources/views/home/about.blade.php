@@ -32,13 +32,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 -->
 
 =======
+=======
+>>>>>>> Stashed changes
     -->
     @section('title','About Us-'.$setting->title)
     @section('description') {{$setting->description}} @endsection
     @section('keywords',$setting->keywords)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     <title> @yield('title') </title>
@@ -48,6 +54,10 @@
 
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes
@@ -74,8 +84,11 @@
 
 @include('home._header')
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 dsfsadfsadfsafsafsafsafsafsafsafsadfsaf
 =======
+=======
+>>>>>>> Stashed changes
 
 <div class="container">
     <div class="row">
@@ -90,6 +103,9 @@ dsfsadfsadfsafsafsafsafsafsafsafsadfsaf
     </div>
 </div>
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 @include('home._footer')

@@ -2,7 +2,10 @@
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 
@@ -10,6 +13,9 @@
 <!-- BURAYI KULLANMIYORUZ USER_PROFİLE TAŞIDIK BURAYI-->
 <!-- *************************************************-->
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
