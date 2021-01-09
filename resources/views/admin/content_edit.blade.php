@@ -152,7 +152,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         <input type="file"  id="image" name="image" class="form-control" value="{{$data->image}}">
+=======
+                        <input type="file"  id="image" name="image" class="form-control" >
+>>>>>>> Stashed changes
 =======
                         <input type="file"  id="image" name="image" class="form-control" >
 >>>>>>> Stashed changes
@@ -200,7 +204,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                 <option value="{{$rs->id}}" @if($rs->id == $data->menu_id) selected="selected" @endif>{{$rs->title}}</option>
+=======
+                                <option value="{{$rs->id}}" @if($rs->id == $data->menu_id) selected="selected" @endif>{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
+>>>>>>> Stashed changes
 =======
                                 <option value="{{$rs->id}}" @if($rs->id == $data->menu_id) selected="selected" @endif>{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
 >>>>>>> Stashed changes

@@ -66,7 +66,11 @@
 @include('home._header')
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+<!--
+>>>>>>> Stashed changes
 =======
 <!--
 >>>>>>> Stashed changes
@@ -79,7 +83,11 @@
         </div>
         <div class="col-sm-6">{!! $setting->contact !!}</div>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <!-- İÇERİK BUARAYA GELECCEK-->
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes
@@ -88,8 +96,11 @@
     </div>
 </div>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 =======
+=======
+>>>>>>> Stashed changes
 -->
 <div id="contact-page" class="container">
     <div class="bg">
@@ -155,6 +166,9 @@
         </div>
     </div>
 </div><!--/#contact-page-->
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 @include('home._footer')

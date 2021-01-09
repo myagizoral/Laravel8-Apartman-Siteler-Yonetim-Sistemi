@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+<<<<<<< Updated upstream
 use App\Models\Menu;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -24,12 +25,19 @@ use App\Models\Setting;
 use App\Models\Message;
 use App\Models\Setting;
 >>>>>>> Stashed changes
+=======
+use App\Models\Content;
+use App\Models\Menu;
+use App\Models\Message;
+use App\Models\Setting;
+>>>>>>> Stashed changes
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -79,6 +87,22 @@ class HomeController extends Controller
     {
         $setting = Setting::first();
         return view('home.index', ['setting' => $setting]);
+=======
+    public function index()
+    {
+        $setting = Setting::first();
+        $slider = Content::where('price',0)->select('id','title','image','slug')->limit(4)->get();
+
+        #print_r($slider);
+        #exit();
+
+        $data= [
+            'setting' => $setting,
+             'slider' => $slider,
+              'page' => 'home',
+        ];
+        return view('home.index',$data);
+>>>>>>> Stashed changes
     }
 
     public static function categorylist()
@@ -86,6 +110,9 @@ class HomeController extends Controller
         return Menu::where('parent_id', '=', 0)->with('children')->get();
     }
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     public static function getsetting()
     {
@@ -96,6 +123,7 @@ class HomeController extends Controller
     //sayfalar başlangıç
     public function aboutus()
     {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
         return view('home.about');
@@ -135,6 +163,8 @@ class HomeController extends Controller
         return view('home.references',['setting'=>$setting]);
     }
 =======
+=======
+>>>>>>> Stashed changes
         $setting = Setting::first();
         return view('home.about', ['setting' => $setting]);
     }
@@ -151,11 +181,15 @@ class HomeController extends Controller
         return view('home.references', ['setting' => $setting]);
     }
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     public function faq()
     {
         //return view('home.about');
     }
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     //sayfalar bitiş
 >>>>>>> Stashed changes
@@ -163,6 +197,22 @@ class HomeController extends Controller
 
     //sayfalar bitiş
 
+=======
+
+    //sayfalar bitiş
+
+
+
+    public function content($id,$slug)
+    {
+      $data=Content::find($id);
+      print_r($data);
+      exit();
+    }
+
+
+
+>>>>>>> Stashed changes
     public function sendmessage(Request $request)
     {
         $data = new Message();
@@ -175,6 +225,9 @@ class HomeController extends Controller
 
         return redirect()->route('contact')->with('success','Mesajınız iletilmiştir Teşekkür ederiz:)');
     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     public function login()

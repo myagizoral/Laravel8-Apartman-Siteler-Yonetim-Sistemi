@@ -93,7 +93,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                 <th>parent_id</th>
+=======
+                                <th>parent</th>
+>>>>>>> Stashed changes
 =======
                                 <th>parent</th>
 >>>>>>> Stashed changes
@@ -134,7 +138,13 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                 <td>{{$rs->parent_id}}</td>
+=======
+                                <td>
+                                    {{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}
+                                </td>
+>>>>>>> Stashed changes
 =======
                                 <td>
                                     {{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}
