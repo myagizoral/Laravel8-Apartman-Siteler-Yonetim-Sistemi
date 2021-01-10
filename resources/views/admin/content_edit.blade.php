@@ -153,7 +153,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         <input type="file"  id="image" name="image" class="form-control" value="{{$data->image}}">
+=======
+                        <input type="file"  id="image" name="image" class="form-control" >
+>>>>>>> Stashed changes
 =======
                         <input type="file"  id="image" name="image" class="form-control" >
 >>>>>>> Stashed changes
@@ -193,6 +197,22 @@
                         </select>
                     </div>
                 </div>
+<<<<<<< Updated upstream
+=======
+                <!--Tür bilgisi buradan değiştirilecek 10.01.2021 tarihinde ekledik-->
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Türü</label></div>
+                    <div class="col-12 col-md-9">
+                        <select name="tur" id="tur" class="form-control-sm form-control">
+                            <option selected="selected">{{$data->tur}}</option>
+                            <option value="aidat">Aidat</option>
+                            <option value="duyuru">Duyuru</option>
+                            <option value="olum">Ölüm Haberi</option>
+                        </select>
+                    </div>
+                </div>
+                <!--##########################################################################-->
+>>>>>>> Stashed changes
                 <div class="row form-group">
                     <div class="col col-md-3"><label for="selectSm" class=" form-control-label">menu</label></div>
                     <div class="col-12 col-md-9">
@@ -205,7 +225,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                 <option value="{{$rs->id}}" @if($rs->id == $data->menu_id) selected="selected" @endif>{{$rs->title}}</option>
+=======
+                                <option value="{{$rs->id}}" @if($rs->id == $data->menu_id) selected="selected" @endif>{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
+>>>>>>> Stashed changes
 =======
                                 <option value="{{$rs->id}}" @if($rs->id == $data->menu_id) selected="selected" @endif>{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
 >>>>>>> Stashed changes

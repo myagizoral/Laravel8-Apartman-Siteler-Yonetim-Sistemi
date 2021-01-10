@@ -99,6 +99,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                 <th>menu_id</th>
                                 <th>price</th>
                                 <!--<th>detail</th>-->
@@ -139,6 +140,14 @@
 >>>>>>> Stashed changes
                                 <th>slug</th>
                                 <th>status</th>
+=======
+                                <th>menu</th>
+                                <th>price</th>
+                                <th>detail</th>
+                                <th>slug</th>
+                                <th>status</th>
+                                <th>Türü</th>
+>>>>>>> Stashed changes
                                 <th>edit</th>
                                 <th>delete</th>
                             </tr>
@@ -164,6 +173,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                 <td>{{$rs->menu_id}}</td>
                                 <td>{{$rs->price}}</td>
                                 <!--<td>{{$rs->detail}}</td>-->
@@ -180,10 +190,13 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
                                 <td>
                                     {{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs->menu,$rs->menu->title)}}
                                 </td>
                                 <td>{{$rs->price}}</td>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                                 <td>{{$rs->detail}}</td>
 <<<<<<< Updated upstream
@@ -207,6 +220,12 @@
 >>>>>>> Stashed changes
                                 <td>{{$rs->slug}}</td>
                                 <td>{{$rs->status}}</td>
+=======
+                                <td>{!! $rs->detail !!}</td>
+                                <td>{{$rs->slug}}</td>
+                                <td>{{$rs->status}}</td>
+                                <td>{{$rs->tur}}</td>
+>>>>>>> Stashed changes
                                 <td><a href="{{route('admin_content_edit',['id'=>$rs->id])}}"><img src="{{asset('assets/admin/assets/images')}}/edit.png" height="25"></a> </td>
                                 <td><a href="{{route('admin_content_delete',['id'=>$rs->id])}}"onclick="return confirm('Are you sure you want to delete this item?')"><img src="{{asset('assets/admin/assets/images')}}/delete.png" height="25"> </a> </td>
                             </tr>

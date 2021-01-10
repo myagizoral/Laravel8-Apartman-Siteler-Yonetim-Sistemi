@@ -27,7 +27,10 @@
         }
     </style>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     <style>
         * {
             box-sizing:border-box;
@@ -570,6 +573,9 @@
 
         }
     </style>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <meta charset="utf-8">
     <!--

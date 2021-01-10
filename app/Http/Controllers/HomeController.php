@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 use App\Models\Menu;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -26,10 +27,15 @@ use App\Models\Message;
 use App\Models\Setting;
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
 use App\Models\Content;
 use App\Models\Menu;
 use App\Models\Message;
 use App\Models\Setting;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -37,6 +43,7 @@ use Illuminate\Support\Facades\Auth;
 class HomeController extends Controller
 {
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -92,16 +99,40 @@ class HomeController extends Controller
     {
         $setting = Setting::first();
         $slider = Content::where('price',0)->select('id','title','image','slug')->limit(4)->get();
+=======
+    public function index()
+    {
+        $setting = Setting::first();
+        $slider = Content::
+              where('tur','olum')
+            ->orWhere('tur' , "duyuru")
+            ->select('id','title','image','slug')
+            ->limit(4)
+            ->get();
+>>>>>>> Stashed changes
 
         #print_r($slider);
         #exit();
 
+<<<<<<< Updated upstream
+=======
+        /*
+        $users = DB::table('users')
+                ->where('votes', '=', 100)
+                ->where('age', '>', 35)
+                ->get();
+        */
+
+>>>>>>> Stashed changes
         $data= [
             'setting' => $setting,
              'slider' => $slider,
               'page' => 'home',
         ];
         return view('home.index',$data);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 
@@ -111,6 +142,9 @@ class HomeController extends Controller
     }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -123,6 +157,7 @@ class HomeController extends Controller
     //sayfalar başlangıç
     public function aboutus()
     {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -165,6 +200,8 @@ class HomeController extends Controller
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         $setting = Setting::first();
         return view('home.about', ['setting' => $setting]);
     }
@@ -182,6 +219,9 @@ class HomeController extends Controller
     }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -191,6 +231,7 @@ class HomeController extends Controller
     }
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     //sayfalar bitiş
 >>>>>>> Stashed changes
 =======
@@ -198,6 +239,8 @@ class HomeController extends Controller
     //sayfalar bitiş
 
 =======
+=======
+>>>>>>> Stashed changes
 
     //sayfalar bitiş
 
@@ -212,6 +255,9 @@ class HomeController extends Controller
 
 
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     public function sendmessage(Request $request)
     {
@@ -226,6 +272,9 @@ class HomeController extends Controller
         return redirect()->route('contact')->with('success','Mesajınız iletilmiştir Teşekkür ederiz:)');
     }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

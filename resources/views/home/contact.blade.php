@@ -67,7 +67,11 @@
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+<!--
+>>>>>>> Stashed changes
 =======
 <!--
 >>>>>>> Stashed changes
@@ -84,7 +88,11 @@
         <div class="col-sm-6">{!! $setting->contact !!}</div>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <!-- İÇERİK BUARAYA GELECCEK-->
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes
@@ -97,8 +105,11 @@
 </div>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 -->
@@ -167,6 +178,9 @@
     </div>
 </div><!--/#contact-page-->
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
