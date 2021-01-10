@@ -154,7 +154,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         <input type="file"  id="image" name="image" class="form-control" value="{{$data->image}}">
+=======
+                        <input type="file"  id="image" name="image" class="form-control" >
+>>>>>>> Stashed changes
 =======
                         <input type="file"  id="image" name="image" class="form-control" >
 >>>>>>> Stashed changes
@@ -198,7 +202,10 @@
                     </div>
                 </div>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
                 <!--Tür bilgisi buradan değiştirilecek 10.01.2021 tarihinde ekledik-->
                 <div class="row form-group">
                     <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Türü</label></div>
@@ -212,6 +219,9 @@
                     </div>
                 </div>
                 <!--##########################################################################-->
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 <div class="row form-group">
                     <div class="col col-md-3"><label for="selectSm" class=" form-control-label">menu</label></div>
@@ -226,7 +236,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                 <option value="{{$rs->id}}" @if($rs->id == $data->menu_id) selected="selected" @endif>{{$rs->title}}</option>
+=======
+                                <option value="{{$rs->id}}" @if($rs->id == $data->menu_id) selected="selected" @endif>{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
+>>>>>>> Stashed changes
 =======
                                 <option value="{{$rs->id}}" @if($rs->id == $data->menu_id) selected="selected" @endif>{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
 >>>>>>> Stashed changes

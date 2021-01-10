@@ -154,7 +154,10 @@
                     </div>
                 </div>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
                 <!--Tür bilgisi burdan girilecek 10.01.2021 tarihinde ekledik-->
                 <div class="row form-group">
                     <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Tür</label></div>
@@ -168,6 +171,9 @@
                     </div>
                 </div>
                 <!--#########################################################################-->
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 <div class="row form-group">
                     <div class="col col-md-3"><label for="selectSm" class=" form-control-label">menu</label></div>
@@ -182,7 +188,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             <option value="{{$rs->id}}">{{$rs->title}}</option>
+=======
+                            <option value="{{$rs->id}}">{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
+>>>>>>> Stashed changes
 =======
                             <option value="{{$rs->id}}">{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
 >>>>>>> Stashed changes

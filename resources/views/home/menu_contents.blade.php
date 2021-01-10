@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,17 +25,9 @@
             background-color: #f1f1f1;
         }
     </style>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     <style>
         * {
-            box-sizing:border-box;
+            box-sizing: border-box;
         }
 
         body,
@@ -95,7 +86,7 @@
         /* -------> Responsive images (ensure images don't scale beyond their parents) */
         #content-slider img {
             max-width: 100%;
-            width: auto\9;
+            width: auto \9;
             height: auto;
             vertical-align: middle;
             border: 0;
@@ -160,7 +151,7 @@
             transition: all 0.5s ease-in-out;
         }
 
-        #content-slider .th>[class*='title-'] {
+        #content-slider .th > [class*='title-'] {
             width: auto;
             height: auto;
             position: absolute;
@@ -206,18 +197,30 @@
         }
 
         /* -------> Article IMg Slider */
-        #content-slider .slider h1 { font-size: 1.5rem; }
+        #content-slider .slider h1 {
+            font-size: 1.5rem;
+        }
 
-        #content-slider .slider p {	font-size: 1.2rem; }
+        #content-slider .slider p {
+            font-size: 1.2rem;
+        }
 
-        #content-slider .slider a { font-size: 1rem; }
+        #content-slider .slider a {
+            font-size: 1rem;
+        }
 
         /* -------> Article IMg Prev */
-        #content-slider .th h1 { font-size: 1rem; }
+        #content-slider .th h1 {
+            font-size: 1rem;
+        }
 
-        #content-slider .th p { font-size: .875rem; }
+        #content-slider .th p {
+            font-size: .875rem;
+        }
 
-        #content-slider .th a { font-size: .75rem; }
+        #content-slider .th a {
+            font-size: .75rem;
+        }
 
         #content-slider .th img {
             position: relative;
@@ -277,10 +280,21 @@
             cursor: pointer;
         }
 
-        #b-1 { left: 0; }
-        #b-2 { left: 25%; }
-        #b-3 { left: 50%; }
-        #b-4 { left: 75%; }
+        #b-1 {
+            left: 0;
+        }
+
+        #b-2 {
+            left: 25%;
+        }
+
+        #b-3 {
+            left: 50%;
+        }
+
+        #b-4 {
+            left: 75%;
+        }
 
         #content-slider input[type='radio'] {
             width: 10px;
@@ -290,7 +304,7 @@
             display: none;
         }
 
-        #control{
+        #control {
             position: absolute;
             left: 3%;
             z-index: 5;
@@ -298,7 +312,7 @@
             width: 95%;
         }
 
-        #content-slider label.first{
+        #content-slider label.first {
             width: 9px;
             height: 9px;
             margin: 0 2px;
@@ -337,7 +351,7 @@
             display: none;
         }
 
-        #content-slider #control{
+        #content-slider #control {
             position: absolute;
             left: 3%;
             z-index: 15;
@@ -347,35 +361,69 @@
 
             /*display: none;*/
             height: 50px;
-            top:50%;
+            top: 50%;
             margin-top: -25px;
         }
 
 
         /* -------> Controls */
-        #main>label:hover { width: 9px; height: 9px; background: #FFF; border: 1px solid #00ABFA; }
+        #main > label:hover {
+            width: 9px;
+            height: 9px;
+            background: #FFF;
+            border: 1px solid #00ABFA;
+        }
 
-        input#a-1:checked ~ .slider .inset { margin-left: 0%;   }
-        input#a-2:checked ~ .slider .inset { margin-left:-100%; }
-        input#a-3:checked ~ .slider .inset { margin-left:-200%; }
-        input#a-4:checked ~ .slider .inset { margin-left:-300%; }
-        input#a-5:checked ~ .slider .inset { margin-left:-400%; }
+        input#a-1:checked ~ .slider .inset {
+            margin-left: 0%;
+        }
+
+        input#a-2:checked ~ .slider .inset {
+            margin-left: -100%;
+        }
+
+        input#a-3:checked ~ .slider .inset {
+            margin-left: -200%;
+        }
+
+        input#a-4:checked ~ .slider .inset {
+            margin-left: -300%;
+        }
+
+        input#a-5:checked ~ .slider .inset {
+            margin-left: -400%;
+        }
 
 
-        input#a-1:checked ~ #main>label:nth-child(1) { opacity: 1; background: #fff; }
-        input#a-2:checked ~ #main>label:nth-child(2) { opacity: 1; background: #fff; }
-        input#a-3:checked ~ #main>label:nth-child(3) { opacity: 1; background: #fff; }
-        input#a-4:checked ~ #main>label:nth-child(4) { opacity: 1; background: #fff; }
+        input#a-1:checked ~ #main > label:nth-child(1) {
+            opacity: 1;
+            background: #fff;
+        }
 
-        input#a-1:checked ~ #control>label:nth-child(2),
-        input#a-2:checked ~ #control>label:nth-child(3),
-        input#a-3:checked ~ #control>label:nth-child(4),
-        input#a-4:checked ~ #control>label:nth-child(1),
-        input#a-5:checked ~ #control>label:nth-child(1),
-        input#a-1:checked ~ #control>label:nth-child(4),
-        input#a-2:checked ~ #control>label:nth-child(1),
-        input#a-3:checked ~ #control>label:nth-child(2),
-        input#a-4:checked ~ #control>label:nth-child(3) {
+        input#a-2:checked ~ #main > label:nth-child(2) {
+            opacity: 1;
+            background: #fff;
+        }
+
+        input#a-3:checked ~ #main > label:nth-child(3) {
+            opacity: 1;
+            background: #fff;
+        }
+
+        input#a-4:checked ~ #main > label:nth-child(4) {
+            opacity: 1;
+            background: #fff;
+        }
+
+        input#a-1:checked ~ #control > label:nth-child(2),
+        input#a-2:checked ~ #control > label:nth-child(3),
+        input#a-3:checked ~ #control > label:nth-child(4),
+        input#a-4:checked ~ #control > label:nth-child(1),
+        input#a-5:checked ~ #control > label:nth-child(1),
+        input#a-1:checked ~ #control > label:nth-child(4),
+        input#a-2:checked ~ #control > label:nth-child(1),
+        input#a-3:checked ~ #control > label:nth-child(2),
+        input#a-4:checked ~ #control > label:nth-child(3) {
             width: 50px;
             height: 50px;
             top: 50%;
@@ -385,97 +433,129 @@
             cursor: pointer;
         }
 
-        input#a-1:checked ~ #control>label:nth-child(2):after,
-        input#a-2:checked ~ #control>label:nth-child(3):after,
-        input#a-3:checked ~ #control>label:nth-child(4):after,
-        input#a-4:checked ~ #control>label:nth-child(1):after,
-        input#a-5:checked ~ #control>label:nth-child(1):after,
-        input#a-1:checked ~ #control>label:nth-child(4):after,
-        input#a-2:checked ~ #control>label:nth-child(1):after,
-        input#a-3:checked ~ #control>label:nth-child(2):after,
-        input#a-4:checked ~ #control>label:nth-child(3):after {
+        input#a-1:checked ~ #control > label:nth-child(2):after,
+        input#a-2:checked ~ #control > label:nth-child(3):after,
+        input#a-3:checked ~ #control > label:nth-child(4):after,
+        input#a-4:checked ~ #control > label:nth-child(1):after,
+        input#a-5:checked ~ #control > label:nth-child(1):after,
+        input#a-1:checked ~ #control > label:nth-child(4):after,
+        input#a-2:checked ~ #control > label:nth-child(1):after,
+        input#a-3:checked ~ #control > label:nth-child(2):after,
+        input#a-4:checked ~ #control > label:nth-child(3):after {
             font-family: FontAwesome;
             font-size: 7rem;
             line-height: 7rem;
-            color:#00ABFA;
+            color: #00ABFA;
             position: absolute;
-            top:0;
+            top: 0;
             left: 0;
         }
 
-        input#a-1:checked ~ #control>label:nth-child(2),
-        input#a-2:checked ~ #control>label:nth-child(3),
-        input#a-3:checked ~ #control>label:nth-child(4),
-        input#a-4:checked ~ #control>label:nth-child(1) {
+        input#a-1:checked ~ #control > label:nth-child(2),
+        input#a-2:checked ~ #control > label:nth-child(3),
+        input#a-3:checked ~ #control > label:nth-child(4),
+        input#a-4:checked ~ #control > label:nth-child(1) {
             float: right;
             right: 0.3%;
         }
 
-        input#a-1:checked ~ #control>label:nth-child(2):after,
-        input#a-2:checked ~ #control>label:nth-child(3):after,
-        input#a-3:checked ~ #control>label:nth-child(4):after,
-        input#a-4:checked ~ #control>label:nth-child(1):after {
+        input#a-1:checked ~ #control > label:nth-child(2):after,
+        input#a-2:checked ~ #control > label:nth-child(3):after,
+        input#a-3:checked ~ #control > label:nth-child(4):after,
+        input#a-4:checked ~ #control > label:nth-child(1):after {
             content: "\f105";
         }
 
-        input#a-1:checked ~ #control>label:nth-child(4),
-        input#a-2:checked ~ #control>label:nth-child(1),
-        input#a-3:checked ~ #control>label:nth-child(2),
-        input#a-4:checked ~ #control>label:nth-child(3) {
+        input#a-1:checked ~ #control > label:nth-child(4),
+        input#a-2:checked ~ #control > label:nth-child(1),
+        input#a-3:checked ~ #control > label:nth-child(2),
+        input#a-4:checked ~ #control > label:nth-child(3) {
             float: left;
             left: 0.3%;
         }
 
-        input#a-1:checked ~ #control>label:nth-child(4):after,
-        input#a-2:checked ~ #control>label:nth-child(1):after,
-        input#a-3:checked ~ #control>label:nth-child(2):after,
-        input#a-4:checked ~ #control>label:nth-child(3):after {
+        input#a-1:checked ~ #control > label:nth-child(4):after,
+        input#a-2:checked ~ #control > label:nth-child(1):after,
+        input#a-3:checked ~ #control > label:nth-child(2):after,
+        input#a-4:checked ~ #control > label:nth-child(3):after {
             content: "\f104";
         }
 
-        span#a-1:focus ~ .slider .inset { margin-left: 0%;   }
-        span#a-2:focus ~ .slider .inset { margin-left:-100%; }
-        span#a-3:focus ~ .slider .inset { margin-left:-200%; }
-        span#a-4:focus ~ .slider .inset { margin-left:-300%; }
-        span#a-5:focus ~ .slider .inset { margin-left:-400%; }
+        span#a-1:focus ~ .slider .inset {
+            margin-left: 0%;
+        }
 
-        span#b-1:focus ~ .slider .inset { margin-left: 0%;   }
-        span#b-2:focus ~ .slider .inset { margin-left:-100%; }
-        span#b-3:focus ~ .slider .inset { margin-left:-200%; }
-        span#b-4:focus ~ .slider .inset { margin-left:-300%; }
-        span#b-5:focus ~ .slider .inset { margin-left:-400%; }
+        span#a-2:focus ~ .slider .inset {
+            margin-left: -100%;
+        }
 
-        #content-slider input:checked ~ .slider>.inset {
+        span#a-3:focus ~ .slider .inset {
+            margin-left: -200%;
+        }
+
+        span#a-4:focus ~ .slider .inset {
+            margin-left: -300%;
+        }
+
+        span#a-5:focus ~ .slider .inset {
+            margin-left: -400%;
+        }
+
+        span#b-1:focus ~ .slider .inset {
+            margin-left: 0%;
+        }
+
+        span#b-2:focus ~ .slider .inset {
+            margin-left: -100%;
+        }
+
+        span#b-3:focus ~ .slider .inset {
+            margin-left: -200%;
+        }
+
+        span#b-4:focus ~ .slider .inset {
+            margin-left: -300%;
+        }
+
+        span#b-5:focus ~ .slider .inset {
+            margin-left: -400%;
+        }
+
+        #content-slider input:checked ~ .slider > .inset {
             -webkit-animation: none;
             -moz-animation: none;
             -ms-animation: none;
             -o-animation: none;
             animation: none;
         }
-        #content-slider input:hover ~ .slider>.inset,
-        #content-slider label:hover ~ .slider>.inset {
+
+        #content-slider input:hover ~ .slider > .inset,
+        #content-slider label:hover ~ .slider > .inset {
             -webkit-animation-play-state: paused;
             -moz-animation-play-state: paused;
             -ms-animation-play-state: paused;
             -o-animation-play-state: paused;
             animation-play-state: paused;
         }
-        #content-slider input:hover ~ .slider>.inset,
-        #content-slider label:hover ~ .slider>.inset {
+
+        #content-slider input:hover ~ .slider > .inset,
+        #content-slider label:hover ~ .slider > .inset {
             -webkit-animation-play-state: paused;
             -moz-animation-play-state: paused;
             -ms-animation-play-state: paused;
             -o-animation-play-state: paused;
             animation-play-state: paused;
         }
-        #content-slider span:focus ~ .slider>.inset {
+
+        #content-slider span:focus ~ .slider > .inset {
             -webkit-animation: none;
             -moz-animation: none;
             -ms-animation: none;
             -o-animation: none;
             animation: none;
         }
-        #content-slider span:hover ~ .slider>.inset {
+
+        #content-slider span:hover ~ .slider > .inset {
             -webkit-animation-play-state: paused;
             -moz-animation-play-state: paused;
             -ms-animation-play-state: paused;
@@ -487,44 +567,111 @@
         /* -------> Animation */
 
         @keyframes slidy {
-            20% { margin-left:    0%; }
-            25% { margin-left: -100%; }
-            45% { margin-left: -100%; }
-            50% { margin-left: -200%; }
-            70% { margin-left: -200%; }
-            75% { margin-left: -300%; }
-            95% { margin-left: -300%; }
-            100% { margin-left: -400%; }
+            20% {
+                margin-left: 0%;
+            }
+            25% {
+                margin-left: -100%;
+            }
+            45% {
+                margin-left: -100%;
+            }
+            50% {
+                margin-left: -200%;
+            }
+            70% {
+                margin-left: -200%;
+            }
+            75% {
+                margin-left: -300%;
+            }
+            95% {
+                margin-left: -300%;
+            }
+            100% {
+                margin-left: -400%;
+            }
         }
+
         @-webkit-keyframes slidy {
-            20% { margin-left:    0%; }
-            25% { margin-left: -100%; }
-            45% { margin-left: -100%; }
-            50% { margin-left: -200%; }
-            70% { margin-left: -200%; }
-            75% { margin-left: -300%; }
-            95% { margin-left: -300%; }
-            100% { margin-left: -400%; }
+            20% {
+                margin-left: 0%;
+            }
+            25% {
+                margin-left: -100%;
+            }
+            45% {
+                margin-left: -100%;
+            }
+            50% {
+                margin-left: -200%;
+            }
+            70% {
+                margin-left: -200%;
+            }
+            75% {
+                margin-left: -300%;
+            }
+            95% {
+                margin-left: -300%;
+            }
+            100% {
+                margin-left: -400%;
+            }
         }
+
         @-moz-keyframes slidy {
-            20% { margin-left:    0%; }
-            25% { margin-left: -100%; }
-            45% { margin-left: -100%; }
-            50% { margin-left: -200%; }
-            70% { margin-left: -200%; }
-            75% { margin-left: -300%; }
-            95% { margin-left: -300%; }
-            100% { margin-left: -400%; }
+            20% {
+                margin-left: 0%;
+            }
+            25% {
+                margin-left: -100%;
+            }
+            45% {
+                margin-left: -100%;
+            }
+            50% {
+                margin-left: -200%;
+            }
+            70% {
+                margin-left: -200%;
+            }
+            75% {
+                margin-left: -300%;
+            }
+            95% {
+                margin-left: -300%;
+            }
+            100% {
+                margin-left: -400%;
+            }
         }
+
         @-o-keyframes slidy {
-            20% { margin-left:    0%; }
-            25% { margin-left: -100%; }
-            45% { margin-left: -100%; }
-            50% { margin-left: -200%; }
-            70% { margin-left: -200%; }
-            75% { margin-left: -300%; }
-            95% { margin-left: -300%; }
-            100% { margin-left: -400%; }
+            20% {
+                margin-left: 0%;
+            }
+            25% {
+                margin-left: -100%;
+            }
+            45% {
+                margin-left: -100%;
+            }
+            50% {
+                margin-left: -200%;
+            }
+            70% {
+                margin-left: -200%;
+            }
+            75% {
+                margin-left: -300%;
+            }
+            95% {
+                margin-left: -300%;
+            }
+            100% {
+                margin-left: -400%;
+            }
         }
 
 
@@ -535,7 +682,7 @@
                 font-size: 12px;
             }
 
-            #content-slider .th>[class*='title-'] {
+            #content-slider .th > [class*='title-'] {
                 display: none;
             }
 
@@ -551,50 +698,73 @@
                 display: none;
             }
 
-            #content-slider span.first { display: none; }
+            #content-slider span.first {
+                display: none;
+            }
 
-            #content-slider #control { display: block; }
+            #content-slider #control {
+                display: block;
+            }
 
 
-            #content-slider span#b-2:focus { opacity: 1; }
+            #content-slider span#b-2:focus {
+                opacity: 1;
+            }
 
-            span#b-2:focus ~ span#b-5 { display: none; }
+            span#b-2:focus ~ span#b-5 {
+                display: none;
+            }
 
-            #content-slider span#b-3:focus { opacity: 1; }
+            #content-slider span#b-3:focus {
+                opacity: 1;
+            }
 
-            span#b-3:focus ~ span#b-5 { display: none; }
+            span#b-3:focus ~ span#b-5 {
+                display: none;
+            }
 
-            #content-slider span#b-4:focus { opacity: 1; }
+            #content-slider span#b-4:focus {
+                opacity: 1;
+            }
 
-            span#b-4:focus ~ span#b-5 { display: none; }
+            span#b-4:focus ~ span#b-5 {
+                display: none;
+            }
 
         }
 
         @media (max-width: 480px) {
 
-            #content-slider span.th img { display: none; }
+            #content-slider span.th img {
+                display: none;
+            }
 
         }
     </style>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     <meta charset="utf-8">
     <!--
     <meta name="viewport" content="">
     <meta name="description" content="">
     <meta name="author" content="">
+
+
+
 -->
 
+    <!-- her sayfaya yağıştır bunu dinamik title vs için -->
+    @section('title', $data->title . " content list")
+    @section('mail', 'apartmansitelerys@gmail.com')
+
+    @section('description')
+        {{ $data->description}}
+    @endsection
+
+    @section('keywords', $data->keywords)
 
     <title> @yield('title') </title>
     <meta name="description" content="@yield('description')">
     <meta name="keywords" content="@yield('keywords')">
-
+    <!-- #####################################################################-->
 
 
     <link href="{{asset('assets')}}/css/bootstrap.min.css" rel="stylesheet">
@@ -604,14 +774,17 @@
     <link href="{{asset('assets')}}/css/animate.css" rel="stylesheet">
     <link href="{{asset('assets')}}/css/main.css" rel="stylesheet">
     <link href="{{asset('assets')}}/css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]>
+<!--[if lt IE 9]>
     <script src="{{asset('assets')}}/js/html5shiv.js"></script>
     <script src="{{asset('assets')}}/js/respond.min.js"></script>
     <![endif]-->
     <link rel="shortcut icon" href="{{asset('assets')}}/images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset('assets')}}/images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset('assets')}}/images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset('assets')}}/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+          href="{{asset('assets')}}/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+          href="{{asset('assets')}}/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+          href="{{asset('assets')}}/images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="{{asset('assets')}}/images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 
@@ -619,8 +792,80 @@
 
 
 @include('home._header')
-@include('home._slider')
-@include('home._category')
+
+
+<!-- menu çubuğu-->
+@php
+    $parentMenus = \App\Http\Controllers\HomeController::categorylist()
+@endphp
+
+<div class="col-sm-2">
+    @foreach($parentMenus as $rs)
+        <button type="button" class="collapsible">{{$rs->title}}</button>
+        <div class="content">
+            @if(count($rs->children))
+                @include('home.menutree',['children'=>$rs->children])
+            @endif
+        </div>
+    @endforeach
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</div>
+<!--  menu çubuğu-->
+
+<div class="features_items"><!--features_items-->
+    <h2 class="title text-center">{{\App\Http\Controllers\Admin\MenuController::getParentsTree($data,$data->title)}}</h2>
+@foreach($datalist as $rs)
+    <!-- bir ürün burası-->
+        <div class="col-sm-4">
+            <div class="product-image-wrapper">
+                <div class="single-products">
+                    <div class="productinfo text-center">
+                        <img src="{{Storage::url($rs->image)}}" width="250" height="200" alt=""/>
+
+                        @if ($rs->price == 0)
+
+                        @else
+                            <h2>{{$rs->price}}</h2>
+                        @endif
+
+                        <p>{{$rs->title}}</p>
+                        <a href="{{route('content',['id'=>$rs->id,'slug'=>$rs->slug])}}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>
+                            İncele </a>
+                    </div>
+                </div>
+                <div class="choose">
+                    <ul class="nav nav-pills nav-justified">
+                        <li><a href=""><i class="fa fa-plus-square"></i>Add to Cart</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- bir ürün burası-->
+    @endforeach
+<!--
+    <ul class="pagination">
+        <li class="active"><a href="">1</a></li>
+        <li><a href="">2</a></li>
+        <li><a href="">3</a></li>
+        <li><a href="">&raquo;</a></li>
+    </ul>-->
+</div><!--features_items-->
 
 
 @include('home._footer')

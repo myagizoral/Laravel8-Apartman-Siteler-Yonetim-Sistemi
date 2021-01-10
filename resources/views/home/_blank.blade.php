@@ -26,14 +26,6 @@
             background-color: #f1f1f1;
         }
     </style>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     <style>
         * {
             box-sizing:border-box;
@@ -576,13 +568,6 @@
 
         }
     </style>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     <meta charset="utf-8">
     <!--
     <meta name="viewport" content="">
@@ -619,8 +604,9 @@
 
 
 @include('home._header')
-@include('home._slider')
-@include('home._category')
+
+
+
 
 
 @include('home._footer')

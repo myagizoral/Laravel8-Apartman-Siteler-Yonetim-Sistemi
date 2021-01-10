@@ -5,7 +5,11 @@
         @include('home.menutree',['children'=>$submenu->children])
     @else
 
+<<<<<<< Updated upstream
             <li><a href="#">{{$submenu->title}}</a></li>
+=======
+            <li><a href="{{route('categorycontents',['id'=>$submenu->id,'slug'=>$submenu->slug])}}">{{$submenu->title}}</a></li>
+>>>>>>> Stashed changes
 
 
     @endif

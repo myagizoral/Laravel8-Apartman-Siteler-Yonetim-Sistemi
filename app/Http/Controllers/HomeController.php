@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 use App\Models\Menu;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -27,6 +28,8 @@ use App\Models\Message;
 use App\Models\Setting;
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 use App\Models\Content;
@@ -34,6 +37,9 @@ use App\Models\Menu;
 use App\Models\Message;
 use App\Models\Setting;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -43,6 +49,7 @@ use Illuminate\Support\Facades\Auth;
 class HomeController extends Controller
 {
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -100,6 +107,8 @@ class HomeController extends Controller
         $setting = Setting::first();
         $slider = Content::where('price',0)->select('id','title','image','slug')->limit(4)->get();
 =======
+=======
+>>>>>>> Stashed changes
     public function index()
     {
         $setting = Setting::first();
@@ -109,13 +118,19 @@ class HomeController extends Controller
             ->select('id','title','image','slug')
             ->limit(4)
             ->get();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
         #print_r($slider);
         #exit();
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
         /*
         $users = DB::table('users')
                 ->where('votes', '=', 100)
@@ -123,6 +138,9 @@ class HomeController extends Controller
                 ->get();
         */
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         $data= [
             'setting' => $setting,
@@ -131,6 +149,9 @@ class HomeController extends Controller
         ];
         return view('home.index',$data);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -143,6 +164,9 @@ class HomeController extends Controller
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -157,6 +181,7 @@ class HomeController extends Controller
     //sayfalar başlangıç
     public function aboutus()
     {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -202,6 +227,8 @@ class HomeController extends Controller
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         $setting = Setting::first();
         return view('home.about', ['setting' => $setting]);
     }
@@ -220,6 +247,9 @@ class HomeController extends Controller
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -232,6 +262,7 @@ class HomeController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     //sayfalar bitiş
 >>>>>>> Stashed changes
 =======
@@ -239,6 +270,8 @@ class HomeController extends Controller
     //sayfalar bitiş
 
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 
@@ -253,11 +286,25 @@ class HomeController extends Controller
       exit();
     }
 
+<<<<<<< Updated upstream
 
 
 <<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
+>>>>>>> Stashed changes
+=======
+    public function categorycontents($id,$slug)
+    {
+        $datalist=Content::where('menu_id',$id)->get();
+        $data=Menu::find($id);
+        #print_r($data);
+        #exit();
+        return view('home.menu_contents', ['datalist' => $datalist,'data' => $data]);
+    }
+
+
+
 >>>>>>> Stashed changes
     public function sendmessage(Request $request)
     {
@@ -273,6 +320,9 @@ class HomeController extends Controller
     }
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

@@ -25,6 +25,7 @@ Route::get( '/contact',[HomeController::class,'contact'])->name('contact');
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 <<<<<<< Updated upstream
 =======
@@ -42,6 +43,13 @@ Route::post( '/sendmessage',[HomeController::class,'sendmessage'])->name('sendme
 <<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
+>>>>>>> Stashed changes
+=======
+Route::get( '/content/{id}/{slug}',[HomeController::class,'content'])->name('content');
+Route::get( '/categorycontents/{id}/{slug}',[HomeController::class,'categorycontents'])->name('categorycontents');
+
+Route::post( '/sendmessage',[HomeController::class,'sendmessage'])->name('sendmessage');
+
 >>>>>>> Stashed changes
 //Route::get('/', function () {
   //  return view('home.index');
@@ -90,7 +98,10 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -107,6 +118,9 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -127,7 +141,10 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -153,12 +170,15 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
 =======
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -172,7 +192,10 @@ Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(fu
     Route::get( '/',[UserController::class,'index'])->name('myprofile');
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 });
@@ -181,6 +204,7 @@ Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(fu
 Route::middleware('auth')->prefix('user')->namespace('user')->group(function (){
 
     Route::get( '/profile',[UserController::class,'index'])->name('userprofile');
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 >>>>>>> Stashed changes
 });
@@ -199,6 +223,8 @@ Route::middleware('auth')->prefix('user')->namespace('user')->group(function (){
 Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(function (){
 
     Route::get( '/',[UserController::class,'index'])->name('myprofile');
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 });
