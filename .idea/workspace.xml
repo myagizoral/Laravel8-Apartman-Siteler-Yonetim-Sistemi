@@ -35,6 +35,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <list default="true" id="def88b31-4391-4cc4-bd54-969b22aac868" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContentController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ImageController.php" afterDir="false" />
@@ -86,6 +87,8 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     <list default="true" id="def88b31-4391-4cc4-bd54-969b22aac868" name="Default Changelist" comment="Tasarım iyileştirmeleri yapıldı">
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContentController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ImageController.php" afterDir="false" />
@@ -99,6 +102,9 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -119,6 +125,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
       <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_175727_create_settings_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_180736_setting.php" afterDir="false" />
@@ -132,6 +139,8 @@
       <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_180736_setting.php" afterDir="false" />
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -151,6 +160,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -161,6 +171,11 @@
 =======
       <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_104604_create_messages_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_105214_message.php" afterDir="false" />
+>>>>>>> Stashed changes
+=======
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_104604_create_messages_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_105214_message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_10_100029_add_tur_to_contents.php" afterDir="false" />
 >>>>>>> Stashed changes
 =======
       <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_104604_create_messages_table.php" afterDir="false" />
@@ -189,6 +204,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
       <change afterPath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/home/menutree.blade.php" afterDir="false" />
@@ -241,6 +257,8 @@
       <change afterPath="$PROJECT_DIR$/resources/views/home/message.blade.php" afterDir="false" />
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
       <change afterPath="$PROJECT_DIR$/resources/views/admin/messages.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/admin/messages_edit.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" afterDir="false" />
@@ -250,6 +268,9 @@
       <change afterPath="$PROJECT_DIR$/resources/views/home/menu_contents.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/home/menutree.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/home/message.blade.php" afterDir="false" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       <change afterPath="$PROJECT_DIR$/resources/views/home/references.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/home/user_profile.blade.php" afterDir="false" />
@@ -259,6 +280,9 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -742,9 +766,13 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/home" />
 =======
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layouts" />
+>>>>>>> Stashed changes
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/home" />
 >>>>>>> Stashed changes
 =======
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/home" />
@@ -761,6 +789,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
       <recent name="C:\Users\Mustafa\php\laravel8-Apartman-Siteler-Yonetim-Sistemi\resources\views\layouts" />
 >>>>>>> Stashed changes
@@ -771,6 +800,10 @@
 >>>>>>> Stashed changes
       <recent name="C:\Users\Mustafa\php\laravel8-Apartman-Siteler-Yonetim-Sistemi\resources\views\admin" />
       <recent name="C:\Users\Mustafa\php\laravel8-Apartman-Siteler-Yonetim-Sistemi\resources\views\home" />
+=======
+      <recent name="C:\Users\Mustafa\php\laravel8-Apartman-Siteler-Yonetim-Sistemi\resources\views\home" />
+      <recent name="C:\Users\Mustafa\php\laravel8-Apartman-Siteler-Yonetim-Sistemi\resources\views\admin" />
+>>>>>>> Stashed changes
 =======
       <recent name="C:\Users\Mustafa\php\laravel8-Apartman-Siteler-Yonetim-Sistemi\resources\views\home" />
       <recent name="C:\Users\Mustafa\php\laravel8-Apartman-Siteler-Yonetim-Sistemi\resources\views\admin" />
@@ -834,7 +867,10 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -864,8 +900,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -891,6 +930,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
       <workItem from="1610052700357" duration="2908000" />
@@ -905,6 +945,8 @@
       <workItem from="1610112634089" duration="3467000" />
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -915,6 +957,7 @@
       <workItem from="1610107966757" duration="3731000" />
       <workItem from="1610112634089" duration="3467000" />
       <workItem from="1610189086801" duration="6953000" />
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -933,6 +976,13 @@
       <workItem from="1610204776630" duration="84000" />
       <workItem from="1610205533104" duration="91000" />
       <workItem from="1610272416037" duration="8371000" />
+>>>>>>> Stashed changes
+=======
+      <workItem from="1610197308214" duration="6099000" />
+      <workItem from="1610204776630" duration="84000" />
+      <workItem from="1610205533104" duration="91000" />
+      <workItem from="1610272416037" duration="8732000" />
+      <workItem from="1610282473516" duration="2655000" />
 >>>>>>> Stashed changes
     </task>
     <servers />
@@ -974,6 +1024,7 @@
   </component>
   <component name="WindowStateProjectService">
     <state x="982" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608991396990">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -1135,11 +1186,26 @@
     <state x="540" y="262" key="IDE.errors.dialog" timestamp="1609090871094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+=======
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="982" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1608991396990" />
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610192271646">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1610192271646" />
+    <state x="540" y="262" key="IDE.errors.dialog" timestamp="1609090871094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+>>>>>>> Stashed changes
     <state x="540" y="262" key="IDE.errors.dialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1609090871094" />
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1610278346189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1610278346189" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <state x="461" y="164" key="SettingsEditor" timestamp="1608940754213">
       <screen x="0" y="0" width="1920" height="1040" />

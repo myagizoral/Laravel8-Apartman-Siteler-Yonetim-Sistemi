@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 use App\Models\Menu;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -28,6 +29,8 @@ use App\Models\Message;
 use App\Models\Setting;
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -38,6 +41,9 @@ use App\Models\Message;
 use App\Models\Setting;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -49,6 +55,7 @@ use Illuminate\Support\Facades\Auth;
 class HomeController extends Controller
 {
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -109,10 +116,13 @@ class HomeController extends Controller
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     public function index()
     {
         $setting = Setting::first();
         $slider = Content::
+<<<<<<< Updated upstream
               where('tur','olum')
             ->orWhere('tur' , "duyuru")
             ->select('id','title','image','slug')
@@ -122,13 +132,42 @@ class HomeController extends Controller
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+        where('tur', 'olum')
+            ->orWhere('tur', "duyuru")
+            ->select('id', 'title', 'image', 'slug')
+            ->limit(4)
+            ->get();
+
+        $daily = Content::
+        select('id', 'title', 'image', 'slug', 'price')
+            ->limit(3)
+            ->inRandomOrder()
+            ->get();
+
+        $last = Content::
+        select('id', 'title', 'image', 'slug', 'price')
+            ->limit(3)
+            ->orderbyDesc('id')
+            ->get();
+
+        $duyurular = Content::
+        select('id', 'title', 'image', 'slug', 'price')
+            ->where('tur', 'duyuru')
+            ->limit(6)
+            ->orderbyDesc('id')
+            ->get();
+>>>>>>> Stashed changes
 
         #print_r($slider);
         #exit();
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         /*
@@ -138,6 +177,7 @@ class HomeController extends Controller
                 ->get();
         */
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
@@ -155,6 +195,17 @@ class HomeController extends Controller
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+        $data = [
+            'setting' => $setting,
+            'slider' => $slider,
+            'duyurular' => $duyurular,
+            'last' => $last,
+            'daily' => $daily,
+            'page' => 'home',
+        ];
+        return view('home.index', $data);
+>>>>>>> Stashed changes
     }
 
     public static function categorylist()
@@ -165,6 +216,9 @@ class HomeController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -181,6 +235,7 @@ class HomeController extends Controller
     //sayfalar başlangıç
     public function aboutus()
     {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -229,6 +284,8 @@ class HomeController extends Controller
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         $setting = Setting::first();
         return view('home.about', ['setting' => $setting]);
     }
@@ -248,6 +305,9 @@ class HomeController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -263,6 +323,7 @@ class HomeController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     //sayfalar bitiş
 >>>>>>> Stashed changes
 =======
@@ -274,10 +335,13 @@ class HomeController extends Controller
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 
     //sayfalar bitiş
 
 
+<<<<<<< Updated upstream
 
     public function content($id,$slug)
     {
@@ -306,6 +370,35 @@ class HomeController extends Controller
 
 
 >>>>>>> Stashed changes
+=======
+    public function content($id, $slug)
+    {
+        $data = Content::find($id);
+        print_r($data);
+        exit();
+    }
+
+    public function addtocart($id)
+    {
+
+        echo "Add to Cart";
+        /*
+        $data = Content::find($id);
+        print_r($data);
+        exit();*/
+    }
+
+    public function categorycontents($id, $slug)
+    {
+        $datalist = Content::where('menu_id', $id)->get();
+        $data = Menu::find($id);
+        #print_r($data);
+        #exit();
+        return view('home.menu_contents', ['datalist' => $datalist, 'data' => $data]);
+    }
+
+
+>>>>>>> Stashed changes
     public function sendmessage(Request $request)
     {
         $data = new Message();
@@ -316,6 +409,7 @@ class HomeController extends Controller
         $data->messages = $request->input('messages');
         $data->save();
 
+<<<<<<< Updated upstream
         return redirect()->route('contact')->with('success','Mesajınız iletilmiştir Teşekkür ederiz:)');
     }
 <<<<<<< Updated upstream
@@ -327,6 +421,10 @@ class HomeController extends Controller
 =======
 >>>>>>> Stashed changes
 =======
+>>>>>>> Stashed changes
+=======
+        return redirect()->route('contact')->with('success', 'Mesajınız iletilmiştir Teşekkür ederiz:)');
+    }
 >>>>>>> Stashed changes
 
     public function login()

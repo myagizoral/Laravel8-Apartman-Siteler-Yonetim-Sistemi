@@ -40,7 +40,12 @@ class ContentController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $datalist = Menu::all();
+=======
+       // $datalist = Menu::all();
+        $datalist = Menu::with('children')->get();
+>>>>>>> Stashed changes
 =======
        // $datalist = Menu::all();
         $datalist = Menu::with('children')->get();
@@ -101,6 +106,10 @@ class ContentController extends Controller
         $data->menu_id = $request->input('menu_id');
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        $data->tur = $request->input('tur');//tür bilgisi burda tutulacak 10.01.2021 tarihinde eklendi
+>>>>>>> Stashed changes
 =======
         $data->tur = $request->input('tur');//tür bilgisi burda tutulacak 10.01.2021 tarihinde eklendi
 >>>>>>> Stashed changes
@@ -141,7 +150,12 @@ class ContentController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $datalist = Menu::all();
+=======
+       // $datalist = Menu::all();
+        $datalist = Menu::with('children')->get();
+>>>>>>> Stashed changes
 =======
        // $datalist = Menu::all();
         $datalist = Menu::with('children')->get();
@@ -204,6 +218,10 @@ class ContentController extends Controller
         $data->menu_id = $request->input('menu_id');
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        $data->tur = $request->input('tur');//tür bilgisi burda tutulacak 10.01.2021 tarihinde eklendi
+>>>>>>> Stashed changes
 =======
         $data->tur = $request->input('tur');//tür bilgisi burda tutulacak 10.01.2021 tarihinde eklendi
 >>>>>>> Stashed changes
@@ -223,7 +241,11 @@ class ContentController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes

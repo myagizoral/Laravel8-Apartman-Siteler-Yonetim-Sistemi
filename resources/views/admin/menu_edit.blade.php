@@ -127,6 +127,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Status</label></div>
                     <div class="col-12 col-md-9">
                         <select name="parent_id" id="parant_id" class="form-control-sm form-control">
@@ -134,6 +135,8 @@
                            @foreach($datalist as $rs)
                             <option value="{{$rs->id}}" @if($rs->id == $data->parent_id) selected="selected" @endif>{{$rs->title}}</option>
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -164,6 +167,9 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
