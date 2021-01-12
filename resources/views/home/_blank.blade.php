@@ -575,11 +575,27 @@
     <meta name="author" content="">
 -->
 
+<<<<<<< Updated upstream
+=======
+    <!-- her sayfaya yağıştır bunu dinamik title vs için -->
+    @section('title', $data->title . " content detail")
+    @section('mail', 'apartmansitelerys@gmail.com')
+
+    @section('description')
+        {{ $data->description}}
+    @endsection
+
+    @section('keywords', $data->keywords)
+>>>>>>> Stashed changes
 
     <title> @yield('title') </title>
     <meta name="description" content="@yield('description')">
     <meta name="keywords" content="@yield('keywords')">
+<<<<<<< Updated upstream
 
+=======
+    <!-- #####################################################################-->
+>>>>>>> Stashed changes
 
 
     <link href="{{asset('assets')}}/css/bootstrap.min.css" rel="stylesheet">
@@ -604,7 +620,42 @@
 
 
 @include('home._header')
+<<<<<<< Updated upstream
 
+=======
+<!-- menu çubuğu-->
+@php
+    $parentMenus = \App\Http\Controllers\HomeController::categorylist()
+@endphp
+
+<div class="col-sm-2">
+    @foreach($parentMenus as $rs)
+        <button type="button" class="collapsible">{{$rs->title}}</button>
+        <div class="content">
+            @if(count($rs->children))
+                @include('home.menutree',['children'=>$rs->children])
+            @endif
+        </div>
+    @endforeach
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</div>
+<!--  menu çubuğu-->
+>>>>>>> Stashed changes
 
 
 
