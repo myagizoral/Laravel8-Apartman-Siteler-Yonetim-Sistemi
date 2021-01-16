@@ -1098,9 +1098,12 @@
     <div>
         <br>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     </div>
 </div>
 =======
+=======
+>>>>>>> Stashed changes
         <h3>Write your review</h3>
         @livewire('review',['id' => $data->id])
     </div>
@@ -1116,6 +1119,9 @@
 
     </div>
     </div>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 

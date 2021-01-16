@@ -577,7 +577,10 @@
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     <!-- her sayfaya yağıştır bunu dinamik title vs için -->
@@ -590,6 +593,9 @@
 
     @section('keywords', $data->keywords)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -599,7 +605,11 @@
     <meta name="keywords" content="@yield('keywords')">
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+    <!-- #####################################################################-->
+>>>>>>> Stashed changes
 =======
     <!-- #####################################################################-->
 >>>>>>> Stashed changes
@@ -632,8 +642,11 @@
 @include('home._header')
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 <!-- menu çubuğu-->
@@ -669,6 +682,9 @@
 </div>
 <!--  menu çubuğu-->
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
