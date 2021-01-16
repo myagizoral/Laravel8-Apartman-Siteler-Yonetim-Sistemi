@@ -1097,8 +1097,26 @@
     <h3>{!!$data->detail!!}</h3>
     <div>
         <br>
+<<<<<<< Updated upstream
     </div>
 </div>
+=======
+        <h3>Write your review</h3>
+        @livewire('review',['id' => $data->id])
+    </div>
+    <div>
+      <h3>Yorumlar</h3>
+        @foreach($reviews as $rs)
+           <h4>Kullanıcı adı</h4>{{$rs->user->name}}
+            <h4>Oluşturma tarihi</h4>{{$rs->created_at}}
+            <h4>Yorum Başlığı</h4>{{$rs->subject}}
+            <h4>Yorum</h4><p>{{$rs->review}}</p>
+            <h4>----------------------------------------</h4>
+        @endforeach
+
+    </div>
+    </div>
+>>>>>>> Stashed changes
 
 
 @include('home._footer')

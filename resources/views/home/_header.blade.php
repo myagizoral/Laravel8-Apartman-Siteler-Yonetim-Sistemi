@@ -83,6 +83,10 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+                                <li><a href="{{route('myprofile')}}"><i class="fa fa-user"></i> Hesabım</a></li>
+>>>>>>> Stashed changes
 =======
                                 <li><a href="{{route('myprofile')}}"><i class="fa fa-user"></i> Hesabım</a></li>
 >>>>>>> Stashed changes
@@ -169,11 +173,14 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             <li><a href="{{route('contact')}}">İletişim</a></li>
                             <li><a href="{{route('aboutus')}}">Hakkımızda</a></li>
                             <li><a href="{{route('references')}}">Referanslar</a></li>
                             <li><a href="{{route('faq')}}">Sıkça Sorulan Sorular</a></li>
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -197,6 +204,9 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -214,11 +224,16 @@
                         </ul>
                     </div>
                 </div>
+
                 <div class="col-sm-3">
-                    <div class="search_box pull-right">
-                        <input type="text" placeholder="Search"/>
-                    </div>
+                    <form action="{{route('getcontent')}}" method="post">
+                    @csrf
+                    @livewire('search')
+                        <button type="submit">ARA</button>
+                    </form>
+                     @livewireScripts
                 </div>
+
             </div>
         </div>
     </div><!--/header-bottom-->

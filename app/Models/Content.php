@@ -19,7 +19,10 @@ class Content extends Model
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -56,6 +59,7 @@ class Content extends Model
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -76,5 +80,13 @@ class Content extends Model
 =======
 >>>>>>> Stashed changes
 =======
+>>>>>>> Stashed changes
+=======
+
+    public function reviews()
+    {
+        return $this->hasMany(Review::class);
+    }
+
 >>>>>>> Stashed changes
 }

@@ -576,7 +576,10 @@
 -->
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     <!-- her sayfaya yağıştır bunu dinamik title vs için -->
     @section('title', $data->title . " content detail")
     @section('mail', 'apartmansitelerys@gmail.com')
@@ -586,13 +589,20 @@
     @endsection
 
     @section('keywords', $data->keywords)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     <title> @yield('title') </title>
     <meta name="description" content="@yield('description')">
     <meta name="keywords" content="@yield('keywords')">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+    <!-- #####################################################################-->
+>>>>>>> Stashed changes
 =======
     <!-- #####################################################################-->
 >>>>>>> Stashed changes
@@ -621,8 +631,11 @@
 
 @include('home._header')
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 =======
+=======
+>>>>>>> Stashed changes
 <!-- menu çubuğu-->
 @php
     $parentMenus = \App\Http\Controllers\HomeController::categorylist()
@@ -655,6 +668,9 @@
     </script>
 </div>
 <!--  menu çubuğu-->
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 
