@@ -44,8 +44,11 @@ return [
     'features' => [
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
            Features::profilePhotos(),
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         // Features::termsAndPrivacyPolicy(),

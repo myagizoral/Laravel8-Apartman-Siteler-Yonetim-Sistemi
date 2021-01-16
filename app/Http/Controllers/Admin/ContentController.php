@@ -44,7 +44,12 @@ class ContentController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $datalist = Menu::all();
+=======
+       // $datalist = Menu::all();
+        $datalist = Menu::with('children')->get();
+>>>>>>> Stashed changes
 =======
        // $datalist = Menu::all();
         $datalist = Menu::with('children')->get();
@@ -114,7 +119,20 @@ class ContentController extends Controller
         $data->keywords = $request->input('keywords');
         $data->description = $request->input('description');
         $data->image = $request->input('image');
+<<<<<<< Updated upstream
         $data->price = $request->input('price');
+=======
+
+        if($request->tur != "aidat")
+        {
+
+        }
+        else{
+            $data->price = $request->input('price');
+        }
+
+        //$data->price = $request->input('price');
+>>>>>>> Stashed changes
         $data->detail = $request->input('detail');
         $data->status = $request->input('status');
         $data->slug = $request->input('slug');
@@ -125,6 +143,10 @@ class ContentController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        $data->tur = $request->input('tur');//tür bilgisi burda tutulacak 10.01.2021 tarihinde eklendi
+>>>>>>> Stashed changes
 =======
         $data->tur = $request->input('tur');//tür bilgisi burda tutulacak 10.01.2021 tarihinde eklendi
 >>>>>>> Stashed changes
@@ -181,7 +203,12 @@ class ContentController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $datalist = Menu::all();
+=======
+       // $datalist = Menu::all();
+        $datalist = Menu::with('children')->get();
+>>>>>>> Stashed changes
 =======
        // $datalist = Menu::all();
         $datalist = Menu::with('children')->get();
@@ -253,7 +280,19 @@ class ContentController extends Controller
         $data->keywords = $request->input('keywords');
         $data->description = $request->input('description');
         $data->image = $request->input('image');
+<<<<<<< Updated upstream
         $data->price = $request->input('price');
+=======
+
+        if($request->tur != "aidat")
+        {
+
+        }
+        else{
+            $data->price = $request->input('price');
+        }
+
+>>>>>>> Stashed changes
         $data->detail = $request->input('detail');
         $data->status = $request->input('status');
         $data->slug = $request->input('slug');
@@ -264,6 +303,10 @@ class ContentController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        $data->tur = $request->input('tur');//tür bilgisi burda tutulacak 10.01.2021 tarihinde eklendi
+>>>>>>> Stashed changes
 =======
         $data->tur = $request->input('tur');//tür bilgisi burda tutulacak 10.01.2021 tarihinde eklendi
 >>>>>>> Stashed changes
@@ -299,7 +342,11 @@ class ContentController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes

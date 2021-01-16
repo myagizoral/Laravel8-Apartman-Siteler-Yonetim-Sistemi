@@ -9,6 +9,7 @@ namespace App\Http\Controllers;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 use App\Models\Menu;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -62,6 +63,11 @@ use App\Models\Review;
 use App\Models\Faq;
 use App\Models\Review;
 >>>>>>> Stashed changes
+=======
+//use App\Http\Livewire\
+use App\Models\Faq;
+use App\Models\Review;
+>>>>>>> Stashed changes
 use App\Models\Content;
 use App\Models\Image;
 use App\Models\Menu;
@@ -69,6 +75,9 @@ use App\Models\Message;
 use App\Models\Setting;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -80,6 +89,7 @@ use Illuminate\Support\Facades\Auth;
 class HomeController extends Controller
 {
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -152,10 +162,13 @@ class HomeController extends Controller
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     public function index()
     {
         $setting = Setting::first();
         $slider = Content::
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -170,6 +183,8 @@ class HomeController extends Controller
 =======
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -203,6 +218,9 @@ class HomeController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -220,7 +238,10 @@ class HomeController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -238,6 +259,7 @@ class HomeController extends Controller
                 ->get();
         */
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -266,6 +288,8 @@ class HomeController extends Controller
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         $data = [
             'setting' => $setting,
             'slider' => $slider,
@@ -278,6 +302,9 @@ class HomeController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -299,6 +326,9 @@ class HomeController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -323,6 +353,7 @@ class HomeController extends Controller
     //sayfalar başlangıç
     public function aboutus()
     {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -383,6 +414,8 @@ class HomeController extends Controller
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         $setting = Setting::first();
         return view('home.about', ['setting' => $setting]);
     }
@@ -399,6 +432,7 @@ class HomeController extends Controller
         return view('home.references', ['setting' => $setting]);
     }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -486,12 +520,17 @@ class HomeController extends Controller
 =======
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
     public function faq()
     {
         //return view('home.about');
         $datalist = Faq::all()->sortBy('position');
         return view('home.faq', ['datalist' => $datalist]);
     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     //sayfalar bitiş
@@ -503,6 +542,7 @@ class HomeController extends Controller
         $datalist = Image::where('content_id', $id)->get();
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         //print_r($data);
         //exit();
         return view('home.content_detail ', ['datalist' => $datalist, 'data' => $data]);
@@ -510,11 +550,16 @@ class HomeController extends Controller
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         $reviews = Review::where('content_id',$id)->get();
         //print_r($data);
         //exit();
         return view('home.content_detail ', ['datalist' => $datalist, 'data' => $data, 'reviews' => $reviews]);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -541,12 +586,15 @@ class HomeController extends Controller
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 <<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     public function getcontent(Request $request)
@@ -577,6 +625,9 @@ class HomeController extends Controller
     }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -594,6 +645,7 @@ class HomeController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         return redirect()->route('contact')->with('success','Mesajınız iletilmiştir Teşekkür ederiz:)');
     }
 <<<<<<< Updated upstream
@@ -605,6 +657,10 @@ class HomeController extends Controller
 =======
 >>>>>>> Stashed changes
 =======
+>>>>>>> Stashed changes
+=======
+        return redirect()->route('contact')->with('success', 'Mesajınız iletilmiştir Teşekkür ederiz:)');
+    }
 >>>>>>> Stashed changes
 =======
         return redirect()->route('contact')->with('success', 'Mesajınız iletilmiştir Teşekkür ederiz:)');

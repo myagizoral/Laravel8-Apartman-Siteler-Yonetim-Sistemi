@@ -18,6 +18,12 @@ use Illuminate\Support\Facades\Route;
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+Route::post( '/getcontent',[HomeController::class,'getcontent'])->name('getcontent');
+Route::get( '/contentlist/{search}',[HomeController::class,'contentlist'])->name('contentlist');
+
+>>>>>>> Stashed changes
 =======
 Route::post( '/getcontent',[HomeController::class,'getcontent'])->name('getcontent');
 Route::get( '/contentlist/{search}',[HomeController::class,'contentlist'])->name('contentlist');
@@ -42,6 +48,7 @@ Route::get( '/contact',[HomeController::class,'contact'])->name('contact');
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 <<<<<<< Updated upstream
 =======
@@ -68,6 +75,8 @@ Route::post( '/sendmessage',[HomeController::class,'sendmessage'])->name('sendme
 
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -83,6 +92,9 @@ Route::post( '/sendmessage',[HomeController::class,'sendmessage'])->name('sendme
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -142,6 +154,7 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 =======
 >>>>>>> Stashed changes
@@ -156,6 +169,8 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 =======
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
     //FAq
     Route::prefix('faq')->group(function() {
 
@@ -168,6 +183,9 @@ Route::middleware('auth')->prefix('admin')->group(function (){
         Route::get( 'show',[\App\Http\Controllers\Admin\FaqController::class,'show'])->name('admin_faq_show');
     });
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     //messages
     Route::prefix('messages')->group(function() {
@@ -186,6 +204,7 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -198,6 +217,8 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 =======
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     //reviews
@@ -209,6 +230,9 @@ Route::middleware('auth')->prefix('admin')->group(function (){
     });
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -232,7 +256,10 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -273,12 +300,15 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
 =======
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -307,6 +337,7 @@ Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(fu
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 =======
 >>>>>>> Stashed changes
@@ -318,6 +349,16 @@ Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(fu
 =======
     Route::get( '/myreviews',[UserController::class,'myreviews'])->name('myreviews');
     Route::get( 'destroymyreviews/{id}',[UserController::class,'destroymyreviews'])->name('user_review_delete');
+=======
+    Route::get( '/myreviews',[UserController::class,'myreviews'])->name('myreviews');
+    Route::get( 'destroymyreviews/{id}',[UserController::class,'destroymyreviews'])->name('user_review_delete');
+});
+
+
+Route::middleware('auth')->prefix('user')->namespace('user')->group(function (){
+
+    Route::get( '/profile',[UserController::class,'index'])->name('userprofile');
+>>>>>>> Stashed changes
 });
 
 

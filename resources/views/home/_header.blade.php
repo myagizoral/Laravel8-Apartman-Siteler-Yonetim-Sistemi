@@ -85,6 +85,10 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+                                <li><a href="{{route('myprofile')}}"><i class="fa fa-user"></i> Hesabım</a></li>
+>>>>>>> Stashed changes
 =======
                                 <li><a href="{{route('myprofile')}}"><i class="fa fa-user"></i> Hesabım</a></li>
 >>>>>>> Stashed changes
@@ -179,11 +183,14 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             <li><a href="{{route('contact')}}">İletişim</a></li>
                             <li><a href="{{route('aboutus')}}">Hakkımızda</a></li>
                             <li><a href="{{route('references')}}">Referanslar</a></li>
                             <li><a href="{{route('faq')}}">Sıkça Sorulan Sorular</a></li>
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -213,6 +220,9 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

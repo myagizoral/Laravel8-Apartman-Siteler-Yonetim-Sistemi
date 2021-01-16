@@ -883,6 +883,34 @@
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
     </style>
+<<<<<<< Updated upstream
+=======
+    <style>
+        .accordion {
+            background-color: #eea236;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+
+        .active, .accordion:hover {
+            background-color: #ccc;
+        }
+
+        .panel {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+        }
+    </style>
+>>>>>>> Stashed changes
     <meta charset="utf-8">
     <!--
     <meta name="viewport" content="">
@@ -1099,23 +1127,34 @@
         <br>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     </div>
 </div>
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         <h3>Write your review</h3>
         @livewire('review',['id' => $data->id])
     </div>
     <div>
+<<<<<<< Updated upstream
       <h3>Yorumlar</h3>
         @foreach($reviews as $rs)
            <h4>Kullanıcı adı</h4>{{$rs->user->name}}
+=======
+        <!--
+      <h3>Yorumlar</h3>
+        @foreach($reviews as $rs)
+            <h4>Kullanıcı adı</h4>{{$rs->user->name}}
+>>>>>>> Stashed changes
             <h4>Oluşturma tarihi</h4>{{$rs->created_at}}
             <h4>Yorum Başlığı</h4>{{$rs->subject}}
             <h4>Yorum</h4><p>{{$rs->review}}</p>
             <h4>----------------------------------------</h4>
         @endforeach
+<<<<<<< Updated upstream
 
     </div>
     </div>
@@ -1124,6 +1163,39 @@
 =======
 >>>>>>> Stashed changes
 
+=======
+            -->
+
+        <h4>Accordion Yorum Tablosu</h4>
+        @foreach($reviews as $rs)
+        <button class="accordion">{{$rs->subject}}</button>
+        <div class="panel">
+            <h4>Kullanıcı adı</h4>{{$rs->user->name}}
+            <h4>Oluşturma tarihi</h4>{{$rs->created_at}}
+            <h4>Yorum Başlığı</h4>{{$rs->subject}}
+            <h4>Yorum</h4><p>{{$rs->review}}</p>
+        </div>
+        @endforeach
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+        </script>
+
+    </div>
+    </div>
+>>>>>>> Stashed changes
 
 @include('home._footer')
 

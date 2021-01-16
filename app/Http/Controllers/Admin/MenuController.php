@@ -48,7 +48,12 @@ class MenuController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $datalist = DB::select('select * from menus');
+=======
+       //$datalist = DB::select('select * from menus');
+        $datalist = Menu::with('children')->get();
+>>>>>>> Stashed changes
 =======
        //$datalist = DB::select('select * from menus');
         $datalist = Menu::with('children')->get();
@@ -148,7 +153,12 @@ class MenuController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $datalist = DB::table('menus')->get()->where('parent_id', 0);
+=======
+       // $datalist = DB::table('menus')->get()->where('parent_id', 0);
+        $datalist = Menu::with('children')->get();
+>>>>>>> Stashed changes
 =======
        // $datalist = DB::table('menus')->get()->where('parent_id', 0);
         $datalist = Menu::with('children')->get();
@@ -249,7 +259,12 @@ class MenuController extends Controller
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $datalist = DB::table('menus')->get()->where('parent_id', 0);
+=======
+       // $datalist = DB::table('menus')->get()->where('parent_id', 0);
+        $datalist = Menu::with('children')->get();
+>>>>>>> Stashed changes
 =======
        // $datalist = DB::table('menus')->get()->where('parent_id', 0);
         $datalist = Menu::with('children')->get();
