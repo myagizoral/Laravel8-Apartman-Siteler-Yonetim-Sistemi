@@ -884,7 +884,10 @@
         }
     </style>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     <style>
         .accordion {
             background-color: #eea236;
@@ -910,6 +913,9 @@
             overflow: hidden;
         }
     </style>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <meta charset="utf-8">
     <!--
@@ -1110,7 +1116,11 @@
                             <br>
                             <button type="button" class="btn btn-fefault cart">
                                 <i class="fa fa-shopping-cart"></i>
+<<<<<<< Updated upstream
                                 <a href="{{route('addtocart',['id'=>$data->id])}}">add to cart</a>
+=======
+                                <a href="{{route('payments',['contentid'=>$data->id,'useridx'=>Auth::id()])}}">ÖDE</a>
+>>>>>>> Stashed changes
                             </button>
                         @endif
                     </span>
@@ -1128,9 +1138,12 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     </div>
 </div>
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1140,14 +1153,20 @@
     </div>
     <div>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <h3>Yorumlar</h3>
         @foreach($reviews as $rs)
            <h4>Kullanıcı adı</h4>{{$rs->user->name}}
 =======
+=======
+>>>>>>> Stashed changes
         <!--
       <h3>Yorumlar</h3>
         @foreach($reviews as $rs)
             <h4>Kullanıcı adı</h4>{{$rs->user->name}}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             <h4>Oluşturma tarihi</h4>{{$rs->created_at}}
             <h4>Yorum Başlığı</h4>{{$rs->subject}}
@@ -1155,6 +1174,7 @@
             <h4>----------------------------------------</h4>
         @endforeach
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
     </div>
     </div>
@@ -1164,6 +1184,8 @@
 >>>>>>> Stashed changes
 
 =======
+=======
+>>>>>>> Stashed changes
             -->
 
         <h4>Accordion Yorum Tablosu</h4>
@@ -1195,6 +1217,9 @@
 
     </div>
     </div>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 @include('home._footer')

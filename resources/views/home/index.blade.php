@@ -11,7 +11,10 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -56,6 +59,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 @section('description')
     {{ $setting->description}}
@@ -100,6 +104,13 @@
 
 @section('description')
     {{ $setting->description}}
+@endsection
+
+>>>>>>> Stashed changes
+=======
+
+@section('description')
+      {{ $setting->description}}
 @endsection
 
 >>>>>>> Stashed changes
