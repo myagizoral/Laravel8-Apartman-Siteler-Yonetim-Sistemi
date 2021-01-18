@@ -63,4 +63,16 @@ class User extends Authenticatable
     {
         return $this->hasMany(Review::class);
     }
+<<<<<<< Updated upstream
+=======
+    public function payments()
+    {
+        return $this->hasMany(Payments::class);
+    }
+
+    public function roles()
+    {
+        return $this->belongsToMany(Role::class);
+    }
+>>>>>>> Stashed changes
 }

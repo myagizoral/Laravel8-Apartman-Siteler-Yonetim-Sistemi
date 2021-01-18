@@ -4,8 +4,8 @@
     <header id="header" class="header">
         <div class="top-left">
             <div class="navbar-header">
-                <a class="navbar-brand" href="./"><img src="{{asset('assets')}}/admin/assets/images/logo.png" alt="Logo"></a>
-                <a class="navbar-brand hidden" href="./"><img src="{{asset('assets')}}/admin/assets/images/logo2.png" alt="Logo"></a>
+                <a class="navbar-brand" href="#"><img src="{{asset('assets')}}/admin/assets/images/logo.png" alt="Logo"></a>
+                <a class="navbar-brand hidden" href="#"><img src="{{asset('assets')}}/admin/assets/images/logo2.png" alt="Logo"></a>
                 <a id="menuToggle" class="menutoggle"><i class="fa fa-bars"></i></a>
             </div>
         </div>
@@ -19,7 +19,7 @@
                             <button class="search-close" type="submit"><i class="fa fa-close"></i></button>
                         </form>
                     </div>
-
+                    @include('home.message')
                     <div class="dropdown for-notification">
                         <button class="btn btn-secondary dropdown-toggle" type="button" id="notification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-bell"></i>
@@ -92,14 +92,12 @@
 
                     <div class="user-menu dropdown-menu">
                         @auth
-                            <a href="#" ><font color="FF00CC">{{Auth::user()->name}}</font></a>
+                            <a href="#"  ><font color="FF00CC">{{Auth::user()->name}}</font></a>
                         <br>
                             <a href="{{route('logout')}}"><font color="007618">LOGOUT</font></a>
                         @endauth
 
-                        <a class="nav-link" href="#"><i class="fa fa- user"></i>Notifications <span class="count">13</span></a>
 
-                        <a class="nav-link" href="#"><i class="fa fa -cog"></i>Settings</a>
 
 
                     </div>

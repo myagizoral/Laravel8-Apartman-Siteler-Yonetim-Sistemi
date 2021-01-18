@@ -116,7 +116,12 @@
                             @foreach($datalist as $rs)
                                 <tr>
                                     <td>{{$rs->id}}</td>
+<<<<<<< Updated upstream
                                     <td>{{$rs->user->name}}</td>
+=======
+                                    <td><a href="{{route('admin_user_show',['id'=>$rs->user->id])}}" target="_blank"> {{$rs->user->name}}</a>
+                                    </td>
+>>>>>>> Stashed changes
                                     <td><a href="{{route('content',['id'=>$rs->content->id,'slug'=>$rs->content->slug])}}"
                                            target="_blank">{{$rs->content->title}}</a></td>
                                     <td>{{$rs->subject}}</td>

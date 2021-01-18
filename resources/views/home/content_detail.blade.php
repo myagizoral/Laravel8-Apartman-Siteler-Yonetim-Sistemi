@@ -885,7 +885,10 @@
     </style>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     <style>
@@ -914,6 +917,9 @@
         }
     </style>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1117,7 +1123,11 @@
                             <button type="button" class="btn btn-fefault cart">
                                 <i class="fa fa-shopping-cart"></i>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                 <a href="{{route('addtocart',['id'=>$data->id])}}">add to cart</a>
+=======
+                                <a href="{{route('payments',['contentid'=>$data->id,'useridx'=>Auth::id()])}}">ÖDE</a>
+>>>>>>> Stashed changes
 =======
                                 <a href="{{route('payments',['contentid'=>$data->id,'useridx'=>Auth::id()])}}">ÖDE</a>
 >>>>>>> Stashed changes
@@ -1135,6 +1145,7 @@
     <h3>{!!$data->detail!!}</h3>
     <div>
         <br>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -1160,11 +1171,20 @@
 =======
 =======
 >>>>>>> Stashed changes
+=======
+        <h3>Yorumlarınızı Yazabilirsiniz</h3>
+        @livewire('review',['id' => $data->id])
+    </div>
+    <div>
+>>>>>>> Stashed changes
         <!--
       <h3>Yorumlar</h3>
         @foreach($reviews as $rs)
             <h4>Kullanıcı adı</h4>{{$rs->user->name}}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1175,6 +1195,7 @@
         @endforeach
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
     </div>
     </div>
@@ -1184,6 +1205,8 @@
 >>>>>>> Stashed changes
 
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             -->
@@ -1218,6 +1241,9 @@
     </div>
     </div>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

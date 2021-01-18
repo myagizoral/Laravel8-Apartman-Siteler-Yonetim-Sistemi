@@ -1,4 +1,7 @@
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +31,11 @@
     </style>
     <style>
         * {
+<<<<<<< Updated upstream
             box-sizing:border-box;
+=======
+            box-sizing: border-box;
+>>>>>>> Stashed changes
         }
 
         body,
@@ -87,7 +94,11 @@
         /* -------> Responsive images (ensure images don't scale beyond their parents) */
         #content-slider img {
             max-width: 100%;
+<<<<<<< Updated upstream
             width: auto\9;
+=======
+            width: auto \9;
+>>>>>>> Stashed changes
             height: auto;
             vertical-align: middle;
             border: 0;
@@ -152,7 +163,11 @@
             transition: all 0.5s ease-in-out;
         }
 
+<<<<<<< Updated upstream
         #content-slider .th>[class*='title-'] {
+=======
+        #content-slider .th > [class*='title-'] {
+>>>>>>> Stashed changes
             width: auto;
             height: auto;
             position: absolute;
@@ -198,6 +213,7 @@
         }
 
         /* -------> Article IMg Slider */
+<<<<<<< Updated upstream
         #content-slider .slider h1 { font-size: 1.5rem; }
 
         #content-slider .slider p {	font-size: 1.2rem; }
@@ -210,6 +226,32 @@
         #content-slider .th p { font-size: .875rem; }
 
         #content-slider .th a { font-size: .75rem; }
+=======
+        #content-slider .slider h1 {
+            font-size: 1.5rem;
+        }
+
+        #content-slider .slider p {
+            font-size: 1.2rem;
+        }
+
+        #content-slider .slider a {
+            font-size: 1rem;
+        }
+
+        /* -------> Article IMg Prev */
+        #content-slider .th h1 {
+            font-size: 1rem;
+        }
+
+        #content-slider .th p {
+            font-size: .875rem;
+        }
+
+        #content-slider .th a {
+            font-size: .75rem;
+        }
+>>>>>>> Stashed changes
 
         #content-slider .th img {
             position: relative;
@@ -269,10 +311,28 @@
             cursor: pointer;
         }
 
+<<<<<<< Updated upstream
         #b-1 { left: 0; }
         #b-2 { left: 25%; }
         #b-3 { left: 50%; }
         #b-4 { left: 75%; }
+=======
+        #b-1 {
+            left: 0;
+        }
+
+        #b-2 {
+            left: 25%;
+        }
+
+        #b-3 {
+            left: 50%;
+        }
+
+        #b-4 {
+            left: 75%;
+        }
+>>>>>>> Stashed changes
 
         #content-slider input[type='radio'] {
             width: 10px;
@@ -282,7 +342,11 @@
             display: none;
         }
 
+<<<<<<< Updated upstream
         #control{
+=======
+        #control {
+>>>>>>> Stashed changes
             position: absolute;
             left: 3%;
             z-index: 5;
@@ -290,7 +354,11 @@
             width: 95%;
         }
 
+<<<<<<< Updated upstream
         #content-slider label.first{
+=======
+        #content-slider label.first {
+>>>>>>> Stashed changes
             width: 9px;
             height: 9px;
             margin: 0 2px;
@@ -329,7 +397,11 @@
             display: none;
         }
 
+<<<<<<< Updated upstream
         #content-slider #control{
+=======
+        #content-slider #control {
+>>>>>>> Stashed changes
             position: absolute;
             left: 3%;
             z-index: 15;
@@ -339,12 +411,17 @@
 
             /*display: none;*/
             height: 50px;
+<<<<<<< Updated upstream
             top:50%;
+=======
+            top: 50%;
+>>>>>>> Stashed changes
             margin-top: -25px;
         }
 
 
         /* -------> Controls */
+<<<<<<< Updated upstream
         #main>label:hover { width: 9px; height: 9px; background: #FFF; border: 1px solid #00ABFA; }
 
         input#a-1:checked ~ .slider .inset { margin-left: 0%;   }
@@ -368,6 +445,65 @@
         input#a-2:checked ~ #control>label:nth-child(1),
         input#a-3:checked ~ #control>label:nth-child(2),
         input#a-4:checked ~ #control>label:nth-child(3) {
+=======
+        #main > label:hover {
+            width: 9px;
+            height: 9px;
+            background: #FFF;
+            border: 1px solid #00ABFA;
+        }
+
+        input#a-1:checked ~ .slider .inset {
+            margin-left: 0%;
+        }
+
+        input#a-2:checked ~ .slider .inset {
+            margin-left: -100%;
+        }
+
+        input#a-3:checked ~ .slider .inset {
+            margin-left: -200%;
+        }
+
+        input#a-4:checked ~ .slider .inset {
+            margin-left: -300%;
+        }
+
+        input#a-5:checked ~ .slider .inset {
+            margin-left: -400%;
+        }
+
+
+        input#a-1:checked ~ #main > label:nth-child(1) {
+            opacity: 1;
+            background: #fff;
+        }
+
+        input#a-2:checked ~ #main > label:nth-child(2) {
+            opacity: 1;
+            background: #fff;
+        }
+
+        input#a-3:checked ~ #main > label:nth-child(3) {
+            opacity: 1;
+            background: #fff;
+        }
+
+        input#a-4:checked ~ #main > label:nth-child(4) {
+            opacity: 1;
+            background: #fff;
+        }
+
+        input#a-1:checked ~ #control > label:nth-child(2),
+        input#a-2:checked ~ #control > label:nth-child(3),
+        input#a-3:checked ~ #control > label:nth-child(4),
+        input#a-4:checked ~ #control > label:nth-child(1),
+        input#a-5:checked ~ #control > label:nth-child(1),
+        input#a-1:checked ~ #control > label:nth-child(4),
+        input#a-2:checked ~ #control > label:nth-child(1),
+        input#a-3:checked ~ #control > label:nth-child(2),
+        input#a-4:checked ~ #control > label:nth-child(3) {
+>>>>>>> Stashed changes
             width: 50px;
             height: 50px;
             top: 50%;
@@ -377,6 +513,7 @@
             cursor: pointer;
         }
 
+<<<<<<< Updated upstream
         input#a-1:checked ~ #control>label:nth-child(2):after,
         input#a-2:checked ~ #control>label:nth-child(3):after,
         input#a-3:checked ~ #control>label:nth-child(4):after,
@@ -399,10 +536,35 @@
         input#a-2:checked ~ #control>label:nth-child(3),
         input#a-3:checked ~ #control>label:nth-child(4),
         input#a-4:checked ~ #control>label:nth-child(1) {
+=======
+        input#a-1:checked ~ #control > label:nth-child(2):after,
+        input#a-2:checked ~ #control > label:nth-child(3):after,
+        input#a-3:checked ~ #control > label:nth-child(4):after,
+        input#a-4:checked ~ #control > label:nth-child(1):after,
+        input#a-5:checked ~ #control > label:nth-child(1):after,
+        input#a-1:checked ~ #control > label:nth-child(4):after,
+        input#a-2:checked ~ #control > label:nth-child(1):after,
+        input#a-3:checked ~ #control > label:nth-child(2):after,
+        input#a-4:checked ~ #control > label:nth-child(3):after {
+            font-family: FontAwesome;
+            font-size: 7rem;
+            line-height: 7rem;
+            color: #00ABFA;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        input#a-1:checked ~ #control > label:nth-child(2),
+        input#a-2:checked ~ #control > label:nth-child(3),
+        input#a-3:checked ~ #control > label:nth-child(4),
+        input#a-4:checked ~ #control > label:nth-child(1) {
+>>>>>>> Stashed changes
             float: right;
             right: 0.3%;
         }
 
+<<<<<<< Updated upstream
         input#a-1:checked ~ #control>label:nth-child(2):after,
         input#a-2:checked ~ #control>label:nth-child(3):after,
         input#a-3:checked ~ #control>label:nth-child(4):after,
@@ -414,10 +576,24 @@
         input#a-2:checked ~ #control>label:nth-child(1),
         input#a-3:checked ~ #control>label:nth-child(2),
         input#a-4:checked ~ #control>label:nth-child(3) {
+=======
+        input#a-1:checked ~ #control > label:nth-child(2):after,
+        input#a-2:checked ~ #control > label:nth-child(3):after,
+        input#a-3:checked ~ #control > label:nth-child(4):after,
+        input#a-4:checked ~ #control > label:nth-child(1):after {
+            content: "\f105";
+        }
+
+        input#a-1:checked ~ #control > label:nth-child(4),
+        input#a-2:checked ~ #control > label:nth-child(1),
+        input#a-3:checked ~ #control > label:nth-child(2),
+        input#a-4:checked ~ #control > label:nth-child(3) {
+>>>>>>> Stashed changes
             float: left;
             left: 0.3%;
         }
 
+<<<<<<< Updated upstream
         input#a-1:checked ~ #control>label:nth-child(4):after,
         input#a-2:checked ~ #control>label:nth-child(1):after,
         input#a-3:checked ~ #control>label:nth-child(2):after,
@@ -438,36 +614,108 @@
         span#b-5:focus ~ .slider .inset { margin-left:-400%; }
 
         #content-slider input:checked ~ .slider>.inset {
+=======
+        input#a-1:checked ~ #control > label:nth-child(4):after,
+        input#a-2:checked ~ #control > label:nth-child(1):after,
+        input#a-3:checked ~ #control > label:nth-child(2):after,
+        input#a-4:checked ~ #control > label:nth-child(3):after {
+            content: "\f104";
+        }
+
+        span#a-1:focus ~ .slider .inset {
+            margin-left: 0%;
+        }
+
+        span#a-2:focus ~ .slider .inset {
+            margin-left: -100%;
+        }
+
+        span#a-3:focus ~ .slider .inset {
+            margin-left: -200%;
+        }
+
+        span#a-4:focus ~ .slider .inset {
+            margin-left: -300%;
+        }
+
+        span#a-5:focus ~ .slider .inset {
+            margin-left: -400%;
+        }
+
+        span#b-1:focus ~ .slider .inset {
+            margin-left: 0%;
+        }
+
+        span#b-2:focus ~ .slider .inset {
+            margin-left: -100%;
+        }
+
+        span#b-3:focus ~ .slider .inset {
+            margin-left: -200%;
+        }
+
+        span#b-4:focus ~ .slider .inset {
+            margin-left: -300%;
+        }
+
+        span#b-5:focus ~ .slider .inset {
+            margin-left: -400%;
+        }
+
+        #content-slider input:checked ~ .slider > .inset {
+>>>>>>> Stashed changes
             -webkit-animation: none;
             -moz-animation: none;
             -ms-animation: none;
             -o-animation: none;
             animation: none;
         }
+<<<<<<< Updated upstream
         #content-slider input:hover ~ .slider>.inset,
         #content-slider label:hover ~ .slider>.inset {
+=======
+
+        #content-slider input:hover ~ .slider > .inset,
+        #content-slider label:hover ~ .slider > .inset {
+>>>>>>> Stashed changes
             -webkit-animation-play-state: paused;
             -moz-animation-play-state: paused;
             -ms-animation-play-state: paused;
             -o-animation-play-state: paused;
             animation-play-state: paused;
         }
+<<<<<<< Updated upstream
         #content-slider input:hover ~ .slider>.inset,
         #content-slider label:hover ~ .slider>.inset {
+=======
+
+        #content-slider input:hover ~ .slider > .inset,
+        #content-slider label:hover ~ .slider > .inset {
+>>>>>>> Stashed changes
             -webkit-animation-play-state: paused;
             -moz-animation-play-state: paused;
             -ms-animation-play-state: paused;
             -o-animation-play-state: paused;
             animation-play-state: paused;
         }
+<<<<<<< Updated upstream
         #content-slider span:focus ~ .slider>.inset {
+=======
+
+        #content-slider span:focus ~ .slider > .inset {
+>>>>>>> Stashed changes
             -webkit-animation: none;
             -moz-animation: none;
             -ms-animation: none;
             -o-animation: none;
             animation: none;
         }
+<<<<<<< Updated upstream
         #content-slider span:hover ~ .slider>.inset {
+=======
+
+        #content-slider span:hover ~ .slider > .inset {
+>>>>>>> Stashed changes
             -webkit-animation-play-state: paused;
             -moz-animation-play-state: paused;
             -ms-animation-play-state: paused;
@@ -479,6 +727,7 @@
         /* -------> Animation */
 
         @keyframes slidy {
+<<<<<<< Updated upstream
             20% { margin-left:    0%; }
             25% { margin-left: -100%; }
             45% { margin-left: -100%; }
@@ -517,6 +766,113 @@
             75% { margin-left: -300%; }
             95% { margin-left: -300%; }
             100% { margin-left: -400%; }
+=======
+            20% {
+                margin-left: 0%;
+            }
+            25% {
+                margin-left: -100%;
+            }
+            45% {
+                margin-left: -100%;
+            }
+            50% {
+                margin-left: -200%;
+            }
+            70% {
+                margin-left: -200%;
+            }
+            75% {
+                margin-left: -300%;
+            }
+            95% {
+                margin-left: -300%;
+            }
+            100% {
+                margin-left: -400%;
+            }
+        }
+
+        @-webkit-keyframes slidy {
+            20% {
+                margin-left: 0%;
+            }
+            25% {
+                margin-left: -100%;
+            }
+            45% {
+                margin-left: -100%;
+            }
+            50% {
+                margin-left: -200%;
+            }
+            70% {
+                margin-left: -200%;
+            }
+            75% {
+                margin-left: -300%;
+            }
+            95% {
+                margin-left: -300%;
+            }
+            100% {
+                margin-left: -400%;
+            }
+        }
+
+        @-moz-keyframes slidy {
+            20% {
+                margin-left: 0%;
+            }
+            25% {
+                margin-left: -100%;
+            }
+            45% {
+                margin-left: -100%;
+            }
+            50% {
+                margin-left: -200%;
+            }
+            70% {
+                margin-left: -200%;
+            }
+            75% {
+                margin-left: -300%;
+            }
+            95% {
+                margin-left: -300%;
+            }
+            100% {
+                margin-left: -400%;
+            }
+        }
+
+        @-o-keyframes slidy {
+            20% {
+                margin-left: 0%;
+            }
+            25% {
+                margin-left: -100%;
+            }
+            45% {
+                margin-left: -100%;
+            }
+            50% {
+                margin-left: -200%;
+            }
+            70% {
+                margin-left: -200%;
+            }
+            75% {
+                margin-left: -300%;
+            }
+            95% {
+                margin-left: -300%;
+            }
+            100% {
+                margin-left: -400%;
+            }
+>>>>>>> Stashed changes
         }
 
 
@@ -527,7 +883,11 @@
                 font-size: 12px;
             }
 
+<<<<<<< Updated upstream
             #content-slider .th>[class*='title-'] {
+=======
+            #content-slider .th > [class*='title-'] {
+>>>>>>> Stashed changes
                 display: none;
             }
 
@@ -543,6 +903,7 @@
                 display: none;
             }
 
+<<<<<<< Updated upstream
             #content-slider span.first { display: none; }
 
             #content-slider #control { display: block; }
@@ -559,12 +920,52 @@
             #content-slider span#b-4:focus { opacity: 1; }
 
             span#b-4:focus ~ span#b-5 { display: none; }
+=======
+            #content-slider span.first {
+                display: none;
+            }
+
+            #content-slider #control {
+                display: block;
+            }
+
+
+            #content-slider span#b-2:focus {
+                opacity: 1;
+            }
+
+            span#b-2:focus ~ span#b-5 {
+                display: none;
+            }
+
+            #content-slider span#b-3:focus {
+                opacity: 1;
+            }
+
+            span#b-3:focus ~ span#b-5 {
+                display: none;
+            }
+
+            #content-slider span#b-4:focus {
+                opacity: 1;
+            }
+
+            span#b-4:focus ~ span#b-5 {
+                display: none;
+            }
+>>>>>>> Stashed changes
 
         }
 
         @media (max-width: 480px) {
 
+<<<<<<< Updated upstream
             #content-slider span.th img { display: none; }
+=======
+            #content-slider span.th img {
+                display: none;
+            }
+>>>>>>> Stashed changes
 
         }
     </style>
@@ -589,14 +990,27 @@
     <link href="{{asset('assets')}}/css/animate.css" rel="stylesheet">
     <link href="{{asset('assets')}}/css/main.css" rel="stylesheet">
     <link href="{{asset('assets')}}/css/responsive.css" rel="stylesheet">
+<<<<<<< Updated upstream
     <!--[if lt IE 9]>
+=======
+<!--[if lt IE 9]>
+>>>>>>> Stashed changes
     <script src="{{asset('assets')}}/js/html5shiv.js"></script>
     <script src="{{asset('assets')}}/js/respond.min.js"></script>
     <![endif]-->
     <link rel="shortcut icon" href="{{asset('assets')}}/images/ico/favicon.ico">
+<<<<<<< Updated upstream
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset('assets')}}/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset('assets')}}/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset('assets')}}/images/ico/apple-touch-icon-72-precomposed.png">
+=======
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+          href="{{asset('assets')}}/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+          href="{{asset('assets')}}/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+          href="{{asset('assets')}}/images/ico/apple-touch-icon-72-precomposed.png">
+>>>>>>> Stashed changes
     <link rel="apple-touch-icon-precomposed" href="{{asset('assets')}}/images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 
@@ -640,27 +1054,44 @@
 
 <!--  menu çubuğu-->
 
+<<<<<<< Updated upstream
 <form action="{{route('paymentssave',['price'=>$dataqq->price,'user_id'=>$userqq->id])}}" method="post" class="" enctype="multipart/form-data">
+=======
+<form action="{{route('paymentssave',['price'=>$dataqq->price,'user_id'=>$userqq->id])}}" method="post" class=""
+      enctype="multipart/form-data">
+>>>>>>> Stashed changes
     @csrf
 
     <div class="form-group">
         <div class="input-group">
             <div class="input-group-addon">Month</div>
+<<<<<<< Updated upstream
             <input type="text"  id="month" name="month" class="form-control">
+=======
+            <input type="text" id="month" name="month" class="form-control">
+>>>>>>> Stashed changes
             <div class="input-group-addon"></div>
         </div>
     </div>
     <div class="form-group">
         <div class="input-group">
             <div class="input-group-addon">creditcard</div>
+<<<<<<< Updated upstream
             <input type="number"  id="creditcard" name="creditcard" class="form-control">
+=======
+            <input type="number" id="creditcard" name="creditcard" class="form-control">
+>>>>>>> Stashed changes
             <div class="input-group-addon"></div>
         </div>
     </div>
     <div class="form-group">
         <div class="input-group">
             <div class="input-group-addon">cvv</div>
+<<<<<<< Updated upstream
             <input type="number"  id="cvv" name="cvv" class="form-control">
+=======
+            <input type="number" id="cvv" name="cvv" class="form-control">
+>>>>>>> Stashed changes
             <div class="input-group-addon"></div>
         </div>
     </div>
@@ -672,20 +1103,49 @@
         </div>
     </div>
     <div class="row form-group">
+<<<<<<< Updated upstream
+=======
+        <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Content</label></div>
+        <div class="col-12 col-md-9">
+            <select name="content_id" id="content_id" class="form-control-sm form-control">
+
+
+                <option value="{{$content_id}}">{{$dataqq->title}}</option>
+
+            </select>
+        </div>
+    </div>
+
+    <div class="row form-group">
+>>>>>>> Stashed changes
         <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Status</label></div>
         <div class="col-12 col-md-9">
             <select name="status" id="status" class="form-control-sm form-control">
                 <option value="False">Ödeme yapma</option>
                 <option value="True">Ödeme yap</option>
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
             </select>
         </div>
     </div>
     <div class="form-actions form-group">
+<<<<<<< Updated upstream
         <button type="submit" class="btn btn-primary btn-sm">ÖDE</button>
     </div>
 </form>
 
+=======
+        <button type="submit" onclick="myFunction()" class="btn btn-primary btn-sm">ÖDE</button>
+    </div>
+</form>
+<script>
+    function myFunction() {
+        alert("Ödeme Yapılacaktır.Eminmisiniz!!!");
+    }
+</script>
+>>>>>>> Stashed changes
 
 @include('home._footer')
 

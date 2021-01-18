@@ -634,6 +634,7 @@
 @php
     $parentMenus = \App\Http\Controllers\HomeController::categorylist()
 @endphp
+<<<<<<< Updated upstream
 
 <div class="col-sm-2">
     @foreach($parentMenus as $rs)
@@ -671,12 +672,29 @@
     <button class="accordion">{{$item->month}}</button>
     <div class="panel">
         <h4>user_id</h4>{{$item->user_id}}
+=======
+@include('home.usermenu')
+@include('home.message')
+<div class="col-sm-10">
+<h4>Accordion Ödeme Tablosu</h4>
+@foreach($databbx as $item)
+    <button class="accordion">{{$item->month}}</button>
+    <div class="panel">
+        <h4>user_id</h4>{{$item->user->name}}
+        <h4>Adres</h4>{{$item->user->address}}
+        <h4>content_id</h4>{{$item->content->title}}
+        <h4>ay</h4>{{$item->month}}
+>>>>>>> Stashed changes
         <h4>yıl</h4>{{$item->year}}
         <h4>Price</h4><p>{{$item->price}}</p>
         <h4>status</h4><p>{{$item->status}}</p>
 
     </div>
 @endforeach
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 <script>
     var acc = document.getElementsByClassName("accordion");
     var i;

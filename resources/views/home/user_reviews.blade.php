@@ -64,6 +64,7 @@
 <!--usermenu.blade i buraya aldım onu kullanmıyoruz şuan ama silmeyeceğim orda dursun template uymuyor öyle-->
 <div class="container">
     <div class="row">
+<<<<<<< Updated upstream
         <div class="col-sm-2">
             <div class="left-sidebar">
 
@@ -94,6 +95,9 @@
             </div>
         </div>
 
+=======
+        @include('home.usermenu')
+>>>>>>> Stashed changes
         <div class="card-body">
             <table id="bootstrap-data-table" class="table table-striped table-bordered">
                 <thead>
@@ -112,7 +116,11 @@
                     <tr>
                         <td>{{$rs->id}}</td>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         <td><a href="{{route('content',['id'=>$rs->content->id,'slug'=>$rs->content->slug])}}"
+=======
+                        <td><a href="{{route('content',['id'=>$rs->content->id, 'slug'=>$rs->content->slug])}}"
+>>>>>>> Stashed changes
 =======
                         <td><a href="{{route('content',['id'=>$rs->content->id, 'slug'=>$rs->content->slug])}}"
 >>>>>>> Stashed changes
