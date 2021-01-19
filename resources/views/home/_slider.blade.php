@@ -82,7 +82,11 @@
                                     <figcaption class="title-1">
                                         <h1>{{$rs->title}}</h1>
                                         <p>--------------------</p>
+<<<<<<< Updated upstream
                                         <a href="{{route('content',['id'=>$rs->id,'slug'=>$rs->slug])}}">read more...</a>
+=======
+                                        <a href="{{route('content',['id'=>$rs->id,'slug'=>$rs->slug])}}">İçeriğe Git...</a>
+>>>>>>> Stashed changes
                                     </figcaption>
                                     <img src="{{Storage::url($rs->image)}}" style="height: 500px" alt="" id="i-1" class="f">
                                 </figure>

@@ -10,7 +10,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<<<<<<< Updated upstream
     <title>GALERİ ekleme sayfası</title>
+=======
+    <title>GALERİ Ekleme Sayfası</title>
+>>>>>>> Stashed changes
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -100,28 +104,47 @@
                 @csrf
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Title</div>
+=======
+                        <div class="input-group-addon">Başlık</div>
+>>>>>>> Stashed changes
                         <input type="text" id="title" name="title" class="form-control">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
 
                 <div class="form-group">
+<<<<<<< Updated upstream
                     <label>image</label>
+=======
+                    <label>Fotograf</label>
+>>>>>>> Stashed changes
                     <input type="file" id="image" name="image" class="form-control">
                 </div>
 
                 <div class="form-actions form-group">
+<<<<<<< Updated upstream
                     <button type="submit" class="btn btn-primary btn-sm">Galeri ekle</button>
+=======
+                    <button type="submit" class="btn btn-primary btn-sm">Galeri Ekle</button>
+>>>>>>> Stashed changes
                 </div>
                 <div class="card-body">
                     <table id="bootstrap-data-table" class="table table-striped table-bordered">
                         <thead>
                         <tr>
+<<<<<<< Updated upstream
                             <th>id</th>
                             <th>title</th>
                             <th>image</th>
                             <th>delete</th>
+=======
+                            <th>ID</th>
+                            <th>Başlık</th>
+                            <th>Fotograf</th>
+                            <th>Sil</th>
+>>>>>>> Stashed changes
                         </tr>
                         </thead>
                         <tbody>

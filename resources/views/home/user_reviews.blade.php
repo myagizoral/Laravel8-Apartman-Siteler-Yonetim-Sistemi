@@ -65,6 +65,7 @@
 <div class="container">
     <div class="row">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <div class="col-sm-2">
             <div class="left-sidebar">
 
@@ -98,16 +99,28 @@
 =======
         @include('home.usermenu')
 >>>>>>> Stashed changes
+=======
+        @include('home.usermenu')
+>>>>>>> Stashed changes
         <div class="card-body">
             <table id="bootstrap-data-table" class="table table-striped table-bordered">
                 <thead>
                 <tr>
+<<<<<<< Updated upstream
                     <th>id</th>
                     <th>title</th>
                     <th>subject</th>
                     <th>review</th>
                     <th>status</th>
                     <th>created_at</th>
+=======
+                    <th>ID</th>
+                    <th>Başlık</th>
+                    <th>Konu</th>
+                    <th>Yorum</th>
+                    <th>Durum</th>
+                    <th>Oluşturma Tarihi</th>
+>>>>>>> Stashed changes
                     <th>Sil</th>
                 </tr>
                 </thead>
@@ -117,7 +130,11 @@
                         <td>{{$rs->id}}</td>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         <td><a href="{{route('content',['id'=>$rs->content->id,'slug'=>$rs->content->slug])}}"
+=======
+                        <td><a href="{{route('content',['id'=>$rs->content->id, 'slug'=>$rs->content->slug])}}"
+>>>>>>> Stashed changes
 =======
                         <td><a href="{{route('content',['id'=>$rs->content->id, 'slug'=>$rs->content->slug])}}"
 >>>>>>> Stashed changes
@@ -130,7 +147,11 @@
                         <td>{{$rs->status}}</td>
                         <td>{{$rs->created_at}}</td>
                         <td><a href="{{route('user_review_delete',['id'=>$rs->id])}}"
+<<<<<<< Updated upstream
                                onclick="return confirm('eminmisin')">SİL</a></td>
+=======
+                               onclick="return confirm('Eminmisiniz')">SİL</a></td>
+>>>>>>> Stashed changes
                     </tr>
                 @endforeach
 

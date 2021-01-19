@@ -42,7 +42,11 @@
         }
 
         header.box {
+<<<<<<< Updated upstream
             background: #00BCD4;
+=======
+            background: #F4D03F;
+>>>>>>> Stashed changes
             z-index: 100;
             cursor: initial;
             box-shadow: 0 -1px 0 #e5e5e5, 0 0 2px -2px rgba(0, 0, 0, .12), 0 2px 4px -4px rgba(0, 0, 0, .24);
@@ -137,14 +141,22 @@
     <!--başlangıç-->
     <input type="radio" name="accordion" id="cb1"/>
     <section class="box">
+<<<<<<< Updated upstream
         <label class="box-title" for="cb1">Id</label>
+=======
+        <label class="box-title" for="cb1">ID</label>
+>>>>>>> Stashed changes
         <label class="box-close" for="acc-close"></label>
         <div class="box-content">{{$data->id}}</div>
     </section>
     <!--başlangıç-->
     <input type="radio" name="accordion" id="cb2"/>
     <section class="box">
+<<<<<<< Updated upstream
         <label class="box-title" for="cb2">Name</label>
+=======
+        <label class="box-title" for="cb2">İsim</label>
+>>>>>>> Stashed changes
         <label class="box-close" for="acc-close"></label>
         <div class="box-content">{{$data->name}}</div>
     </section>
@@ -170,7 +182,11 @@
                         <br>
                     @endforeach
                 </select>
+<<<<<<< Updated upstream
                 <button type="submit" class="btn btn-primary btn-sm">Add role</button>
+=======
+                <button type="submit" class="btn btn-primary btn-sm">Rol Ekle</button>
+>>>>>>> Stashed changes
             </form>
         </div>
     </section>

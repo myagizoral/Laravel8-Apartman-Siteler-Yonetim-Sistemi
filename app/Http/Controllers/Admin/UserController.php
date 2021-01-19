@@ -91,7 +91,11 @@ class UserController extends Controller
             $data->profile_photo_path = Storage::putFile('profile-photos',$request->file('image'));//file upload
         }
         $data->save();
+<<<<<<< Updated upstream
         return redirect()->route('admin_users')->with('success','Kullanıcı bilgileri editlendi');
+=======
+        return redirect()->route('admin_users')->with('success','Kullanıcı Bilgileri Güncellendi');
+>>>>>>> Stashed changes
     }
 
     public function user_roles(User $user,$id)
@@ -111,7 +115,11 @@ class UserController extends Controller
     {
         $user = User::find($userid);
         $user->roles()->detach($roleid);
+<<<<<<< Updated upstream
         return redirect()->back()->with('success','Role deleted from user');
+=======
+        return redirect()->back()->with('success','Rol Kullanıcıdan Silindi');
+>>>>>>> Stashed changes
     }
 
 

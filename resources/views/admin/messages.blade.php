@@ -10,7 +10,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<<<<<<< Updated upstream
     <title>contact Messages list</title>
+=======
+    <title>Talep Mesajları Listesi</title>
+>>>>>>> Stashed changes
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -82,7 +86,11 @@
 @include('admin._sidebar')
 @include('admin._header')
 
+<<<<<<< Updated upstream
 <h3>Messages</h3>
+=======
+<button type="button" class="btn btn-warning btn-lg btn-block">Mesajlar</button>
+>>>>>>> Stashed changes
 <div class="content">
     <div class="animated fadeIn">
         <div class="row">
@@ -100,6 +108,7 @@
                         <table id="bootstrap-data-table" class="table table-striped table-bordered">
                             <thead>
                             <tr>
+<<<<<<< Updated upstream
                                 <th>id</th>
                                 <th>name</th>
                                 <th>email</th>
@@ -110,6 +119,18 @@
                                 <th>status</th>
                                 <th>actions</th>
                                 <th>actions</th>
+=======
+                                <th>ID</th>
+                                <th>İsim</th>
+                                <th>E-mail</th>
+                                <th>Telefon</th>
+                                <th>Konu</th>
+                                <th>Mesaj</th>
+                                <th>Admin Notu</th>
+                                <th>Durum</th>
+                                <th>Güncelle</th>
+                                <th>Sil</th>
+>>>>>>> Stashed changes
                             </tr>
                             </thead>
                             <tbody>

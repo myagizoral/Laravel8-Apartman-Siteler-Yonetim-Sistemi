@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>menu ekleme sayfası</title>
+    <title>Menü Ekleme Sayfası</title>
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -71,7 +71,7 @@
 <!--BURASI!!!!!!!!!!! -->
 @include('admin._sidebar')
 @include('admin._header')
-<h3>Menü Ekleme</h3>
+<button type="button" class="btn btn-warning btn-lg btn-block">Menü Ekleme</button>
 <div class="col-lg-6">
     <div class="card">
         <div class="card-header"></div>
@@ -80,28 +80,28 @@
             @csrf
                 <div class="form-group">
                     <div class="input-group">
-                        <div class="input-group-addon">Title</div>
+                        <div class="input-group-addon">Başlık</div>
                         <input type="text"  id="title" name="title" class="form-control">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
-                        <div class="input-group-addon">Keywords</div>
+                        <div class="input-group-addon">Anahtar Kelimeler</div>
                         <input type="text" id="keywords" name="keywords" class="form-control">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
-                        <div class="input-group-addon">Description</div>
+                        <div class="input-group-addon">Açıklama</div>
                         <input type="text" id="description" name="description" class="form-control">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
-                        <div class="input-group-addon">slug</div>
+                        <div class="input-group-addon">Slug</div>
                         <input type="text" id="slug" name="slug" class="form-control">
                         <div class="input-group-addon"></div>
                     </div>
@@ -133,6 +133,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Status</label></div>
 =======
                     <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Parent menu</label></div>
@@ -182,10 +183,14 @@
 =======
                     <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Parent menu</label></div>
 >>>>>>> Stashed changes
+=======
+                    <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Bağlı Olduğu Menü</label></div>
+>>>>>>> Stashed changes
                     <div class="col-12 col-md-9">
                         <select name="parent_id" id="parant_id" class="form-control-sm form-control">
                             <option value="0">ana kategori</option>
                            @foreach($datalist as $rs)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -251,13 +256,16 @@
 =======
                             <option value="{{$rs->id}}">{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
 >>>>>>> Stashed changes
+=======
+                            <option value="{{$rs->id}}">{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
+>>>>>>> Stashed changes
                            @endforeach
                         </select>
                     </div>
                 </div>
 
                 <div class="form-actions form-group">
-                    <button type="submit" class="btn btn-primary btn-sm">menü ekle</button>
+                    <button type="submit" class="btn btn-primary btn-sm">Menü Ekle</button>
                 </div>
             </form>
         </div>

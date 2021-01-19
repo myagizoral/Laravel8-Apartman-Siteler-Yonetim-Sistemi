@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Route;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 Route::post( '/getcontent',[HomeController::class,'getcontent'])->name('getcontent');
 Route::get( '/contentlist/{search}',[HomeController::class,'contentlist'])->name('contentlist');
@@ -46,6 +47,8 @@ Route::get( '/contentlist/{search}',[HomeController::class,'contentlist'])->name
 
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
 //payments
 Route::get( '/payments/{contentid}/{useridx}',[UserController::class,'payments'])->name('payments');
 Route::post( '/paymentssave/{price}/{user_id}',[UserController::class,'paymentssave'])->name('paymentssave');
@@ -54,6 +57,9 @@ Route::get( '/paymentslist',[UserController::class,'paymentslist'])->name('payme
 Route::post( '/getcontent',[HomeController::class,'getcontent'])->name('getcontent');
 Route::get( '/contentlist/{search}',[HomeController::class,'contentlist'])->name('contentlist');
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 Route::get( '/home',[HomeController::class,'index'])->name('homepage');
 Route::get( '/',[HomeController::class,'index'])->name('home');
@@ -62,6 +68,7 @@ Route::get( '/references',[HomeController::class,'references'])->name('reference
 Route::get( '/faq',[HomeController::class,'faq'])->name('faq');
 Route::get( '/contact',[HomeController::class,'contact'])->name('contact');
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -128,6 +135,8 @@ Route::post( '/sendmessage',[HomeController::class,'sendmessage'])->name('sendme
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 Route::get( '/content/{id}/{slug}',[HomeController::class,'content'])->name('content');
 Route::get( '/categorycontents/{id}/{slug}',[HomeController::class,'categorycontents'])->name('categorycontents');
 //Route::get( '/addtocart/{id}',[HomeController::class,'addtocart'])->name('addtocart');
@@ -135,6 +144,9 @@ Route::get( '/categorycontents/{id}/{slug}',[HomeController::class,'categorycont
 Route::post( '/sendmessage',[HomeController::class,'sendmessage'])->name('sendmessage');
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -152,7 +164,11 @@ Route::get( '/admin/login',[HomeController::class,'login'])->name('admin_login')
 Route::post( '/admin/logincheck',[HomeController::class,'logincheck'])->name('admin_logincheck');
 Route::get( '/logout',[HomeController::class,'logout'])->name('logout');
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Route::get( '/admin',[\App\Http\Controllers\Admin\HomeController::class,'index'])->name('admin_home')->middleware(['auth']);
+=======
+//Route::get( '/admin',[\App\Http\Controllers\Admin\HomeController::class,'index'])->name('admin_home')->middleware(['auth']);
+>>>>>>> Stashed changes
 =======
 //Route::get( '/admin',[\App\Http\Controllers\Admin\HomeController::class,'index'])->name('admin_home')->middleware(['auth']);
 >>>>>>> Stashed changes
@@ -177,6 +193,7 @@ Route::middleware('auth')->prefix('admin')->group(function (){
         Route::post( '/menu/update/{id}',[\App\Http\Controllers\Admin\MenuController::class,'update'])->name('admin_menu_update');
         Route::get( '/menu/delete/{id}',[\App\Http\Controllers\Admin\MenuController::class,'destroy'])->name('admin_menu_delete');
         Route::get( '/menu/show',[\App\Http\Controllers\Admin\MenuController::class,'show'])->name('admin_menu_show');
+<<<<<<< Updated upstream
 
         //contents
         Route::prefix('content')->group(function() {
@@ -541,6 +558,99 @@ Route::middleware('auth')->prefix('user')->namespace('user')->group(function (){
 =======
     Route::get( '/myreviews',[UserController::class,'myreviews'])->name('myreviews');
     Route::get( 'destroymyreviews/{id}',[UserController::class,'destroymyreviews'])->name('user_review_delete');
+>>>>>>> Stashed changes
+=======
+
+        //contents
+        Route::prefix('content')->group(function() {
+
+            Route::get( '/',[\App\Http\Controllers\Admin\ContentController::class,'index'])->name('admin_contents');
+            Route::get( 'create',[\App\Http\Controllers\Admin\ContentController::class,'create'])->name('admin_content_add');
+            Route::post( 'store',[\App\Http\Controllers\Admin\ContentController::class,'store'])->name('admin_content_store');
+            Route::get( 'edit/{id}',[\App\Http\Controllers\Admin\ContentController::class,'edit'])->name('admin_content_edit');
+            Route::post( 'update/{id}',[\App\Http\Controllers\Admin\ContentController::class,'update'])->name('admin_content_update');
+            Route::get( 'delete/{id}',[\App\Http\Controllers\Admin\ContentController::class,'destroy'])->name('admin_content_delete');
+            Route::get( 'show',[\App\Http\Controllers\Admin\ContentController::class,'show'])->name('admin_content_show');
+        });
+
+        //FAq
+        Route::prefix('faq')->group(function() {
+
+            Route::get( '/',[\App\Http\Controllers\Admin\FaqController::class,'index'])->name('admin_faq');
+            Route::get( 'create',[\App\Http\Controllers\Admin\FaqController::class,'create'])->name('admin_faq_add');
+            Route::post( 'store',[\App\Http\Controllers\Admin\FaqController::class,'store'])->name('admin_faq_store');
+            Route::get( 'edit/{id}',[\App\Http\Controllers\Admin\FaqController::class,'edit'])->name('admin_faq_edit');
+            Route::post( 'update/{id}',[\App\Http\Controllers\Admin\FaqController::class,'update'])->name('admin_faq_update');
+            Route::get( 'delete/{id}',[\App\Http\Controllers\Admin\FaqController::class,'destroy'])->name('admin_faq_delete');
+            Route::get( 'show',[\App\Http\Controllers\Admin\FaqController::class,'show'])->name('admin_faq_show');
+        });
+
+        //messages
+        Route::prefix('messages')->group(function() {
+
+            Route::get( '/',[MessageController::class,'index'])->name('admin_message');
+            Route::get( 'edit/{id}',[MessageController::class,'edit'])->name('admin_message_edit');
+            Route::post( 'update/{id}',[MessageController::class,'update'])->name('admin_message_update');
+            Route::get( 'delete/{id}',[MessageController::class,'destroy'])->name('admin_message_delete');
+            Route::get( 'show',[MessageController::class,'show'])->name('admin_message_show');
+        });
+
+        //reviews
+        Route::prefix('review')->group(function() {
+            Route::get( '/',[\App\Http\Controllers\Admin\ReviewController::class,'index'])->name('admin_review');
+            Route::post( 'update/{id}',[\App\Http\Controllers\Admin\ReviewController::class,'update'])->name('admin_review_update');
+            Route::get( 'delete/{id}',[\App\Http\Controllers\Admin\ReviewController::class,'destroy'])->name('admin_review_delete');
+            Route::get( 'show/{id}',[\App\Http\Controllers\Admin\ReviewController::class,'show'])->name('admin_review_show');
+        });
+
+        //payments all
+        Route::get( '/paymentslistadmin',[UserController::class,'paymentslistadmin'])->name('paymentslistadmin');
+
+       //image gallery
+        Route::prefix('image')->group(function() {
+            Route::get( 'create/{content_id}',[\App\Http\Controllers\Admin\ImageController::class,'create'])->name('admin_image_add');
+            Route::post( 'store/{content_id}',[\App\Http\Controllers\Admin\ImageController::class,'store'])->name('admin_image_store');
+            Route::get( 'delete/{id}/{content_id}',[\App\Http\Controllers\Admin\ImageController::class,'destroy'])->name('admin_image_delete');
+            Route::get( 'show',[\App\Http\Controllers\Admin\ImageController::class,'show'])->name('admin_image_show');
+        });
+
+       //Setting
+        Route::get( 'setting',[\App\Http\Controllers\Admin\SettingController::class,'index'])->name('admin_setting');
+        Route::post( 'setting/update',[\App\Http\Controllers\Admin\SettingController::class,'update'])->name('admin_setting_update');
+
+        //user
+        Route::prefix('user')->group(function() {
+
+            Route::get( '/',[\App\Http\Controllers\Admin\UserController::class,'index'])->name('admin_users');
+            Route::post( 'create',[\App\Http\Controllers\Admin\UserController::class,'create'])->name('admin_user_add');
+            Route::post( 'store',[\App\Http\Controllers\Admin\UserController::class,'store'])->name('admin_user_store');
+            Route::get( 'edit/{id}',[\App\Http\Controllers\Admin\UserController::class,'edit'])->name('admin_user_edit');
+            Route::post( 'update/{id}',[\App\Http\Controllers\Admin\UserController::class,'update'])->name('admin_user_update');
+            Route::get( 'delete/{id}',[\App\Http\Controllers\Admin\UserController::class,'destroy'])->name('admin_user_delete');
+            Route::get( 'show/{id}',[\App\Http\Controllers\Admin\UserController::class,'show'])->name('admin_user_show');
+            Route::get( 'userrole/{id}',[\App\Http\Controllers\Admin\UserController::class,'user_roles'])->name('admin_user_roles');
+            Route::post( 'userrolestore/{id}',[\App\Http\Controllers\Admin\UserController::class,'user_role_store'])->name('admin_user_role_add');
+            Route::get( 'userroledelete/{userid}/{roleid}',[\App\Http\Controllers\Admin\UserController::class,'user_role_delete'])->name('admin_user_role_delete');
+        });
+
+
+    });//admin close
+
+});//auth close
+
+
+
+Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(function (){
+
+    Route::get( '/',[UserController::class,'index'])->name('myprofile');
+    Route::get( '/myreviews',[UserController::class,'myreviews'])->name('myreviews');
+    Route::get( 'destroymyreviews/{id}',[UserController::class,'destroymyreviews'])->name('user_review_delete');
+});
+
+
+Route::middleware('auth')->prefix('user')->namespace('user')->group(function (){
+
+    Route::get( '/profile',[UserController::class,'index'])->name('userprofile');
 >>>>>>> Stashed changes
 });
 

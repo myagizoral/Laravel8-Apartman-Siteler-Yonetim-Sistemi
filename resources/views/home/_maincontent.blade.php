@@ -25,7 +25,11 @@
                         <ul class="nav nav-pills nav-justified">
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             <li><a href="{{route('addtocart',['id'=>$rs->id])}}"><i class="fa fa-plus-square"></i>Add to Cart</a></li>
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes
@@ -332,7 +336,11 @@
     </div> /category-tab-->
 
     <div class="recommended_items"><!--recommended_items-->
+<<<<<<< Updated upstream
         <h2 class="title text-center">Random</h2>
+=======
+        <h2 class="title text-center">Rastgele</h2>
+>>>>>>> Stashed changes
     @foreach($daily as $rs)
         <!-- bir ürün burası-->
             <div class="col-sm-4">
@@ -356,7 +364,10 @@
                         <ul class="nav nav-pills nav-justified">
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             <li><a href="{{route('addtocart',['id'=>$rs->id])}}"><i class="fa fa-plus-square"></i>Add to Cart</a></li>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -372,7 +383,11 @@
 
     <div class="recommended_items"><!--son_items-->
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <h2 class="title text-center">Son eklenenler</h2>
+=======
+        <h2 class="title text-center">Son Eklenenler</h2>
+>>>>>>> Stashed changes
 =======
         <h2 class="title text-center">Son Eklenenler</h2>
 >>>>>>> Stashed changes
@@ -399,7 +414,10 @@
                         <ul class="nav nav-pills nav-justified">
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             <li><a href="{{route('addtocart',['id'=>$rs->id])}}"><i class="fa fa-plus-square"></i>Add to Cart</a></li>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======

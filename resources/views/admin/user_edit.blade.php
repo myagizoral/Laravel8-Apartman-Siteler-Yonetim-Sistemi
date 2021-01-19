@@ -92,7 +92,11 @@
 <!--BURASI!!!!!!!!!!! -->
 @include('admin._sidebar')
 @include('admin._header')
+<<<<<<< Updated upstream
 <h3>faq editleme</h3>
+=======
+<button type="button" class="btn btn-warning btn-lg btn-block">Kullanıcı Güncelleme</button>
+>>>>>>> Stashed changes
 <div class="col-lg-6">
     <div class="card">
         <div class="card-header"></div>
@@ -102,7 +106,11 @@
                 @csrf
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Name</div>
+=======
+                        <div class="input-group-addon">İsim</div>
+>>>>>>> Stashed changes
                         <input type="text" id="name" name="name" value="{{$data->name}}" class="form-control">
                         <div class="input-group-addon"></div>
                     </div>
@@ -116,20 +124,32 @@
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Phone</div>
+=======
+                        <div class="input-group-addon">Telefon</div>
+>>>>>>> Stashed changes
                         <input type="text" id="phone" name="phone" value="{{$data->phone}}" class="form-control">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Address</div>
+=======
+                        <div class="input-group-addon">Adres</div>
+>>>>>>> Stashed changes
                         <input type="text" id="address" name="address" value="{{$data->address}}" class="form-control">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
+<<<<<<< Updated upstream
                     <label>Image</label>
+=======
+                    <label>Fotograf</label>
+>>>>>>> Stashed changes
                     <input type="file" name="image" class="form-control">
                     @if($data->profile_photo_path)
                         <img src="{{Storage::url($data->profile_photo_path)}}" height="100"
@@ -138,7 +158,11 @@
                 </div>
 
                 <div class="form-actions form-group">
+<<<<<<< Updated upstream
                     <button type="submit" class="btn btn-primary btn-sm">Editle</button>
+=======
+                    <button type="submit" class="btn btn-primary btn-sm">Güncelle</button>
+>>>>>>> Stashed changes
                 </div>
             </form>
         </div>

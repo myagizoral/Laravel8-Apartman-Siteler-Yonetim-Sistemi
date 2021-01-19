@@ -82,7 +82,11 @@
 @include('admin._sidebar')
 @include('admin._header')
 
+<<<<<<< Updated upstream
 <h3>Users Listesi</h3>
+=======
+<button type="button" class="btn btn-warning btn-lg btn-block">Kullanıcı Listesi</button>
+>>>>>>> Stashed changes
 <div class="content">
     <div class="animated fadeIn">
         <div class="row">
@@ -98,6 +102,7 @@
                         <table id="bootstrap-data-table" class="table table-striped table-bordered">
                             <thead>
                             <tr>
+<<<<<<< Updated upstream
                                 <th>Id</th>
                                 <th>Image</th>
                                 <th>Name</th>
@@ -107,6 +112,17 @@
                                 <th>Ad Soyad</th>
                                 <th>Roles</th>
                                 <th>edit</th>
+=======
+                                <th>ID</th>
+                                <th>Fotograf</th>
+                                <th>İsim</th>
+                                <th>E-mail</th>
+                                <th>Telefon</th>
+                                <th>Adres</th>
+                                <th>Ad-Soyad</th>
+                                <th>Rolü</th>
+                                <th>Güncelle</th>
+>>>>>>> Stashed changes
                                 <th>Sil</th>
                             </tr>
                             </thead>

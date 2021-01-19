@@ -19,6 +19,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 <input style="background-color:orange;" class="input" type="text" placeholder="subject" wire:model="subject"/>
                 @error('subject')<span class="text-danger">{{$message}}</span>@enderror
                 <!--<input type="email" placeholder="Email Address"/>-->
@@ -41,12 +42,26 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+                <input style="background-color:orange;" style="color:#000000;" class="input" type="text" placeholder="KONU" wire:model="subject"/>
+                @error('subject')<span class="text-danger">{{$message}}</span>@enderror
+                <!--<input type="email" placeholder="Email Address"/>-->
+
+                <textarea style="background-color: orange;color:#000000;" class="input" wire:model="review" placeholder="Yorumuzu Buraya Yazınız"></textarea>
+>>>>>>> Stashed changes
                 @error('review')<span class="text-danger">{{$message}}</span>@enderror
 
                 @auth
                     <input type="submit" class="btn btn-success" value="save"></input>
+<<<<<<< Updated upstream
                 @else
                     <a href="/login">For submit review login</a>
+=======
+                    <br>
+                    <br>
+                @else
+                    <a href="/login">Yorum Yapmak İçin Lütfen Üye Olunuz</a>
+>>>>>>> Stashed changes
                 @endauth
             </form>
         </div>

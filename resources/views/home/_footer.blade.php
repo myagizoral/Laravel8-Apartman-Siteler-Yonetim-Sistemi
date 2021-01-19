@@ -22,6 +22,7 @@
             <div class="row">
                 <div class="col-sm-2">
                     <div class="single-widget">
+<<<<<<< Updated upstream
                         <h2>Bilgiler</h2>
                         <ul class="nav nav-pills nav-stacked">
                             <li><a href="#">Company:{{$setting->company}}</a></li>
@@ -29,6 +30,15 @@
                             <li><a href="#">Phone:{{$setting->phone}}</a></li>
                             <li><a href="#">Fax:{{$setting->fax}}</a></li>
                             <li><a href="#">Email:{{$setting->email}}</a></li>
+=======
+                        <h2>BİLGİLER</h2>
+                        <ul class="nav nav-pills nav-stacked">
+                            <li><a href="#">Şirket:{{$setting->company}}</a></li>
+                            <li><a href="#">Adres:{{$setting->address}}</a></li>
+                            <li><a href="#">Telefon:{{$setting->phone}}</a></li>
+                            <li><a href="#">Fax:{{$setting->fax}}</a></li>
+                            <li><a href="#">E-mail:{{$setting->email}}</a></li>
+>>>>>>> Stashed changes
                         </ul>
                     </div>
                 </div>

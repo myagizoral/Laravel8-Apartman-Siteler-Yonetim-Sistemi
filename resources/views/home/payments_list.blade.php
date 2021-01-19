@@ -602,7 +602,11 @@
 
 
 
+<<<<<<< Updated upstream
     <title> ödemelerim </title>
+=======
+    <title> Ödemelerim </title>
+>>>>>>> Stashed changes
     <meta name="description" content="">
     <meta name="keywords" content="">
     <!-- #####################################################################-->
@@ -634,6 +638,7 @@
 @php
     $parentMenus = \App\Http\Controllers\HomeController::categorylist()
 @endphp
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 
 <div class="col-sm-2">
@@ -693,6 +698,26 @@
 @endforeach
 <<<<<<< Updated upstream
 =======
+
+>>>>>>> Stashed changes
+=======
+@include('home.usermenu')
+@include('home.message')
+<div class="col-sm-10">
+<h4>Ödemeler Tablosu</h4>
+@foreach($databbx as $item)
+    <button class="accordion">{{$item->month}}</button>
+    <div class="panel">
+        <h4>ID</h4>{{$item->user->name}}
+        <h4>Adres</h4>{{$item->user->address}}
+        <h4>İçerik</h4>{{$item->content->title}}
+        <h4>Ay</h4>{{$item->month}}
+        <h4>Yıl</h4>{{$item->year}}
+        <h4>Fiyat</h4><p>{{$item->price}}</p>
+        <h4>Durum</h4><p>{{$item->status}}</p>
+
+    </div>
+@endforeach
 
 >>>>>>> Stashed changes
 <script>

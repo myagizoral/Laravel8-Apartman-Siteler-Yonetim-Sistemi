@@ -663,7 +663,11 @@
 <!--  menu çubuğu-->
 
 <div class="col-sm-10">
+<<<<<<< Updated upstream
 <h4>Accordion Faq Menu</h4>
+=======
+<h4>Sıkça Sorulan Sorular</h4>
+>>>>>>> Stashed changes
 @foreach($datalist as $rs)
 <button class="accordion">{{$rs->question}}</button>
 <div class="panel">

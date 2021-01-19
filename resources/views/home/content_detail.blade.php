@@ -886,7 +886,10 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -918,6 +921,9 @@
     </style>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1032,7 +1038,11 @@
                     <br>
                     <br>
                     <button type="button" class="btn btn-fefault cart" onclick="openModal();currentSlide(1)">
+<<<<<<< Updated upstream
                         <h5>Resim galerisi için tıklayınız</h5>
+=======
+                        <h5>Resim Galerisi için Tıklayınız</h5>
+>>>>>>> Stashed changes
                     </button>
 
                     <div id="myModal" class="modal">
@@ -1124,12 +1134,23 @@
                                 <i class="fa fa-shopping-cart"></i>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                 <a href="{{route('addtocart',['id'=>$data->id])}}">add to cart</a>
 =======
                                 <a href="{{route('payments',['contentid'=>$data->id,'useridx'=>Auth::id()])}}">ÖDE</a>
 >>>>>>> Stashed changes
 =======
                                 <a href="{{route('payments',['contentid'=>$data->id,'useridx'=>Auth::id()])}}">ÖDE</a>
+>>>>>>> Stashed changes
+=======
+                               @if (Auth::check()){
+                                   <a href="javascript:window.open('{{route('payments',['contentid'=>$data->id,'useridx'=>Auth::id()])}}','mypopuptitle','width=800,height=400')">Ödeme Yap</a>
+                                   <!--<a href="{{route('payments',['contentid'=>$data->id,'useridx'=>Auth::id()])}}">ÖDE</a>-->
+                                }
+                                @else
+                                <a href="#">Ödeme Yapmak İçin Lütfen Üye Olunuz!!</a>
+
+                                @endif
 >>>>>>> Stashed changes
                             </button>
                         @endif
@@ -1145,6 +1166,7 @@
     <h3>{!!$data->detail!!}</h3>
     <div>
         <br>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -1188,11 +1210,22 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+        <h3 style="background-color: #FCD433">--Yorumlarınızı Yazabilirsiniz--</h3>
+        @livewire('review',['id' => $data->id])
+    </div>
+    <div style="background-color: #FCD433">
+    <!--
+      <h3>Yorumlar</h3>
+        @foreach($reviews as $rs)
+        <h4>Kullanıcı adı</h4>{{$rs->user->name}}
+>>>>>>> Stashed changes
             <h4>Oluşturma tarihi</h4>{{$rs->created_at}}
             <h4>Yorum Başlığı</h4>{{$rs->subject}}
             <h4>Yorum</h4><p>{{$rs->review}}</p>
             <h4>----------------------------------------</h4>
         @endforeach
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -1220,13 +1253,30 @@
             <h4>Yorum Başlığı</h4>{{$rs->subject}}
             <h4>Yorum</h4><p>{{$rs->review}}</p>
         </div>
+=======
+        -->
+        <h4>Yapılan Yorumlar</h4>
+        @foreach($reviews as $rs)
+            <button class="accordion">{{$rs->subject}}</button>
+            <div class="panel">
+                <h4>Kullanıcı Adı</h4>{{$rs->user->name}}
+                <h4>Oluşturma Tarihi</h4>{{$rs->created_at}}
+                <h4>Yorum Başlığı</h4>{{$rs->subject}}
+                <h4>Yorum</h4>
+                <p>{{$rs->review}}</p>
+            </div>
+>>>>>>> Stashed changes
         @endforeach
         <script>
             var acc = document.getElementsByClassName("accordion");
             var i;
 
             for (i = 0; i < acc.length; i++) {
+<<<<<<< Updated upstream
                 acc[i].addEventListener("click", function() {
+=======
+                acc[i].addEventListener("click", function () {
+>>>>>>> Stashed changes
                     this.classList.toggle("active");
                     var panel = this.nextElementSibling;
                     if (panel.style.display === "block") {
@@ -1239,6 +1289,7 @@
         </script>
 
     </div>
+<<<<<<< Updated upstream
     </div>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -1246,6 +1297,9 @@
 =======
 >>>>>>> Stashed changes
 =======
+>>>>>>> Stashed changes
+=======
+</div>
 >>>>>>> Stashed changes
 
 @include('home._footer')

@@ -6,7 +6,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<<<<<<< Updated upstream
     <title>menu edit sayfası</title>
+=======
+    <title>Menü Güncelleme Sayfası</title>
+>>>>>>> Stashed changes
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -71,7 +75,11 @@
 <!--BURASI!!!!!!!!!!! -->
 @include('admin._sidebar')
 @include('admin._header')
+<<<<<<< Updated upstream
 <h3>Menü Ekleme</h3>
+=======
+<button type="button" class="btn btn-warning btn-lg btn-block">Menü Güncelleme</button>
+>>>>>>> Stashed changes
 <div class="col-lg-6">
     <div class="card">
         <div class="card-header"></div>
@@ -80,28 +88,44 @@
             @csrf
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Title</div>
+=======
+                        <div class="input-group-addon">Başlık</div>
+>>>>>>> Stashed changes
                         <input type="text"  id="title" name="title" class="form-control" value="{{$data->title}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Keywords</div>
+=======
+                        <div class="input-group-addon">Anahtar Kelimeler</div>
+>>>>>>> Stashed changes
                         <input type="text" id="keywords" name="keywords" class="form-control" value="{{$data->keywords}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Description</div>
+=======
+                        <div class="input-group-addon">Açıklama</div>
+>>>>>>> Stashed changes
                         <input type="text" id="description" name="description" class="form-control" value="{{$data->description}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">slug</div>
+=======
+                        <div class="input-group-addon">Slug</div>
+>>>>>>> Stashed changes
                         <input type="text" id="slug" name="slug" class="form-control" value="{{$data->slug}}">
                         <div class="input-group-addon"></div>
                     </div>
@@ -118,6 +142,7 @@
                     </div>
                 </div>
                 <div class="row form-group">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -172,6 +197,9 @@
 =======
 >>>>>>> Stashed changes
                     <div class="col col-md-3"><label for="selectSm" class=" form-control-label">parent menu</label></div>
+=======
+                    <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Bağlı Olduğu Menü</label></div>
+>>>>>>> Stashed changes
                     <div class="col-12 col-md-9">
                         <select name="parent_id" id="parent_id" class="form-control-sm form-control">
                             <option value="0">ana kategori</option>
@@ -192,6 +220,9 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -229,7 +260,11 @@
                 </div>
 
                 <div class="form-actions form-group">
+<<<<<<< Updated upstream
                     <button type="submit" class="btn btn-primary btn-sm">editle </button>
+=======
+                    <button type="submit" class="btn btn-primary btn-sm">Güncelle</button>
+>>>>>>> Stashed changes
                 </div>
             </form>
         </div>

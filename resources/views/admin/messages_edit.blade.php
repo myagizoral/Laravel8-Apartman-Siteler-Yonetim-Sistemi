@@ -6,7 +6,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<<<<<<< Updated upstream
     <title>Message editleme sayfası</title>
+=======
+    <title>Mesaj Güncelleme Sayfası</title>
+>>>>>>> Stashed changes
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -78,7 +82,11 @@
 </head>
 <body>
 <!--BURASI!!!!!!!!!!! -->
+<<<<<<< Updated upstream
 <h4>Messages</h4>
+=======
+<button type="button" class="btn btn-warning btn-lg btn-block">Mesajları Güncelle/Kaldır</button>
+>>>>>>> Stashed changes
 @include('home.message')
 <div class="col-lg-6">
     <div class="card">
@@ -134,7 +142,11 @@
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Admin Note</div>
+=======
+                        <div class="input-group-addon">Admin Notu</div>
+>>>>>>> Stashed changes
                     <!--  <input type="text"  id="detail" name="detail" class="form-control" value="{{$data->detail}}">-->
                         <textarea id="summernote" name="note">{{$data->note}}</textarea>
                         <script>
@@ -152,7 +164,11 @@
                 </div>
 
                 <div class="form-actions form-group">
+<<<<<<< Updated upstream
                     <button type="submit" class="btn btn-primary btn-sm">editle</button>
+=======
+                    <button type="submit" class="btn btn-primary btn-sm">Güncelle</button>
+>>>>>>> Stashed changes
                 </div>
             </form>
         </div>

@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 <<<<<<< Updated upstream
@@ -109,6 +110,8 @@
         </div>
     </div>
 =======
+=======
+>>>>>>> Stashed changes
 <div class="col-sm-2">
     <div class="left-sidebar">
 
@@ -145,4 +148,7 @@
 
     </div>
 </div>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

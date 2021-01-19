@@ -76,7 +76,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+<!--
+>>>>>>> Stashed changes
 =======
 <!--
 >>>>>>> Stashed changes
@@ -129,7 +133,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <!-- İÇERİK BUARAYA GELECCEK-->
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes
@@ -178,8 +186,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -205,18 +216,27 @@
     <div class="bg">
         <div class="row">
             <div class="col-sm-12">
+<<<<<<< Updated upstream
                 <h2 class="title text-center">Contact <strong>Us</strong></h2>
+=======
+                <h2 class="title text-center">BİZİMLE İLETİŞİME GEÇİN</h2>
+>>>>>>> Stashed changes
             </div>
         </div>
         <div class="row">
             <div class="col-sm-8">
                 <div class="contact-form">
+<<<<<<< Updated upstream
                     <h2 class="title text-center">Bize Talep İletin</h2>
+=======
+                    <h2 class="title text-center">BİZE TALEPLERİNİZİ İLETİN</h2>
+>>>>>>> Stashed changes
                     <div class="status alert alert-success" style="display: none"></div>
                     @include('home.message')
                     <form id="main-contact-form" class="contact-form row" name="contact-form" method="post" action="{{route('sendmessage')}}">
                         @csrf
                         <div class="form-group col-md-6">
+<<<<<<< Updated upstream
                             <input type="text" name="name" class="form-control" required="required" placeholder="Name">
                         </div>
                         <div class="form-group col-md-6">
@@ -230,6 +250,21 @@
                         </div>
                         <div class="form-group col-md-12">
                             <textarea name="messages" id="messages" required="required" class="form-control" rows="8" placeholder="Your Message Here"></textarea>
+=======
+                            <input type="text" name="name" class="form-control" required="required" placeholder="İsim">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" name="email" class="form-control" required="required" placeholder="E-mail">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" name="phone" class="form-control" required="required" placeholder="Telefon Numarası">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <input type="text" name="subject" class="form-control" required="required" placeholder="Konu">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea name="messages" id="messages" required="required" class="form-control" rows="8" placeholder="Talebinizi Yazın"></textarea>
+>>>>>>> Stashed changes
                         </div>
                         <div class="form-group col-md-12">
                             <input type="submit" name="submit" class="btn btn-primary pull-right" value="Submit">
@@ -239,12 +274,20 @@
             </div>
             <div class="col-sm-4">
                 <div class="contact-info">
+<<<<<<< Updated upstream
                     <h2 class="title text-center">Contact Info</h2>
+=======
+                    <h2 class="title text-center">İLETİŞİM BİLGİLERİ</h2>
+>>>>>>> Stashed changes
                     <address>
                         {!! $setting->contact !!}
                     </address>
                     <div class="social-networks">
+<<<<<<< Updated upstream
                         <h2 class="title text-center">Social Networking</h2>
+=======
+                        <h2 class="title text-center">SOSYAL MEDYA ADRESLERİMİZ</h2>
+>>>>>>> Stashed changes
                         <ul>
                             <li>
                                 <a href="#"><i class="fa fa-facebook"></i></a>
@@ -275,6 +318,9 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

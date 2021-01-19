@@ -70,7 +70,11 @@
 @include('admin._sidebar')
 @include('admin._header')
 
+<<<<<<< Updated upstream
 <h3>İÇERİK listesi</h3>
+=======
+<button type="button" class="btn btn-warning btn-lg btn-block">İçerik Listesi</button>
+>>>>>>> Stashed changes
 <div class="content">
     <div class="animated fadeIn">
         <div class="row">
@@ -79,13 +83,18 @@
                 <div class="card">
                     <div class="card-header">
                         <strong class="card-title"></strong><br>
+<<<<<<< Updated upstream
 
                         <button type="button" class="btn btn-primary"><a href="{{route('admin_content_add')}}"><h3><font color="00ff33">içerik Ekle</font></h3></a></button>
+=======
+                        <button type="button" class="btn btn-success"><i class="fa fa-magic"></i>&nbsp; <a href="{{route('admin_content_add')}}"><font color="000000">İçerik Ekle</font></a></button>
+>>>>>>> Stashed changes
                     </div>
                     <div class="card-body">
                         <table id="bootstrap-data-table" class="table table-striped table-bordered">
                             <thead>
                             <tr>
+<<<<<<< Updated upstream
                                 <th>id</th>
                                 <th>title</th>
                                 <th>keywords</th>
@@ -198,6 +207,22 @@
 >>>>>>> Stashed changes
                                 <th>edit</th>
                                 <th>delete</th>
+=======
+                                <th>ID</th>
+                                <th>Başlık</th>
+                                <th>Anahtar Kelimeler</th>
+                                <th>Açıklama</th>
+                                <th>Resim</th>
+                                <th>Resim Galerisi</th>
+                                <th>Menü</th>
+                                <th>Fiyat</th>
+                                <th>Detay</th>
+                                <th>Slug</th>
+                                <th>Durum</th>
+                                <th>Türü</th>
+                                <th>Güncelle</th>
+                                <th>Sil</th>
+>>>>>>> Stashed changes
                             </tr>
                             </thead>
                             <tbody>
@@ -214,6 +239,7 @@
                                     @endif
                                 </td>
                                 <td><a href="{{route('admin_image_add',['content_id'=>$rs->id])}}" onclick="return !window.open(this.href,'','top=50 left=100 width=1100,height=700')"><img src="{{asset('assets/admin/assets/images')}}/gallery.png" height="35"></a> </td>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -264,10 +290,13 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
                                 <td>
                                     {{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs->menu,$rs->menu->title)}}
                                 </td>
                                 <td>{{$rs->price}}</td>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -317,6 +346,8 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
                                 <td>{!! $rs->detail !!}</td>
                                 <td>{{$rs->slug}}</td>
                                 <td>{{$rs->status}}</td>
@@ -329,6 +360,9 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

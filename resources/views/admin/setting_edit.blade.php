@@ -6,7 +6,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<<<<<<< Updated upstream
     <title>setting editleme sayfası</title>
+=======
+    <title>AYARLAR</title>
+>>>>>>> Stashed changes
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -80,7 +84,11 @@
 <!--BURASI!!!!!!!!!!! -->
 @include('admin._sidebar')
 @include('admin._header')
+<<<<<<< Updated upstream
 <h3>settings editleme</h3>
+=======
+<button type="button" class="btn btn-warning btn-lg btn-block">AYARLAR</button>
+>>>>>>> Stashed changes
 <div class="col-lg-6">
     <div class="card">
         <div class="card-header"></div>
@@ -91,28 +99,44 @@
                 <input type="hidden"  id="id" name="id" class="form-control" value="{{$data->id}}">
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Title</div>
+=======
+                        <div class="input-group-addon">Başlık</div>
+>>>>>>> Stashed changes
                         <input type="text"  id="title" name="title" class="form-control" value="{{$data->title}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Keywords</div>
+=======
+                        <div class="input-group-addon">Anahtar Kelimeler</div>
+>>>>>>> Stashed changes
                         <input type="text"  id="keywords" name="keywords" class="form-control" value="{{$data->keywords}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Description</div>
+=======
+                        <div class="input-group-addon">Açıklama</div>
+>>>>>>> Stashed changes
                         <input type="text"  id="description" name="description" class="form-control" value="{{$data->description}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">company</div>
+=======
+                        <div class="input-group-addon">Şirket</div>
+>>>>>>> Stashed changes
                         <input type="text"  id="company" name="company" class="form-control" value="{{$data->company}}">
                         <div class="input-group-addon"></div>
                     </div>
@@ -120,84 +144,132 @@
 
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">address</div>
+=======
+                        <div class="input-group-addon">Adres</div>
+>>>>>>> Stashed changes
                         <input type="text"  id="address" name="address" class="form-control" value="{{$data->address}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">phone</div>
+=======
+                        <div class="input-group-addon">Telefon</div>
+>>>>>>> Stashed changes
                         <input type="text"  id="phone" name="phone" class="form-control" value="{{$data->phone}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">fax</div>
+=======
+                        <div class="input-group-addon">FAX</div>
+>>>>>>> Stashed changes
                         <input type="text"  id="fax" name="fax" class="form-control" value="{{$data->fax}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">email</div>
+=======
+                        <div class="input-group-addon">E-mail</div>
+>>>>>>> Stashed changes
                         <input type="text"  id="email" name="email" class="form-control" value="{{$data->email}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">smtpserver</div>
+=======
+                        <div class="input-group-addon">SMTPSERVER</div>
+>>>>>>> Stashed changes
                         <input type="text"  id="smtpserver" name="smtpserver" class="form-control" value="{{$data->smtpserver}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">smtpemail</div>
+=======
+                        <div class="input-group-addon">SMTPEMAİL</div>
+>>>>>>> Stashed changes
                         <input type="email"  id="smtpemail" name="smtpemail" class="form-control" value="{{$data->smtpemail}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">smtppassword</div>
+=======
+                        <div class="input-group-addon">SMTPPASSWORD</div>
+>>>>>>> Stashed changes
                         <input type="password"  id="smtppassword" name="smtppassword" class="form-control" value="{{$data->smtppassword}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">smtpport</div>
+=======
+                        <div class="input-group-addon">SMTPPORT</div>
+>>>>>>> Stashed changes
                         <input type="number"  id="smtpport" name="smtpport" class="form-control" value="{{$data->smtpport}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">facebook</div>
+=======
+                        <div class="input-group-addon">Facebook</div>
+>>>>>>> Stashed changes
                         <input type="text"  id="facebook" name="facebook" class="form-control" value="{{$data->facebook}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">instagram</div>
+=======
+                        <div class="input-group-addon">İnstagram</div>
+>>>>>>> Stashed changes
                         <input type="text"  id="instagram" name="instagram" class="form-control" value="{{$data->instagram}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">twitter</div>
+=======
+                        <div class="input-group-addon">Twitter</div>
+>>>>>>> Stashed changes
                         <input type="text"  id="twitter" name="twitter" class="form-control" value="{{$data->twitter}}">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">youtube</div>
+=======
+                        <div class="input-group-addon">Youtube</div>
+>>>>>>> Stashed changes
                         <input type="text"  id="youtube" name="youtube" class="form-control" value="{{$data->youtube}}">
                         <div class="input-group-addon"></div>
                     </div>
@@ -205,7 +277,11 @@
 
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">aboutus</div>
+=======
+                        <div class="input-group-addon">Hakkımızda</div>
+>>>>>>> Stashed changes
                     <!--  <input type="text"  id="detail" name="detail" class="form-control" value="{{$data->aboutus}}">-->
                         <textarea id="summernote" name="aboutus">{{$data->aboutus}}</textarea>
                         <script>
@@ -218,7 +294,11 @@
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">contact</div>
+=======
+                        <div class="input-group-addon">İletişim</div>
+>>>>>>> Stashed changes
                     <!--  <input type="text"  id="detail" name="detail" class="form-control" value="{{$data->contact}}">-->
                         <textarea id="summernote1" name="contact">{{$data->contact}}</textarea>
                         <div class="input-group-addon"></div>
@@ -231,7 +311,11 @@
                 </script>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">references</div>
+=======
+                        <div class="input-group-addon">Referanslar</div>
+>>>>>>> Stashed changes
                     <!--  <input type="text"  id="detail" name="detail" class="form-control" value="{{$data->references}}">-->
                         <textarea id="summernote2" name="references">{{$data->references}}</textarea>
                         <script>
@@ -245,7 +329,11 @@
                     </div>
                 </div>
                 <div class="row form-group">
+<<<<<<< Updated upstream
                     <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Status</label></div>
+=======
+                    <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Durum</label></div>
+>>>>>>> Stashed changes
                     <div class="col-12 col-md-9">
                         <select name="status" id="status" class="form-control-sm form-control">
                             <option selected="selected">{{$data->status}}</option>
@@ -256,7 +344,11 @@
                     </div>
                 </div>
                 <div class="form-actions form-group">
+<<<<<<< Updated upstream
                     <button type="submit" class="btn btn-primary btn-sm">editle</button>
+=======
+                    <button type="submit" class="btn btn-primary btn-sm">Güncelle</button>
+>>>>>>> Stashed changes
                 </div>
             </form>
         </div>

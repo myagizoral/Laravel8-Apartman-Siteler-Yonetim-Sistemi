@@ -70,7 +70,11 @@
 @include('admin._sidebar')
 @include('admin._header')
 
+<<<<<<< Updated upstream
 <h3>FAQ listesi</h3>
+=======
+<button type="button" class="btn btn-warning btn-lg btn-block">SSS Listesi</button>
+>>>>>>> Stashed changes
 <div class="content">
     <div class="animated fadeIn">
         <div class="row">
@@ -79,14 +83,20 @@
                 <div class="card">
                     <div class="card-header">
                         <strong class="card-title"></strong><br>
+<<<<<<< Updated upstream
 
                         <button type="button" class="btn btn-primary"><a href="{{route('admin_faq_add')}}"><h3><font color="00ff33">faq Ekle</font></h3></a></button>
+=======
+                        <button type="button" class="btn btn-success"><i class="fa fa-magic"></i>&nbsp; <a href="{{route('admin_faq_add')}}"><font color="000000">SSS Ekle</font></a></button>
+                        <!--<button type="button" class="btn btn-primary"><a href="{{route('admin_faq_add')}}"><h3><font color="00ff33">faq Ekle</font></h3></a></button>-->
+>>>>>>> Stashed changes
                     @include('home.message')
                     </div>
                     <div class="card-body">
                         <table id="bootstrap-data-table" class="table table-striped table-bordered">
                             <thead>
                             <tr>
+<<<<<<< Updated upstream
                                 <th>id</th>
                                 <th>position</th>
                                 <th>question</th>
@@ -94,6 +104,15 @@
                                 <th>status</th>
                                 <th>edit</th>
                                 <th>delete</th>
+=======
+                                <th>ID</th>
+                                <th>Sıralama</th>
+                                <th>Soru</th>
+                                <th>Cevap</th>
+                                <th>Status</th>
+                                <th>Güncelle</th>
+                                <th>Sil</th>
+>>>>>>> Stashed changes
                             </tr>
                             </thead>
                             <tbody>

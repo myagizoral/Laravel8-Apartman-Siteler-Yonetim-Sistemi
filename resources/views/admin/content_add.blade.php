@@ -6,7 +6,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<<<<<<< Updated upstream
     <title>içerik ekleme sayfası</title>
+=======
+    <title>İçerik Ekleme Sayfası</title>
+>>>>>>> Stashed changes
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -80,7 +84,11 @@
 <!--BURASI!!!!!!!!!!! -->
 @include('admin._sidebar')
 @include('admin._header')
+<<<<<<< Updated upstream
 <h3>içerik Ekleme</h3>
+=======
+<button type="button" class="btn btn-warning btn-lg btn-block">İçerik Ekleme</button>
+>>>>>>> Stashed changes
 <div class="col-lg-6">
     <div class="card">
         <div class="card-header"></div>
@@ -89,21 +97,33 @@
             @csrf
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Title</div>
+=======
+                        <div class="input-group-addon">Başlık</div>
+>>>>>>> Stashed changes
                         <input type="text"  id="title" name="title" class="form-control">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Keywords</div>
+=======
+                        <div class="input-group-addon">Anahtar Kelimeler</div>
+>>>>>>> Stashed changes
                         <input type="text" id="keywords" name="keywords" class="form-control">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Description</div>
+=======
+                        <div class="input-group-addon">Açıklama</div>
+>>>>>>> Stashed changes
                         <input type="text" id="description" name="description" class="form-control">
                         <div class="input-group-addon"></div>
                     </div>
@@ -118,14 +138,22 @@
                 </div>-->
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">price</div>
+=======
+                        <div class="input-group-addon">Fiyat</div>
+>>>>>>> Stashed changes
                         <input type="number" id="price" name="price" value="0" class="form-control">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">detail</div>
+=======
+                        <div class="input-group-addon">Detay</div>
+>>>>>>> Stashed changes
                         <!--<input type="text" id="detail" name="detail" class="form-control">-->
                         <textarea id="summernote" name="detail"></textarea>
                         <script>
@@ -138,13 +166,21 @@
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">slug</div>
+=======
+                        <div class="input-group-addon">Slug</div>
+>>>>>>> Stashed changes
                         <input type="text" id="slug" name="slug" class="form-control">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="row form-group">
+<<<<<<< Updated upstream
                     <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Status</label></div>
+=======
+                    <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Durum</label></div>
+>>>>>>> Stashed changes
                     <div class="col-12 col-md-9">
                         <select name="status" id="status" class="form-control-sm form-control">
                             <option value="False">False</option>
@@ -162,7 +198,10 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -192,6 +231,7 @@
                     </div>
                 </div>
                 <!--#########################################################################-->
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -287,11 +327,20 @@
 =======
                             <option value="{{$rs->id}}">{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
 >>>>>>> Stashed changes
+=======
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Menü</label></div>
+                    <div class="col-12 col-md-9">
+                        <select name="menu_id" id="menu_id" class="form-control-sm form-control">
+                           @foreach($datalist as $rs)
+                            <option value="{{$rs->id}}">{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
+>>>>>>> Stashed changes
                            @endforeach
                         </select>
                     </div>
                 </div>
                 <div class="form-group">
+<<<<<<< Updated upstream
                     <label>image</label>
                         <input type="file" id="image" name="image" class="form-control">
 
@@ -302,6 +351,13 @@
 
                 <div class="form-actions form-group">
                     <button type="submit" class="btn btn-primary btn-sm">içerik ekle</button>
+=======
+                    <label>Fotograf</label>
+                        <input type="file" id="image" name="image" class="form-control">
+                </div>
+                <div class="form-actions form-group">
+                    <button type="submit" class="btn btn-primary btn-sm">İçerik Ekle</button>
+>>>>>>> Stashed changes
                 </div>
             </form>
         </div>

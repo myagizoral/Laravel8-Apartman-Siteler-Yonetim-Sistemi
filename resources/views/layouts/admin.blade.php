@@ -30,6 +30,8 @@
 
     @yield('css')
     @yield('javascript')
+
+
     <style>
         #weatherWidget .currentDesc {
             color: #ffffff!important;

@@ -47,6 +47,7 @@ return [
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
            Features::profilePhotos(),
 =======
 =======
@@ -55,6 +56,10 @@ return [
 >>>>>>> Stashed changes
         // Features::termsAndPrivacyPolicy(),
         // Features::profilePhotos(),
+>>>>>>> Stashed changes
+=======
+        // Features::termsAndPrivacyPolicy(),
+         Features::profilePhotos(),
 >>>>>>> Stashed changes
 =======
         // Features::termsAndPrivacyPolicy(),

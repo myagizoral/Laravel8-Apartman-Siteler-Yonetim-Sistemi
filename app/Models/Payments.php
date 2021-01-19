@@ -9,7 +9,10 @@ class Payments extends Model
 {
     use HasFactory;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 
     public function content()
     {
@@ -20,5 +23,8 @@ class Payments extends Model
     {
         return $this->belongsTo(User::class);
     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }

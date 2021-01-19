@@ -1,5 +1,8 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 <!DOCTYPE html>
@@ -32,7 +35,11 @@
     <style>
         * {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             box-sizing:border-box;
+=======
+            box-sizing: border-box;
+>>>>>>> Stashed changes
 =======
             box-sizing: border-box;
 >>>>>>> Stashed changes
@@ -95,7 +102,11 @@
         #content-slider img {
             max-width: 100%;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             width: auto\9;
+=======
+            width: auto \9;
+>>>>>>> Stashed changes
 =======
             width: auto \9;
 >>>>>>> Stashed changes
@@ -164,7 +175,11 @@
         }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         #content-slider .th>[class*='title-'] {
+=======
+        #content-slider .th > [class*='title-'] {
+>>>>>>> Stashed changes
 =======
         #content-slider .th > [class*='title-'] {
 >>>>>>> Stashed changes
@@ -214,6 +229,7 @@
 
         /* -------> Article IMg Slider */
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         #content-slider .slider h1 { font-size: 1.5rem; }
 
         #content-slider .slider p {	font-size: 1.2rem; }
@@ -227,6 +243,8 @@
 
         #content-slider .th a { font-size: .75rem; }
 =======
+=======
+>>>>>>> Stashed changes
         #content-slider .slider h1 {
             font-size: 1.5rem;
         }
@@ -251,6 +269,9 @@
         #content-slider .th a {
             font-size: .75rem;
         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
         #content-slider .th img {
@@ -312,11 +333,14 @@
         }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         #b-1 { left: 0; }
         #b-2 { left: 25%; }
         #b-3 { left: 50%; }
         #b-4 { left: 75%; }
 =======
+=======
+>>>>>>> Stashed changes
         #b-1 {
             left: 0;
         }
@@ -332,6 +356,9 @@
         #b-4 {
             left: 75%;
         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
         #content-slider input[type='radio'] {
@@ -343,7 +370,11 @@
         }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         #control{
+=======
+        #control {
+>>>>>>> Stashed changes
 =======
         #control {
 >>>>>>> Stashed changes
@@ -355,7 +386,11 @@
         }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         #content-slider label.first{
+=======
+        #content-slider label.first {
+>>>>>>> Stashed changes
 =======
         #content-slider label.first {
 >>>>>>> Stashed changes
@@ -398,7 +433,11 @@
         }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         #content-slider #control{
+=======
+        #content-slider #control {
+>>>>>>> Stashed changes
 =======
         #content-slider #control {
 >>>>>>> Stashed changes
@@ -412,7 +451,11 @@
             /*display: none;*/
             height: 50px;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             top:50%;
+=======
+            top: 50%;
+>>>>>>> Stashed changes
 =======
             top: 50%;
 >>>>>>> Stashed changes
@@ -421,6 +464,7 @@
 
 
         /* -------> Controls */
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         #main>label:hover { width: 9px; height: 9px; background: #FFF; border: 1px solid #00ABFA; }
 
@@ -446,6 +490,8 @@
         input#a-3:checked ~ #control>label:nth-child(2),
         input#a-4:checked ~ #control>label:nth-child(3) {
 =======
+=======
+>>>>>>> Stashed changes
         #main > label:hover {
             width: 9px;
             height: 9px;
@@ -503,6 +549,9 @@
         input#a-2:checked ~ #control > label:nth-child(1),
         input#a-3:checked ~ #control > label:nth-child(2),
         input#a-4:checked ~ #control > label:nth-child(3) {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             width: 50px;
             height: 50px;
@@ -513,6 +562,7 @@
             cursor: pointer;
         }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         input#a-1:checked ~ #control>label:nth-child(2):after,
         input#a-2:checked ~ #control>label:nth-child(3):after,
@@ -537,6 +587,8 @@
         input#a-3:checked ~ #control>label:nth-child(4),
         input#a-4:checked ~ #control>label:nth-child(1) {
 =======
+=======
+>>>>>>> Stashed changes
         input#a-1:checked ~ #control > label:nth-child(2):after,
         input#a-2:checked ~ #control > label:nth-child(3):after,
         input#a-3:checked ~ #control > label:nth-child(4):after,
@@ -559,11 +611,15 @@
         input#a-2:checked ~ #control > label:nth-child(3),
         input#a-3:checked ~ #control > label:nth-child(4),
         input#a-4:checked ~ #control > label:nth-child(1) {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             float: right;
             right: 0.3%;
         }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         input#a-1:checked ~ #control>label:nth-child(2):after,
         input#a-2:checked ~ #control>label:nth-child(3):after,
@@ -577,6 +633,8 @@
         input#a-3:checked ~ #control>label:nth-child(2),
         input#a-4:checked ~ #control>label:nth-child(3) {
 =======
+=======
+>>>>>>> Stashed changes
         input#a-1:checked ~ #control > label:nth-child(2):after,
         input#a-2:checked ~ #control > label:nth-child(3):after,
         input#a-3:checked ~ #control > label:nth-child(4):after,
@@ -588,11 +646,15 @@
         input#a-2:checked ~ #control > label:nth-child(1),
         input#a-3:checked ~ #control > label:nth-child(2),
         input#a-4:checked ~ #control > label:nth-child(3) {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             float: left;
             left: 0.3%;
         }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         input#a-1:checked ~ #control>label:nth-child(4):after,
         input#a-2:checked ~ #control>label:nth-child(1):after,
@@ -615,6 +677,8 @@
 
         #content-slider input:checked ~ .slider>.inset {
 =======
+=======
+>>>>>>> Stashed changes
         input#a-1:checked ~ #control > label:nth-child(4):after,
         input#a-2:checked ~ #control > label:nth-child(1):after,
         input#a-3:checked ~ #control > label:nth-child(2):after,
@@ -663,6 +727,9 @@
         }
 
         #content-slider input:checked ~ .slider > .inset {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             -webkit-animation: none;
             -moz-animation: none;
@@ -671,8 +738,14 @@
             animation: none;
         }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         #content-slider input:hover ~ .slider>.inset,
         #content-slider label:hover ~ .slider>.inset {
+=======
+
+        #content-slider input:hover ~ .slider > .inset,
+        #content-slider label:hover ~ .slider > .inset {
+>>>>>>> Stashed changes
 =======
 
         #content-slider input:hover ~ .slider > .inset,
@@ -685,8 +758,14 @@
             animation-play-state: paused;
         }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         #content-slider input:hover ~ .slider>.inset,
         #content-slider label:hover ~ .slider>.inset {
+=======
+
+        #content-slider input:hover ~ .slider > .inset,
+        #content-slider label:hover ~ .slider > .inset {
+>>>>>>> Stashed changes
 =======
 
         #content-slider input:hover ~ .slider > .inset,
@@ -698,8 +777,13 @@
             -o-animation-play-state: paused;
             animation-play-state: paused;
         }
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         #content-slider span:focus ~ .slider>.inset {
+=======
+
+        #content-slider span:focus ~ .slider > .inset {
+>>>>>>> Stashed changes
 =======
 
         #content-slider span:focus ~ .slider > .inset {
@@ -711,7 +795,12 @@
             animation: none;
         }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         #content-slider span:hover ~ .slider>.inset {
+=======
+
+        #content-slider span:hover ~ .slider > .inset {
+>>>>>>> Stashed changes
 =======
 
         #content-slider span:hover ~ .slider > .inset {
@@ -728,6 +817,7 @@
 
         @keyframes slidy {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             20% { margin-left:    0%; }
             25% { margin-left: -100%; }
             45% { margin-left: -100%; }
@@ -767,6 +857,8 @@
             95% { margin-left: -300%; }
             100% { margin-left: -400%; }
 =======
+=======
+>>>>>>> Stashed changes
             20% {
                 margin-left: 0%;
             }
@@ -872,6 +964,9 @@
             100% {
                 margin-left: -400%;
             }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         }
 
@@ -884,7 +979,11 @@
             }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             #content-slider .th>[class*='title-'] {
+=======
+            #content-slider .th > [class*='title-'] {
+>>>>>>> Stashed changes
 =======
             #content-slider .th > [class*='title-'] {
 >>>>>>> Stashed changes
@@ -904,6 +1003,7 @@
             }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             #content-slider span.first { display: none; }
 
             #content-slider #control { display: block; }
@@ -921,6 +1021,8 @@
 
             span#b-4:focus ~ span#b-5 { display: none; }
 =======
+=======
+>>>>>>> Stashed changes
             #content-slider span.first {
                 display: none;
             }
@@ -953,6 +1055,9 @@
             span#b-4:focus ~ span#b-5 {
                 display: none;
             }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
         }
@@ -960,7 +1065,13 @@
         @media (max-width: 480px) {
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             #content-slider span.th img { display: none; }
+=======
+            #content-slider span.th img {
+                display: none;
+            }
+>>>>>>> Stashed changes
 =======
             #content-slider span.th img {
                 display: none;
@@ -991,7 +1102,11 @@
     <link href="{{asset('assets')}}/css/main.css" rel="stylesheet">
     <link href="{{asset('assets')}}/css/responsive.css" rel="stylesheet">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <!--[if lt IE 9]>
+=======
+<!--[if lt IE 9]>
+>>>>>>> Stashed changes
 =======
 <!--[if lt IE 9]>
 >>>>>>> Stashed changes
@@ -1000,16 +1115,22 @@
     <![endif]-->
     <link rel="shortcut icon" href="{{asset('assets')}}/images/ico/favicon.ico">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset('assets')}}/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset('assets')}}/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset('assets')}}/images/ico/apple-touch-icon-72-precomposed.png">
 =======
+=======
+>>>>>>> Stashed changes
     <link rel="apple-touch-icon-precomposed" sizes="144x144"
           href="{{asset('assets')}}/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114"
           href="{{asset('assets')}}/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72"
           href="{{asset('assets')}}/images/ico/apple-touch-icon-72-precomposed.png">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <link rel="apple-touch-icon-precomposed" href="{{asset('assets')}}/images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
@@ -1017,6 +1138,7 @@
 <body>
 
 
+<<<<<<< Updated upstream
 @include('home._header')
 <!-- menu çubuğu-->
 <!-- menu çubuğu-->
@@ -1060,14 +1182,23 @@
 <form action="{{route('paymentssave',['price'=>$dataqq->price,'user_id'=>$userqq->id])}}" method="post" class=""
       enctype="multipart/form-data">
 >>>>>>> Stashed changes
+=======
+<form action="{{route('paymentssave',['price'=>$dataqq->price,'user_id'=>$userqq->id])}}" method="post" class=""
+      enctype="multipart/form-data">
+>>>>>>> Stashed changes
     @csrf
 
     <div class="form-group">
         <div class="input-group">
+<<<<<<< Updated upstream
             <div class="input-group-addon">Month</div>
 <<<<<<< Updated upstream
             <input type="text"  id="month" name="month" class="form-control">
 =======
+            <input type="text" id="month" name="month" class="form-control">
+>>>>>>> Stashed changes
+=======
+            <div class="input-group-addon">Ay</div>
             <input type="text" id="month" name="month" class="form-control">
 >>>>>>> Stashed changes
             <div class="input-group-addon"></div>
@@ -1075,10 +1206,31 @@
     </div>
     <div class="form-group">
         <div class="input-group">
+<<<<<<< Updated upstream
             <div class="input-group-addon">creditcard</div>
 <<<<<<< Updated upstream
             <input type="number"  id="creditcard" name="creditcard" class="form-control">
 =======
+            <input type="number" id="creditcard" name="creditcard" class="form-control">
+>>>>>>> Stashed changes
+=======
+            <div class="input-group-addon">Yıl</div>
+            <input type="number" id="year" name="year" class="form-control">
+>>>>>>> Stashed changes
+            <div class="input-group-addon"></div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="input-group">
+<<<<<<< Updated upstream
+            <div class="input-group-addon">cvv</div>
+<<<<<<< Updated upstream
+            <input type="number"  id="cvv" name="cvv" class="form-control">
+=======
+            <input type="number" id="cvv" name="cvv" class="form-control">
+>>>>>>> Stashed changes
+=======
+            <div class="input-group-addon">Kredi Kartı Bilgileri</div>
             <input type="number" id="creditcard" name="creditcard" class="form-control">
 >>>>>>> Stashed changes
             <div class="input-group-addon"></div>
@@ -1086,17 +1238,7 @@
     </div>
     <div class="form-group">
         <div class="input-group">
-            <div class="input-group-addon">cvv</div>
 <<<<<<< Updated upstream
-            <input type="number"  id="cvv" name="cvv" class="form-control">
-=======
-            <input type="number" id="cvv" name="cvv" class="form-control">
->>>>>>> Stashed changes
-            <div class="input-group-addon"></div>
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="input-group">
             <div class="input-group-addon">year</div>
             <input type="number" id="year" name="year" class="form-control">
             <div class="input-group-addon"></div>
@@ -1106,6 +1248,16 @@
 <<<<<<< Updated upstream
 =======
         <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Content</label></div>
+=======
+            <div class="input-group-addon">CVV Kodu</div>
+            <input type="number" id="cvv" name="cvv" class="form-control">
+            <div class="input-group-addon"></div>
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col col-md-3"><label for="selectSm" class=" form-control-label">İçerik</label></div>
+>>>>>>> Stashed changes
         <div class="col-12 col-md-9">
             <select name="content_id" id="content_id" class="form-control-sm form-control">
 
@@ -1117,14 +1269,21 @@
     </div>
 
     <div class="row form-group">
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
         <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Status</label></div>
+=======
+        <div class="col col-md-3"><label for="selectSm" class=" form-control-label">Durum</label></div>
+>>>>>>> Stashed changes
         <div class="col-12 col-md-9">
             <select name="status" id="status" class="form-control-sm form-control">
                 <option value="False">Ödeme yapma</option>
                 <option value="True">Ödeme yap</option>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             </select>
@@ -1132,11 +1291,14 @@
     </div>
     <div class="form-actions form-group">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <button type="submit" class="btn btn-primary btn-sm">ÖDE</button>
     </div>
 </form>
 
 =======
+=======
+>>>>>>> Stashed changes
         <button type="submit" onclick="myFunction()" class="btn btn-primary btn-sm">ÖDE</button>
     </div>
 </form>
@@ -1145,9 +1307,14 @@
         alert("Ödeme Yapılacaktır.Eminmisiniz!!!");
     }
 </script>
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 
 @include('home._footer')
+=======
+
+
+>>>>>>> Stashed changes
 
 </body>
 </html>

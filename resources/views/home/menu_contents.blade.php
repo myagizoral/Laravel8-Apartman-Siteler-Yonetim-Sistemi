@@ -851,8 +851,11 @@
                 <div class="choose">
                     <ul class="nav nav-pills nav-justified">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         <li><a href=""><i class="fa fa-plus-square"></i>Add to Cart</a></li>
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
                     </ul>

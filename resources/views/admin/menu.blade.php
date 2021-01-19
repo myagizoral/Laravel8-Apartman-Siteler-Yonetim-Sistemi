@@ -70,7 +70,7 @@
 @include('admin._sidebar')
 @include('admin._header')
 
-<h3>Menü listesi</h3>
+<button type="button" class="btn btn-warning btn-lg btn-block">Menü Listesi</button>
 <div class="content">
     <div class="animated fadeIn">
         <div class="row">
@@ -79,13 +79,14 @@
                 <div class="card">
                     <div class="card-header">
                         <strong class="card-title"></strong><br>
-
-                        <button type="button" class="btn btn-primary"><a href="{{route('admin_menu_add')}}"><h3><font color="00ff33">Menü Ekle</font></h3></a></button>
+                        <button type="button" class="btn btn-success"><i class="fa fa-magic"></i>&nbsp; <a href="{{route('admin_menu_add')}}"><font color="000000">Menü Ekle</font></a></button>
+                       <!-- <button type="button" class="btn btn-primary"><a href="{{route('admin_menu_add')}}"><h3><font color="00ff33">Menü Ekle</font></h3></a></button>-->
                     </div>
                     <div class="card-body">
                         <table id="bootstrap-data-table" class="table table-striped table-bordered">
                             <thead>
                             <tr>
+<<<<<<< Updated upstream
                                 <th>id</th>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -161,6 +162,19 @@
                                 <th>updated_at</th>
                                 <th>edit</th>
                                 <th>delete</th>
+=======
+                                <th>ID</th>
+                                <th>Parent</th>
+                                <th>Başlık</th>
+                                <th>Anahtar Kelimeler</th>
+                                <th>Açıklama</th>
+                                <th>Status</th>
+                                <th>Slug</th>
+                                <th>Oluşturma Tarihi</th>
+                                <th>Güncelleme Tarihi</th>
+                                <th>Güncelle</th>
+                                <th>Sil</th>
+>>>>>>> Stashed changes
                             </tr>
                             </thead>
                             <tbody>
@@ -168,6 +182,7 @@
                             @foreach($datalist as $rs)
                             <tr>
                                 <td>{{$rs->id}}</td>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -265,6 +280,11 @@
                                     {{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}
                                 </td>
 >>>>>>> Stashed changes
+=======
+                                <td>
+                                    {{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}
+                                </td>
+>>>>>>> Stashed changes
                                 <td>{{$rs->title}}</td>
                                 <td>{{$rs->keywords}}</td>
                                 <td>{{$rs->description}}</td>
@@ -272,8 +292,13 @@
                                 <td>{{$rs->slug}}</td>
                                 <td>{{$rs->created_at}}</td>
                                 <td>{{$rs->updated_at}}</td>
+<<<<<<< Updated upstream
                                 <td><a href="{{route('admin_menu_edit',['id'=>$rs->id])}}">EDİT</a> </td>
                                 <td><a href="{{route('admin_menu_delete',['id'=>$rs->id])}}"onclick="return confirm('Are you sure you want to delete this item?')">DELETE</a> </td>
+=======
+                                <td><a href="{{route('admin_menu_edit',['id'=>$rs->id])}}"><img src="{{asset('assets/admin/assets/images')}}/edit.png" height="25"></a></a> </td>
+                                <td><a href="{{route('admin_menu_delete',['id'=>$rs->id])}}"onclick="return confirm('Are you sure you want to delete this item?')"><img src="{{asset('assets/admin/assets/images')}}/delete.png" height="25"> </a></a> </td>
+>>>>>>> Stashed changes
                             </tr>
                             @endforeach
                             </tbody>

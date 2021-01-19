@@ -46,7 +46,11 @@ class FaqController extends Controller
         $data->answer = $request->input('answer');
         $data->status = $request->input('status');
         $data->save();
+<<<<<<< Updated upstream
         return redirect()->route('admin_faq')->with('success','Süper Kaydedildi');
+=======
+        return redirect()->route('admin_faq')->with('success','SSS Kaydedildi.');
+>>>>>>> Stashed changes
     }
 
     /**
@@ -89,7 +93,11 @@ class FaqController extends Controller
         $data->answer = $request->input('answer');
         $data->status = $request->input('status');
         $data->save();
+<<<<<<< Updated upstream
         return redirect()->route('admin_faq')->with('success','Süper editlendi');
+=======
+        return redirect()->route('admin_faq')->with('success','SSS Güncellendi.');
+>>>>>>> Stashed changes
 
     }
 
@@ -104,7 +112,11 @@ class FaqController extends Controller
         //
         $data = Faq::find($id);
         $data->delete();
+<<<<<<< Updated upstream
         return redirect()->route('admin_faq')->with('success','Süper silindi');
+=======
+        return redirect()->route('admin_faq')->with('success','Silme İşlemi Başarılı.');
+>>>>>>> Stashed changes
     }
 
 }

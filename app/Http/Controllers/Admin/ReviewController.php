@@ -78,7 +78,11 @@ class ReviewController extends Controller
         $data = Review::find($id);
         $data->status = $request->input('status');
         $data->save();
+<<<<<<< Updated upstream
         return back()->with('success','Review Updated');
+=======
+        return back()->with('success','Yorum Güncellendi');
+>>>>>>> Stashed changes
 
     }
 
@@ -93,6 +97,10 @@ class ReviewController extends Controller
         //
         $data = Review::find($id);
         $data->delete();
+<<<<<<< Updated upstream
         return redirect()->back()->with('success','Review deleted');
+=======
+        return redirect()->back()->with('success','Yorum Silindi');
+>>>>>>> Stashed changes
     }
 }

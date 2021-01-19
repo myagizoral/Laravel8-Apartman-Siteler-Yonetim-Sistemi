@@ -10,7 +10,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<<<<<<< Updated upstream
     <title>contact Messages list</title>
+=======
+    <title>Yapılan Yorumlar Listesi</title>
+>>>>>>> Stashed changes
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -82,7 +86,11 @@
 @include('admin._sidebar')
 @include('admin._header')
 
+<<<<<<< Updated upstream
 <h3>Messages</h3>
+=======
+<button type="button" class="btn btn-warning btn-lg btn-block">Yorumlar</button>
+>>>>>>> Stashed changes
 <div class="content">
     <div class="animated fadeIn">
         <div class="row">
@@ -100,6 +108,7 @@
                         <table id="bootstrap-data-table" class="table table-striped table-bordered">
                             <thead>
                             <tr>
+<<<<<<< Updated upstream
                                 <th>id</th>
                                 <th>name</th>
                                 <th>content</th>
@@ -109,6 +118,17 @@
                                 <th>date</th>
                                 <th>editle</th>
                                 <th>sil</th>
+=======
+                                <th>ID</th>
+                                <th>İsim</th>
+                                <th>İçerik</th>
+                                <th>konu</th>
+                                <th>Yorum</th>
+                                <th>Durum</th>
+                                <th>Tarih</th>
+                                <th>Güncelle</th>
+                                <th>Sil</th>
+>>>>>>> Stashed changes
                             </tr>
                             </thead>
                             <tbody>
@@ -117,7 +137,12 @@
                                 <tr>
                                     <td>{{$rs->id}}</td>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                     <td>{{$rs->user->name}}</td>
+=======
+                                    <td><a href="{{route('admin_user_show',['id'=>$rs->user->id])}}" target="_blank"> {{$rs->user->name}}</a>
+                                    </td>
+>>>>>>> Stashed changes
 =======
                                     <td><a href="{{route('admin_user_show',['id'=>$rs->user->id])}}" target="_blank"> {{$rs->user->name}}</a>
                                     </td>
@@ -133,7 +158,11 @@
                                                 src="{{asset('assets/admin/assets/images')}}/edit.png" height="35"></a>
                                     </td>
                                     <td><a href="{{route('admin_review_delete',['id'=>$rs->id])}}"
+<<<<<<< Updated upstream
                                            onclick="return confirm('eminmisin')">SİL</a></td>
+=======
+                                           onclick="return confirm('eminmisin')"><img src="{{asset('assets/admin/assets/images')}}/delete.png" height="25"></a></td>
+>>>>>>> Stashed changes
                                 </tr>
                             @endforeach
                             </tbody>

@@ -6,7 +6,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<<<<<<< Updated upstream
     <title>FAQ ekleme sayfası</title>
+=======
+    <title>FAQ Ekleme Sayfası</title>
+>>>>>>> Stashed changes
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -80,7 +84,11 @@
 <!--BURASI!!!!!!!!!!! -->
 @include('admin._sidebar')
 @include('admin._header')
+<<<<<<< Updated upstream
 <h3>Faq Ekleme</h3>
+=======
+<button type="button" class="btn btn-warning btn-lg btn-block">SSS Ekleme</button>
+>>>>>>> Stashed changes
 <div class="col-lg-6">
     <div class="card">
         <div class="card-header"></div>
@@ -89,21 +97,33 @@
             @csrf
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Position</div>
+=======
+                        <div class="input-group-addon">Sıralama</div>
+>>>>>>> Stashed changes
                         <input type="text"  id="position" name="position" value="0" class="form-control">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Question</div>
+=======
+                        <div class="input-group-addon">Soru</div>
+>>>>>>> Stashed changes
                         <input type="text" id="question" name="question" class="form-control">
                         <div class="input-group-addon"></div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
+<<<<<<< Updated upstream
                         <div class="input-group-addon">Answer</div>
+=======
+                        <div class="input-group-addon">Cevap</div>
+>>>>>>> Stashed changes
                         <!--<input type="text" id="detail" name="detail" class="form-control">-->
                         <textarea id="summernote" name="answer"></textarea>
                         <script>
@@ -125,7 +145,11 @@
                     </div>
                 </div>
                 <div class="form-actions form-group">
+<<<<<<< Updated upstream
                     <button type="submit" class="btn btn-primary btn-sm">faq ekle</button>
+=======
+                    <button type="submit" class="btn btn-primary btn-sm">SSS Ekle</button>
+>>>>>>> Stashed changes
                 </div>
             </form>
         </div>

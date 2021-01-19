@@ -64,7 +64,10 @@ class User extends Authenticatable
         return $this->hasMany(Review::class);
     }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     public function payments()
     {
         return $this->hasMany(Payments::class);
@@ -74,5 +77,8 @@ class User extends Authenticatable
     {
         return $this->belongsToMany(Role::class);
     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }

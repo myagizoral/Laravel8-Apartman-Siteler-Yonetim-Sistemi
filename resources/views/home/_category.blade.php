@@ -34,6 +34,7 @@
                     }
                 </script>
 
+<<<<<<< Updated upstream
 
 
 
@@ -49,6 +50,18 @@
                     </ul>
                 @endforeach
 
+=======
+            <!--
+                @foreach($parentMenus as $rs)
+                {{$rs->title}}
+                    <ul>
+                    @if(count($rs->children))
+                    @include('home.menutree',['children'=>$rs->children])
+                @endif
+                    </ul>
+                @endforeach
+
+>>>>>>> Stashed changes
                 @foreach($parentMenus as $rs)
                 <div class="panel-group category-products" id="accordian">category-productsr
                     <div class="panel panel-default">
